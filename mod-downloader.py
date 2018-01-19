@@ -92,8 +92,8 @@ class ModDownloader(object):
             mod_file.write(fileResponse.content)
 
         # Try to add file to cache.
-        if not os.path.exists(mod['cache_dir']):
-            os.makedirs(mod['cache_dir'])
+        if not mod['cache_dir'].is_dir():
+            mod['cache_dir'].mkdir(parents=True)
             cache_file_path = os.path.join(mod['cache_dir'], fileName)
             with open(cache_file_path, "wb") as mod_file:
                 mod_file.write(fileResponse.content)# }}}
