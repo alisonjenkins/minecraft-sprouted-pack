@@ -4,7 +4,6 @@ phases:
   install:
     commands:
       - echo Entered the install phase...
-      - apt-get update -y
   pre_build:
     commands:
       - echo Entered the pre_build phase...
@@ -13,7 +12,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - echo $HOME
+      - chmod +x ./mod-downloader.py
       - ./mod-downloader.py
       - find ~/.local/share/modDownloader/
   post_build:
