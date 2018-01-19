@@ -1,0 +1,7 @@
+Foamfix:
+https://unascribed.com/foamfix/FoamFix-1.11.2-0.7.3-Anarchy.jar
+
+h3nt-asmtweaks
+h3nt-commonutils
+h3nt-mappings
+
