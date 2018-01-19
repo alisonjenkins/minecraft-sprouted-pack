@@ -74,7 +74,7 @@ https://minecraft.curseforge.com/projects/journeymap/files/2498297
 https://minecraft.curseforge.com/projects/json-loot-bags/files/2386660
 https://minecraft.curseforge.com/projects/jei/files/2428966
 https://minecraft.curseforge.com/projects/level-up/files/2453846
-https://minecraft.curseforge.com/projects/levels?gameCategorySlug=mc-mods&projectID=235552
+https://minecraft.curseforge.com/projects/levels/files/2393488
 https://minecraft.curseforge.com/projects/librarianlib/files/2382603
 https://minecraft.curseforge.com/projects/literal-ascension/files/2417828
 https://minecraft.curseforge.com/projects/lit-little-insignificant-things/files/2397966
