@@ -53,7 +53,7 @@ class ModDownloader(object):
         sess = requests.session()
 
         # check if mod is cached
-        if os.path.isdir(mod['cache_dir']):
+        if mod['cache_dir'].is_dir():
             # File is cached
             modFiles = [f for f in mod['cache_dir'].iterdir()]
             if len(modFiles) >= 1:
