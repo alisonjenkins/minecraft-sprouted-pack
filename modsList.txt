@@ -149,3 +149,7 @@ https://minecraft.curseforge.com/projects/trashslot/files/2350629
 https://minecraft.curseforge.com/projects/valkyrielib/files/2386793
 https://minecraft.curseforge.com/projects/village-names/files/2496167
 https://minecraft.curseforge.com/projects/waila/files/2301859
+https://minecraft.curseforge.com/projects/waila-harvestability/files/2437246
+https://minecraft.curseforge.com/projects/water-strainer/files/2436045
+https://minecraft.curseforge.com/projects/waystones/files/2457029
+https://minecraft.curseforge.com/projects/wired-more-augs/files/2420383
