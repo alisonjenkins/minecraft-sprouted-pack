@@ -44,7 +44,7 @@
 				<authors>TTFTCUTS</authors>
 			</Meta>
 		</Module>
-		<Module name="AmbientSounds" id="ambientsounds" depends="" side="BOTH">
+		<Module name="AmbientSounds" id="ambientsounds" depends="" side="CLIENT">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/AmbientSounds%20v2.0.8%20mc1.10.2.jar</URL>
 			<Size>55428308</Size>
 			<Required>true</Required>
@@ -170,7 +170,7 @@
 				<authors>Portablejim</authors>
 			</Meta>
 		</Module>
-		<Module name="BetterFps-1.4.5-1.10" id="BetterFps" depends="" side="BOTH">
+		<Module name="BetterFps-1.4.5-1.10" id="BetterFps" depends="" side="CLIENT">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/BetterFps-1.4.5-1.10.jar</URL>
 			<Size>149650</Size>
 			<Required>true</Required>
@@ -247,7 +247,7 @@
 				<authors>WayofTime</authors>
 			</Meta>
 		</Module>
-		<Module name="Boatifull" id="boatifull" depends="" side="BOTH">
+		<Module name="Boatifull" id="boatifull" depends="infinitylib" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/boatifull-0.11.0.jar</URL>
 			<Size>58075</Size>
 			<Required>true</Required>
@@ -348,7 +348,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>AlgorithmX2</authors>
 			</Meta>
 		</Module>
-		<Module name="Chunk Animator" id="ChunkAnimator" depends="" side="BOTH">
+		<Module name="Chunk Animator" id="ChunkAnimator" depends="" side="CLIENT">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/ChunkAnimator-MC1.9.4-1.2.jar</URL>
 			<Size>24730</Size>
 			<Required>true</Required>
@@ -376,7 +376,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>McJty</authors>
 			</Meta>
 		</Module>
-		<Module name="Controlling" id="controlling" depends="" side="BOTH">
+		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/Controlling-1.0.5.jar</URL>
 			<Size>22580</Size>
 			<Required>true</Required>
@@ -418,7 +418,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>zlainsama</authors>
 			</Meta>
 		</Module>
-		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
+		<Module name="Crafting Tweaks" id="craftingtweaks" depends="mtlib" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/CraftingTweaks_1.10.2-6.1.16.jar</URL>
 			<Size>88019</Size>
 			<Required>true</Required>
@@ -614,7 +614,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>Alsender</authors>
 			</Meta>
 		</Module>
-		<Module name="Ender IO" id="EnderIO" depends="" side="BOTH">
+		<Module name="Ender IO" id="EnderIO" depends="endercore" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/EnderIO-1.10.2-3.1.193.jar</URL>
 			<Size>5005748</Size>
 			<Required>true</Required>
@@ -656,7 +656,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
 		</Module>
-		<Module name="Extra Bit Manipulation" id="ExtraBitManipulation" depends="" side="BOTH">
+		<Module name="Extra Bit Manipulation" id="ExtraBitManipulation" depends="chiselsandbits" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/ExtraBitManipulation-1.10.2-2.5.1.jar</URL>
 			<Size>3768506</Size>
 			<Required>true</Required>
@@ -754,7 +754,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>asiekierka</authors>
 			</Meta>
 		</Module>
-		<Module name="FTB Tweaks" id="FTBT" depends="" side="BOTH">
+		<Module name="FTB Tweaks" id="FTBT" depends="ftbl" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/FTBTweaks-2.0.0.jar</URL>
 			<Size>3846</Size>
 			<Required>true</Required>
@@ -782,7 +782,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>LatvianModder, Jared</authors>
 			</Meta>
 		</Module>
-		<Module name="FTBUtilities" id="ftbu" depends="" side="BOTH">
+		<Module name="FTBUtilities" id="ftbl" depends="ftbl" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/FTBUtilities-1.1x-3.5.4.jar</URL>
 			<Size>607624</Size>
 			<Required>true</Required>
@@ -796,7 +796,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>LatvianModder</authors>
 			</Meta>
 		</Module>
-		<Module name="Gemulation" id="gemulation" depends="" side="BOTH">
+		<Module name="Gemulation" id="gemulation" depends="silentgems" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/Gemulation-1.10.2-4.0.2.jar</URL>
 			<Size>1712188</Size>
 			<Required>true</Required>
@@ -866,7 +866,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>gigaherz</authors>
 			</Meta>
 		</Module>
-		<Module name="h3nt-asmtweaks-1.1.1" id="hnt-asmtweaks" depends="" side="BOTH">
+		<Module name="h3nt-asmtweaks-1.1.1" id="hnt-asmtweaks" depends="hmt-commonutils" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/h3ntlibs/h3nt-asmtweaks-1.1.1.jar</URL>
 			<Size>29941</Size>
 			<Required>true</Required>
@@ -880,7 +880,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>28e4da5ea628bc07394154f5629ab430</MD5>
 		</Module>
-		<Module name="h3nt-mappings-1.1.1" id="hnt-mappings" depends="" side="BOTH">
+		<Module name="h3nt-mappings-1.1.1" id="hnt-mappings" depends="hmt-commonutils" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/h3ntlibs/h3nt-mappings-1.1.1.jar</URL>
 			<Size>27437</Size>
 			<Required>true</Required>
@@ -1000,7 +1000,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>cpw</authors>
 			</Meta>
 		</Module>
-		<Module name="Item Zoom" id="itemzoom" depends="" side="BOTH">
+		<Module name="Item Zoom" id="itemzoom" depends="" side="CLIENT">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/itemzoom1.10.2-1.4.jar</URL>
 			<Size>16958</Size>
 			<Required>true</Required>
@@ -1196,7 +1196,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Leviathan143</authors>
 			</Meta>
 		</Module>
-		<Module name="malisisblocks-1.10.2-4.2.0" id="malisisblocks" depends="" side="BOTH">
+		<Module name="malisisblocks-1.10.2-4.2.0" id="malisisblocks" depends="malisiscore" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/malisisblocks-1.10.2-4.2.0.jar</URL>
 			<Size>153178</Size>
 			<Required>true</Required>
@@ -1217,7 +1217,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Ordinastie, PaleoCrafter</authors>
 			</Meta>
 		</Module>
-		<Module name="MalisisDoors" id="malisisdoors" depends="" side="BOTH">
+		<Module name="MalisisDoors" id="malisisdoors" depends="malisiscore" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/malisisdoors-1.10.2-5.2.0.jar</URL>
 			<Size>1632454</Size>
 			<Required>true</Required>
@@ -1261,7 +1261,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<MD5>788a6e1ab297ac7cd31621cc14a9db36</MD5>
 			<Meta>
 				<credits>Lunatrius</credits>
-				<description> MineColonies is a Colony/Town Simulator that adds many structures and NPC workers and guards that you control and put to work for you! Based around a townhall and village mechanic, there are numerous workers that can be added to your colony, building a busy and vibrant village/town/city within Minecraft. There is no coded limit to the number of NPCï¿½s at your disposal, so you can create a small efficient Village dedicated to a particular type of worker, or a sprawling metropolis with many workers. 
+				<description> MineColonies is a Colony/Town Simulator that adds many structures and NPC workers and guards that you control and put to work for you! Based around a townhall and village mechanic, there are numerous workers that can be added to your colony, building a busy and vibrant village/town/city within Minecraft. There is no coded limit to the number of NPCï¿½s at your disposal, so you can create a small efficient Village dedicated to a particular type of worker, or a sprawling metropolis with many workers.
  Itï¿½s entirely up to you!</description>
 				<version>1.10.2-0.8.4063</version>
 				<url>http://minecolonies.com</url>
@@ -1315,7 +1315,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>boni</authors>
 			</Meta>
 		</Module>
-		<Module name="Mod Tweaker" id="modtweaker" depends="" side="BOTH">
+		<Module name="Mod Tweaker" id="modtweaker" depends="mtlib" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/ModTweaker2-2.0.13.jar</URL>
 			<Size>259496</Size>
 			<Required>true</Required>
@@ -1343,7 +1343,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>GenDeathrow</authors>
 			</Meta>
 		</Module>
-		<Module name="ModPack Utilities" id="mputils" depends="" side="BOTH">
+		<Module name="ModPack Utilities" id="mputils" depends="mpbasic" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/mputils-1.10.2-1.2.9.jar</URL>
 			<Size>231340</Size>
 			<Required>true</Required>
@@ -1385,7 +1385,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>feldim2425</authors>
 			</Meta>
 		</Module>
-		<Module name="Morpheus" id="Morpheus" depends="" side="BOTH">
+		<Module name="Morpheus" id="Morpheus" depends="" side="SERVER">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/Morpheus-1.10.2-3.1.13.jar</URL>
 			<Size>20792</Size>
 			<Required>true</Required>
@@ -1441,7 +1441,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Jaredlll08</authors>
 			</Meta>
 		</Module>
-		<Module name="Natural Pledge" id="botanicaladdons" depends="" side="BOTH">
+		<Module name="Natural Pledge" id="botanicaladdons" depends="Botania" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/NaturalPledge-r1.11.jar</URL>
 			<Size>2310832</Size>
 			<Required>true</Required>
@@ -1511,7 +1511,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>ShetiPhian</authors>
 			</Meta>
 		</Module>
-		<Module name="Quadrum-0.7.2-MC1.10.2" id="Quadrum-..-MC" depends="" side="BOTH">
+		<Module name="Quadrum-0.7.2-MC1.10.2" id="Quadrum-..-MC" depends="ResourceLoader" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/Quadrum-0.7.2-MC1.10.2.jar</URL>
 			<Size>86379</Size>
 			<Required>true</Required>
@@ -1560,7 +1560,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>CovertJaguar</authors>
 			</Meta>
 		</Module>
-		<Module name="Railcraft Cosmetic Additions" id="rccosmetic" depends="" side="BOTH">
+		<Module name="Railcraft Cosmetic Additions" id="rccosmetic" depends="railcraft" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/RailCraft%20Cosmetic%20Additions-3.0.5.jar</URL>
 			<Size>689687</Size>
 			<Required>true</Required>
@@ -1602,7 +1602,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>TechnicianLP</authors>
 			</Meta>
 		</Module>
-		<Module name="Recurrent Complex" id="reccomplex" depends="" side="BOTH">
+		<Module name="Recurrent Complex" id="reccomplex" depends="IvToolKit" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/RecurrentComplex-1.4.5-1.10.jar</URL>
 			<Size>6904737</Size>
 			<Required>true</Required>
@@ -1644,7 +1644,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>lumien</authors>
 			</Meta>
 		</Module>
-		<Module name="RFTools" id="rftools" depends="" side="BOTH">
+		<Module name="RFTools" id="rftools" depends="mcjtylib_ng" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/rftools-1.1x-6.13.jar</URL>
 			<Size>2977430</Size>
 			<Required>true</Required>
@@ -1812,7 +1812,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>shadowfacts</authors>
 			</Meta>
 		</Module>
-		<Module name="ShadowMC" id="shadowmc" depends="" side="BOTH">
+		<Module name="ShadowMC" id="shadowmc" depends="Forgelin" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/ShadowMC-1.10.2-3.6.1.jar</URL>
 			<Size>504115</Size>
 			<Required>true</Required>
@@ -1861,7 +1861,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>SilentChaos512</authors>
 			</Meta>
 		</Module>
-		<Module name="Silent&apos;s Gems" id="silentgems" depends="" side="BOTH">
+		<Module name="Silent&apos;s Gems" id="silentgems" depends="SilentLib" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/SilentsGems-1.11.2-2.4.7-217.jar</URL>
 			<Size>2706798</Size>
 			<Required>true</Required>
@@ -1877,7 +1877,7 @@ Fancy models: M4thG33k</credits>
 				<authors>SilentChaos512</authors>
 			</Meta>
 		</Module>
-		<Module name="Silent&apos;s Gems: Extra Parts" id="sgextraparts" depends="" side="BOTH">
+		<Module name="Silent&apos;s Gems: Extra Parts" id="sgextraparts" depends="silentgems" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/SGExtraParts-1.12-1.3.3-29.jar</URL>
 			<Size>94832</Size>
 			<Required>true</Required>
@@ -1934,7 +1934,7 @@ Scroll wheel on a stack to move in and out</description>
 				<authors>shadowfacts</authors>
 			</Meta>
 		</Module>
-		<Module name="Sound Filters" id="soundfilters" depends="" side="BOTH">
+		<Module name="Sound Filters" id="soundfilters" depends="" side="CLIENT">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/SoundFilters-0.9_for_1.9.4.jar</URL>
 			<Size>42043</Size>
 			<Required>true</Required>
@@ -2011,7 +2011,7 @@ Scroll wheel on a stack to move in and out</description>
 				<authors>SilentChaos512</authors>
 			</Meta>
 		</Module>
-		<Module name="Terraqueous" id="terraqueous" depends="" side="BOTH">
+		<Module name="Terraqueous" id="terraqueous" depends="shetphiancore" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/terraqueous-1.10.0-1.2.25.jar</URL>
 			<Size>6698264</Size>
 			<Required>true</Required>
@@ -2025,7 +2025,7 @@ Scroll wheel on a stack to move in and out</description>
 				<authors>ShetiPhian</authors>
 			</Meta>
 		</Module>
-		<Module name="The Camping Mod 2" id="camping" depends="" side="BOTH">
+		<Module name="The Camping Mod 2" id="camping" depends="corerm" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/TheCampingMod_2.3d-1.9.4.jar</URL>
 			<Size>907959</Size>
 			<Required>true</Required>
@@ -2123,7 +2123,7 @@ Scroll wheel on a stack to move in and out</description>
 				<authors>ProfMobius, TehNut</authors>
 			</Meta>
 		</Module>
-		<Module name="Waila Harvestability" id="WailaHarvestability" depends="" side="BOTH">
+		<Module name="Waila Harvestability" id="WailaHarvestability" depends="Waila" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/WailaHarvestability-mc1.10.2-1.1.10.jar</URL>
 			<Size>31689</Size>
 			<Required>true</Required>
@@ -2165,7 +2165,7 @@ Scroll wheel on a stack to move in and out</description>
 				<authors>BlayTheNinth</authors>
 			</Meta>
 		</Module>
-		<Module name="WIRED: More Augs" id="wired" depends="" side="BOTH">
+		<Module name="WIRED: More Augs" id="wired" depends="cyberware" side="BOTH">
 			<URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/WIRED-1.7.0.jar</URL>
 			<Size>323959</Size>
 			<Required>true</Required>
