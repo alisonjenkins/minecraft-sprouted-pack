@@ -1,40 +1,35 @@
 #!/usr/bin/env python3
 import os
 import pathlib
-import pdb
 import re
 import shutil
 import urllib
+import boto3
 
-from appdirs import *
 import requests
 
 
 class ModDownloader(object):
     def __init__(self):# {{{
-        # appdirs code
-        self.appname = 'modDownloader'
-        self.appauthor = 'alanjenkins'
+        self.s3_client = boto3.client('s3')
 
-        self.mods_path = os.path.join(user_data_dir(self.appname, self.appauthor), 'mods')
-        self.cache_path  = user_cache_dir(self.appname, self.appauthor)
+        self.mod_bucket = 'minecraft.redwood-guild.com'
+        self.bucket_path = '/packs/sprouted/mods/'
+
+        self.mods_path = os.path.join(os.getcwd(), 'mods')
         self.mod_url_regex = re.compile(r"^https:\/\/minecraft\.curseforge\.com\/projects\/(?P<projectID>.+)\/files\/(?P<fileID>[0-9]+).*")
-        # make appdirs
+
         self.make_app_dirs()
+        self.existing_mods = self.get_existing_mods()
         # }}}
 
     def make_app_dirs(self):# {{{
-        if not os.path.exists(self.cache_path):
-            os.makedirs(self.cache_path)
-
-        print("Cache path: %s" % (self.cache_path))
-
         if not os.path.exists(self.mods_path):
             os.makedirs(self.mods_path)
 
         print("Mods path: %s" % (self.mods_path))# }}}
 
-    def get_mod_metadata(self, modUrl):# {{{
+    def get_mod_metadata(self, modUrl):  # {{{
         mod = {}
         mod['url'] = modUrl
 
@@ -45,45 +40,45 @@ class ModDownloader(object):
 
         mod['projectID'] = match.group('projectID')
         mod['fileID'] = match.group('fileID')
-        mod['cache_dir'] = pathlib.Path(os.path.join(self.cache_path, str(mod['projectID']), str(mod['fileID'])))
 
-        return mod# }}}
+        return mod
+    # }}}
 
-    def download_mod(self, mod):# {{{
+    def download_mod(self, mod):  # {{{
         sess = requests.session()
 
-        # check if mod is cached
-        if mod['cache_dir'].is_dir():
-            # File is cached
-            modFiles = [f for f in mod['cache_dir'].iterdir()]
-            if len(modFiles) >= 1:
-                modFile = modFiles[0]
-                targetFile = os.path.join(self.mods_path, modFile.name)
-                shutil.copyfile(str(modFile), str(targetFile))
+        projectResponse = sess.get(
+            "https://minecraft.curseforge.com/projects/%s".format(
+                mod['projectID']),
+            stream=True,
+            allow_redirects=False
+        )
 
-                # Cache access is successful,
-                # Don't download the file
-                print("{} in cache, not downloading.".format(mod['url']))
-                return 0
-
-        # File is not cached and needs to be downloaded
-        projectResponse = sess.get("https://minecraft.curseforge.com/projects/%s" % (mod['projectID']), stream=True, allow_redirects=False)
-        
         auth_cookie = None
-        for redirect in sess.resolve_redirects(projectResponse, projectResponse.request):
-             sess.cookies.update({'Auth.Token': auth_cookie})
-             if redirect.headers.get('Set-Cookie') is not None:
-                  cookie_list = redirect.headers.get('Set-Cookie').split(";")[0].split("=")
-                  if cookie_list[0] == 'Auth.Token':
-                        auth_cookie = cookie_list[1]
-             projectResponse.url = redirect.url
+        for redirect in sess.resolve_redirects(
+                projectResponse,
+                projectResponse.request
+                ):
+            sess.cookies.update({'Auth.Token': auth_cookie})
+            if redirect.headers.get('Set-Cookie') is not None:
+                cookie_list = redirect.headers.get('Set-Cookie').split(";")[0].split("=")
+            if cookie_list[0] == 'Auth.Token':
+                auth_cookie = cookie_list[1]
+            projectResponse.url = redirect.url
 
-        fileResponse = sess.get("%s/files/%s/download" % (projectResponse.url, mod['fileID']), stream=True)
+        fileResponse = sess.get("%s/files/%s/download" %
+                                (projectResponse.url, mod['fileID']),
+                                stream=True
+                                )
         while fileResponse.is_redirect:
             source = fileResponse
             fileResponse = sess.get(source, stream=True)
         filePath = pathlib.Path(fileResponse.url)
         fileName = urllib.parse.unquote(filePath.name)
+
+        if fileName in self.existing_mods:
+            print("{} already exists... skipping.".format(fileName))
+            return 0
 
         modDownloadPath = os.path.join(self.mods_path, fileName)
         print("Downloading {} to {}".format(mod['projectID'], modDownloadPath))
@@ -91,25 +86,52 @@ class ModDownloader(object):
         with open(modDownloadPath, "wb") as mod_file:
             mod_file.write(fileResponse.content)
 
-        # Try to add file to cache.
-        if not mod['cache_dir'].is_dir():
-            mod['cache_dir'].mkdir(parents=True)
-            cache_file_path = os.path.join(str(mod['cache_dir']), fileName)
-            with open(cache_file_path, "wb") as mod_file:
-                mod_file.write(fileResponse.content)# }}}
+        mod['filename'] = fileName
 
-    def get_mods_list(self, path):# {{{
+        return mod
+        # }}}
+
+    def get_mods_list(self, path):  # {{{
         with open(path, 'r') as modUrlsFile:
-            modUrls = modUrlsFile.read().strip().split('\n')# }}}
+            modUrls = modUrlsFile.read().strip().split('\n')
         return modUrls
+    # }}}
 
-    def download_mods(self, modUrls):# {{{
+    def download_mods(self, modUrls):  # {{{
         for modUrl in modUrls:
             mod = self.get_mod_metadata(modUrl)
-            self.download_mod(mod)# }}}
+            mod = self.download_mod(mod)
+            self.upload_mod(mod)
+    # }}}
+
+    def get_existing_mods(self):  # {{{
+        return self.client.list_objects(Bucket=self.mod_bucket,
+                                        Prefix=self.bucket_path
+                                        )  # }}}
+
+    def generate_xml():
+        pass
+
+    def upload_mod(self, mod):  # {{{
+        print('Uploading {} to s3://{}/{}{}'.format(
+            mod['filename'],
+            self.mod_bucket,
+            self.bucket_path,
+            mod['filename']
+            ))
+        with open('{}/{}'.format(self.mods_path, mod['filename'])) as modFile:
+            self.s3client.put_object(
+                ACL='public-read',
+                Bucket=self.mod_bucket,
+                Key='{}{}'.format(
+                    self.bucket_path,
+                    mod['filename']
+                ),
+                Body=modFile
+            )  # }}}
+
 
 if __name__ == '__main__':
     md = ModDownloader()
     mod_urls = md.get_mods_list('modsList.txt')
-    #pdb.set_trace()
     md.download_mods(mod_urls)

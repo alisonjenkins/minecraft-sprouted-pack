@@ -14,12 +14,11 @@ phases:
       - echo Build started on `date`
       - chmod +x ./mod-downloader.py
       - ./mod-downloader.py
-      - find ~/.local/share/modDownloader/
   post_build:
     commands:
       - echo Entered the post_build phase...
       - echo Build completed on `date`
-artifacts:
-  files:
-    - '/root/.local/share/modDownloader/mods/*'
-  discard-paths: yes
+# artifacts:
+#   files:
+#     - '/root/.local/share/modDownloader/mods/*'
+#   discard-paths: yes
