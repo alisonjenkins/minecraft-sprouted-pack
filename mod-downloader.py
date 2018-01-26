@@ -105,7 +105,7 @@ class ModDownloader(object):
     # }}}
 
     def get_existing_mods(self):  # {{{
-        return self.client.list_objects(Bucket=self.mod_bucket,
+        return self.s3_client.list_objects(Bucket=self.mod_bucket,
                                         Prefix=self.bucket_path
                                         )  # }}}
 
