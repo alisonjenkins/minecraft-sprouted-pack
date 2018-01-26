@@ -6,6 +6,8 @@ import pdb
 import shutil
 import urllib
 import boto3
+import queue
+import threading
 
 import requests
 
@@ -24,6 +26,10 @@ class ModDownloader(object):
 
         self.make_app_dirs()
         self.existing_mods = self.get_existing_mods()
+
+        self.auth_cookie = None
+
+        self.download_queue = queue.Queue()
         # }}}
 
     def make_app_dirs(self):  # {{{
@@ -57,17 +63,17 @@ class ModDownloader(object):
             allow_redirects=False
         )
 
-        auth_cookie = None
-        for redirect in sess.resolve_redirects(
-                projectResponse,
-                projectResponse.request
-                ):
-            sess.cookies.update({'Auth.Token': auth_cookie})
-            if redirect.headers.get('Set-Cookie') is not None:
-                cookie_list = redirect.headers.get('Set-Cookie').split(";")[0].split("=")
-            if cookie_list[0] == 'Auth.Token':
-                auth_cookie = cookie_list[1]
-            projectResponse.url = redirect.url
+        if not self.auth_cookie:
+            for redirect in sess.resolve_redirects(
+                    projectResponse,
+                    projectResponse.request
+                    ):
+                sess.cookies.update({'Auth.Token': auth_cookie})
+                if redirect.headers.get('Set-Cookie') is not None:
+                    cookie_list = redirect.headers.get('Set-Cookie').split(";")[0].split("=")
+                if cookie_list[0] == 'Auth.Token':
+                    auth_cookie = cookie_list[1]
+                projectResponse.url = redirect.url
 
         fileResponse = sess.get("%s/files/%s/download" %
                                 (projectResponse.url, mod['fileID']),
@@ -81,7 +87,7 @@ class ModDownloader(object):
 
         if fileName in self.existing_mods:
             print("{} already exists... skipping.".format(fileName))
-            return 0
+            return None
 
         modDownloadPath = os.path.join(self.mods_path, fileName)
         print("Downloading {} to {}".format(mod['projectID'], modDownloadPath))
@@ -105,15 +111,23 @@ class ModDownloader(object):
             mod = self.get_mod_metadata(modUrl)
             mod = self.download_mod(mod)
 
-            if not self.no_aws:
+            if not self.no_aws and mod:
                 self.upload_mod(mod)
     # }}}
 
     def get_existing_mods(self):  # {{{
         if not self.no_aws:
-            return self.s3_client.list_objects(Bucket=self.mod_bucket,
+            s3_objects = self.s3_client.list_objects(Bucket=self.mod_bucket,
                                                Prefix=self.bucket_path
-                                               )
+                                               )['Contents']
+            mods = []
+
+            for s3_object in s3_objects:
+                mod = s3_object['Key']
+                mod = mod[mod.rfind('/')+1:]
+                mods.append(mod)
+
+            return mods
         else:
             return []  # }}}
 
