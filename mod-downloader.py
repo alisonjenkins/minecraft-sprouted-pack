@@ -120,7 +120,7 @@ class ModDownloader(object):
             mod['filename']
             ))
         with open('{}/{}'.format(self.mods_path, mod['filename'])) as modFile:
-            self.s3client.put_object(
+            self.s3_client.put_object(
                 ACL='public-read',
                 Bucket=self.mod_bucket,
                 Key='{}{}'.format(
