@@ -144,13 +144,14 @@ class ModDownloader(object):
         if not self.no_aws:
             s3_objects = self.s3_client.list_objects(Bucket=self.mod_bucket,
                                                Prefix=self.bucket_path
-                                               )['Contents']
+                                               )
             mods = []
 
-            for s3_object in s3_objects:
-                mod = s3_object['Key']
-                mod = mod[mod.rfind('/')+1:]
-                mods.append(mod)
+            if s3_objects:
+                for s3_object in s3_objects['Contents']:
+                    mod = s3_object['Key']
+                    mod = mod[mod.rfind('/')+1:]
+                    mods.append(mod)
 
             return mods
         else:
