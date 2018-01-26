@@ -2,6 +2,7 @@
 import os
 import pathlib
 import re
+import pdb
 import shutil
 import urllib
 import boto3
@@ -10,8 +11,10 @@ import requests
 
 
 class ModDownloader(object):
-    def __init__(self):# {{{
-        self.s3_client = boto3.client('s3')
+    def __init__(self, no_aws=False):# {{{
+        self.no_aws = no_aws
+        if not no_aws:
+            self.s3_client = boto3.client('s3')
 
         self.mod_bucket = 'minecraft.redwood-guild.com'
         self.bucket_path = 'packs/sprouted/mods/'
@@ -23,11 +26,11 @@ class ModDownloader(object):
         self.existing_mods = self.get_existing_mods()
         # }}}
 
-    def make_app_dirs(self):# {{{
+    def make_app_dirs(self):  # {{{
         if not os.path.exists(self.mods_path):
             os.makedirs(self.mods_path)
 
-        print("Mods path: %s" % (self.mods_path))# }}}
+        print("Mods path: %s" % (self.mods_path))  # }}}
 
     def get_mod_metadata(self, modUrl):  # {{{
         mod = {}
@@ -48,7 +51,7 @@ class ModDownloader(object):
         sess = requests.session()
 
         projectResponse = sess.get(
-            "https://minecraft.curseforge.com/projects/%s".format(
+            "https://minecraft.curseforge.com/projects/{}".format(
                 mod['projectID']),
             stream=True,
             allow_redirects=False
@@ -101,13 +104,18 @@ class ModDownloader(object):
         for modUrl in modUrls:
             mod = self.get_mod_metadata(modUrl)
             mod = self.download_mod(mod)
-            self.upload_mod(mod)
+
+            if not self.no_aws:
+                self.upload_mod(mod)
     # }}}
 
     def get_existing_mods(self):  # {{{
-        return self.s3_client.list_objects(Bucket=self.mod_bucket,
-                                        Prefix=self.bucket_path
-                                        )  # }}}
+        if not self.no_aws:
+            return self.s3_client.list_objects(Bucket=self.mod_bucket,
+                                               Prefix=self.bucket_path
+                                               )
+        else:
+            return []  # }}}
 
     def generate_xml():
         pass
