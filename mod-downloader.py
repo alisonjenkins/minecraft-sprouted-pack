@@ -119,8 +119,7 @@ class ModDownloader(object):
             self.bucket_path,
             mod['filename']
             ))
-        with open('{}/{}'.format(self.mods_path, mod['filename']),
-                  encoding='utf-8') as modFile:
+        with open('{}/{}'.format(self.mods_path, mod['filename'])) as modFile:
             self.s3_client.put_object(
                 ACL='public-read',
                 Bucket=self.mod_bucket,
@@ -128,7 +127,7 @@ class ModDownloader(object):
                     self.bucket_path,
                     mod['filename']
                 ),
-                Body=modFile
+                Body=modFile.encode(modFile.encoding)
             )  # }}}
 
 
