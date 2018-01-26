@@ -13,7 +13,7 @@ import requests
 
 
 class ModDownloader(object):
-    def __init__(self, no_aws=False):# {{{
+    def __init__(self, no_aws=False, threads=16):  # {{{
         self.no_aws = no_aws
         if not no_aws:
             self.s3_client = boto3.client('s3')
@@ -30,6 +30,8 @@ class ModDownloader(object):
         self.auth_cookie = None
 
         self.download_queue = queue.Queue()
+        self.max_threads = threads
+        self.threads = []
         # }}}
 
     def make_app_dirs(self):  # {{{
@@ -103,16 +105,39 @@ class ModDownloader(object):
     def get_mods_list(self, path):  # {{{
         with open(path, 'r') as modUrlsFile:
             modUrls = modUrlsFile.read().strip().split('\n')
+
+        for modUrl in modUrls:
+            self.download_queue.put(modUrl)
+
         return modUrls
     # }}}
 
-    def download_mods(self, modUrls):  # {{{
-        for modUrl in modUrls:
+    def download_worker(self):  # {{{
+        while True:
+            modUrl = self.download_queue.get()
+            if modUrl is None:
+                break
             mod = self.get_mod_metadata(modUrl)
             mod = self.download_mod(mod)
 
             if not self.no_aws and mod:
                 self.upload_mod(mod)
+
+            self.download_queue.task_done()  # }}}
+
+    def download_mods(self, modUrls):  # {{{
+        for thread in range(self.max_threads):
+            t = threading.Thread(target=self.download_worker)
+            t.start()
+            self.threads.append(t)
+        # for modUrl in modUrls:
+        #     mod = self.get_mod_metadata(modUrl)
+        #     mod = self.download_mod(mod)
+        self.download_queue.join()
+        for thread in range(self.max_threads):
+            self.download_queue.put(None)
+        for thread in self.threads:
+            thread.join()
     # }}}
 
     def get_existing_mods(self):  # {{{
