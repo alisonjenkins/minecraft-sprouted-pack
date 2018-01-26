@@ -147,7 +147,7 @@ class ModDownloader(object):
                                                )
             mods = []
 
-            if s3_objects:
+            if s3_objects and 'Contents' in s3_objects:
                 for s3_object in s3_objects['Contents']:
                     mod = s3_object['Key']
                     mod = mod[mod.rfind('/')+1:]
