@@ -14,7 +14,7 @@ class ModDownloader(object):
         self.s3_client = boto3.client('s3')
 
         self.mod_bucket = 'minecraft.redwood-guild.com'
-        self.bucket_path = '/packs/sprouted/mods/'
+        self.bucket_path = 'packs/sprouted/mods/'
 
         self.mods_path = os.path.join(os.getcwd(), 'mods')
         self.mod_url_regex = re.compile(r"^https:\/\/minecraft\.curseforge\.com\/projects\/(?P<projectID>.+)\/files\/(?P<fileID>[0-9]+).*")
@@ -113,7 +113,7 @@ class ModDownloader(object):
         pass
 
     def upload_mod(self, mod):  # {{{
-        print('Uploading {} to s3://{}/{}{}'.format(
+        print('Uploading {} to s3://{}{}{}'.format(
             mod['filename'],
             self.mod_bucket,
             self.bucket_path,
