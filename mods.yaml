@@ -1,7 +1,6 @@
 ---
 mods:
-  actuallyadditions:
-    name: "Actually Additions"
+  Actually Addtions:
     depends:
     side: "BOTH"
     mod-type: "regular"
@@ -9,6 +8,10 @@ mods:
     description: "Do you want Automation? Wireless Transport? Better Machines? A cup o&apos; Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more!"
     url: "http://github.com/Ellpeck/ActuallyAdditions"
     authors: "Ellpeck"
+    versions:
+      1.10.2-r105:
+        url: https://minecraft.curseforge.com/projects/actually-additions/files/2392124
+
   akashictome:
     name: "Akashic Tome"
     depends:
@@ -16,9 +19,12 @@ mods:
     mod-type: "Regular"
     credits:
     description: The book of books.
-    version: 1.0-5
+    versions:
+      1.0-5:
+        url: https://minecraft.curseforge.com/projects/akashic-tome/files/2345167
     url: http://www.vazkii.us
     authors: Vazkii
+
   atg:
     name: Alternate Terrain Generation
     depends:
@@ -26,9 +32,12 @@ mods:
     modtype: Regular
     credits:
     description: Provides an alternative to vanilla terrain generation.
-    version: 2.0.1
+    versions:
+      2.0.1:
+        url: https://minecraft.curseforge.com/projects/alternate-terrain-generation/files/2390773
     url:
     authors: TTFTCUTS
+
   ambientsounds:
     name: AmbientSounds
     depends:
@@ -36,7 +45,9 @@ mods:
     modtype: Regular
     credits:
     description:
-    version:
+    versions:
+      v2.2.1:
+        url: https://minecraft.curseforge.com/projects/ambientsounds/files/2509562
     url: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2526167
     authors: CreativeMD
   animania:
@@ -700,7 +711,9 @@ mods:
     modtype: Regular
     credits: "cpw, sapient, #minecraftforge (especially diesieben07), TehNut, tterrag"
     description: Adds tiered backpacks and a system of modular upgrades to go with them!
-    version: 1.10.2-2.2.31
+    versions:
+      - 1.10.2-2.2.31
+
     url:
     authors: gr8pefish
   ironchest:

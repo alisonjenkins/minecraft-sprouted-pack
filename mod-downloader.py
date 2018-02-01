@@ -2,15 +2,15 @@
 import os
 import pathlib
 import re
-import pdb
-import shutil
 import urllib
 import boto3
 import queue
 import threading
 
 import requests
+import yaml
 
+import pdb
 
 class ModDownloader(object):
     def __init__(self, no_aws=False, threads=16):  # {{{

@@ -1,3 +1,4 @@
 appdirs
 boto3
 requests
+pyyaml
