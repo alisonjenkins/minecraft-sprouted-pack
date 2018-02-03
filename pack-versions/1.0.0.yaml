@@ -1,0 +1,620 @@
+1.0.0:
+  Actually Additions:
+    version: 1.10.2-r105
+    required: true
+
+  akashictome:
+    version: 1.0-5
+    required: true
+
+  atg:
+    version: 2.0.1
+    required: true
+
+  ambientsounds:
+    version: v2.2.1
+    required: true
+
+  animania:
+    version: 1.10.2-1.4.3
+    required: true
+
+  aquaculture:
+    version: 1.4.1.4
+    required: true
+
+  arsmagica2:
+    version: 1.5.0-17
+    required: true
+
+  astralsorcery:
+    version: 1.4.5
+    required: true
+
+  AutoRegLib:
+    version: 1.0-2
+    required: true
+
+  Baubles:
+    version: 1.10.2-1.3.11
+    required: true
+
+  bedbugs:
+    version: 1.10.2-1.1.6
+    required: true
+
+  betterbuilderswands:
+    version: 0.11.1
+    required: true
+
+  BetterFps:
+    version: 1.4.5-1.10
+    required: true
+
+  BiblioCraft:
+    version: 2.2.5
+    required: true
+
+  bigdoors:
+    version: 1.10.2-1.3.0
+    required: true
+
+  BiomeTweaker:
+    version: 2.1
+    required: true
+
+  birdsnests:
+    version: 1.5.1
+    required: true
+
+  BloodMagic:
+    version: 1.10.2-2.1.11-80
+    required: true
+
+  boatifull:
+    version: 0.2
+    required: true
+
+  Botania:
+    version: r1.9-341
+    required: true
+
+  buildingbricks:
+    version: 1.10.2-2.0.13
+    required: true
+
+  Chameleon:
+    version: 1.10.2-2.3.0
+    required: true
+
+  ChestTransporter:
+    version: 1.10.2-2.5.18
+    required: true
+
+  chisel:
+    version: MC1.10.2-0.0.14.33
+    required: true
+
+  chiselsandbits:
+    version: 12.16
+    required: true
+
+  ChunkAnimator:
+    version: 1.2
+    required: true
+
+  compatlayer:
+    version: 1.10-0.2.9
+    required: true
+
+  controlling:
+    version: 1.0.5
+    required: true
+
+  copypaste:
+    version: 1.0
+    required: true
+
+  cosmeticarmorreworked:
+    version: 1.10.2-v2a
+    required: true
+
+  craftingtweaks:
+    version: 6.1.16
+    required: true
+
+  craftingcraft:
+    version: 4.1.9
+    required: true
+
+  creativecore:
+    version: 1.7
+    required: true
+
+  ctm:
+    version: MC1.10.2-0.2.3.26
+    required: true
+
+  custommainmenu:
+    version: 2.0.5
+    required: true
+
+  customnpcs:
+    version: 1.10.2_beta
+    required: true
+
+  cyberware:
+    version: beta-0.2.10
+    required: true
+
+  cyclopscore:
+    version: 1.9.4-0.10.9
+    required: true
+
+  defaultoptions:
+    version: 6.1.5
+    required: true
+
+  bitdrawers:
+    version: 1.10.2-0.36
+    required: true
+
+  dungeontactics:
+    version: DT-0.12.5
+    required: true
+
+  dsurround:
+    version: 1.10.2-3.4.7.2
+    required: true
+
+  D3Core:
+    version: 1.3.1
+    required: true
+
+  Earthworks:
+    version: 1.3.4.1
+    required: true
+
+  EnderIO:
+    version: 1.10.2-3.1.193
+    required: true
+
+  endercore:
+    version: 1.10.2-0.4.1.66-beta
+    required: true
+
+  everlastingabilities:
+    version: 1.9.4-1.2.5
+    required: true
+
+  ExtraBitManipulation:
+    version: 1.10.2-2.5.1
+    required: true
+
+  extrautils2:
+    version: 1.6.3
+    required: true
+
+  fastleafdecay:
+    version: v11
+    required: true
+
+  fenceoverhaul:
+    version: 1.2.1
+    required: true
+
+  flatcoloredblocks:
+    version: mc1.10-v4.4
+    required: true
+
+  foamfix:
+    version: 
+    required: true
+
+  FTBT:
+    version: 2.0.0
+    required: true
+
+  ftbl:
+    version: 1.1x-3.5.4
+    required: true
+
+  ftbu:
+    version: 1.1x-3.5.4
+    required: true
+
+  gemulation:
+    version: 1.10.2-4.0.2
+    required: true
+
+  grapplemod:
+    version: 1.10.2-v10
+    required: true
+
+  grimoireofgaia:
+    version: 1.5.6
+    required: true
+
+  guideapi:
+    version: 1.10.2-2.0.3-46
+    required: true
+
+  gbook:
+    version: 1.7.3
+    required: true
+
+  holovm:
+    version: 1.1
+    required: true
+
+  iceandfire:
+    version: 1.0.1
+    required: true
+
+  immersiveengineering:
+    version: 0.10-61
+    required: true
+
+  imc:
+    version: 1.10.2
+    required: true
+
+  incontrol:
+    version: 3.6.0
+    required: true
+
+  infinitylib:
+    version: 0.11.0
+    required: true
+
+  ironbackpacks:
+    version: 1.10.2-2.2.31
+    required: true
+
+  ironchest:
+    version: 1.10.2-7.0.15.804
+    required: true
+
+  itemzoom:
+    version: 1.4
+    required: true
+
+  itemphysic:
+    version: 1.3
+    required: true
+
+  IvToolkit:
+    version: 1.3.3-1.10
+    required: true
+
+  journeymap:
+    version: 1.10.2-5.5.0
+    required: true
+
+  JsonLootBags:
+    version: 1.0.0.12
+    required: true
+
+  JEI:
+    version: 3.14.7.420
+    required: true
+
+  levelup:
+    version: 0.12.10-1.10.2
+    required: true
+
+  levels:
+    version: 1.10.2-r1.2.8
+    required: true
+
+  librarianlib:
+    version: 1.10.1
+    required: true
+
+  literalascension:
+    version: 1.10.2-1.0.2.2
+    required: true
+
+  lit:
+    version: 1.10.2-3.0.4
+    required: true
+
+  llibrary:
+    version: 1.7.7-1.10.2
+    required: true
+
+  login_shield:
+    version: 1.10.2-25-g2a63586
+    required: true
+
+  loottweaker:
+    version: 1.10.2-0.0.6.3
+    required: true
+
+  malisisblocks:
+    version: 1.10.2-4.2.0
+    required: true
+
+  malisiscore:
+    version: 1.10.2-4.4.0
+    required: true
+
+  malisisdoors:
+    version: 1.10.2-5.1.5
+    required: true
+
+  mcjtylib_ng:
+    version: 1.1x-2.4.3-SNAPSHOT
+    required: true
+
+  mcmultipart:
+    version: 1.4.0
+    required: true
+
+  minecolonies:
+    version: 1.10.2-0.8.4063
+    required: true
+
+  minemenu:
+    version: 1.10.2-1.4.5
+    required: true
+
+  CraftTweaker:
+    version: 1.10.2-3.0.26
+    required: true
+
+  testdummy:
+    version: 1.10.2-1.13
+    required: true
+
+  modtweaker:
+    version: 2.0.13
+    required: true
+
+  mpbasic:
+    version: 1.1.5
+    required: true
+
+  mputils:
+    version: 1.2.9
+    required: true
+
+  morematerials:
+    version: 1.10.2-1.9.20160723.0
+    required: true
+
+  moreoverlays:
+    version: 1.11
+    required: true
+
+  Morpheus:
+    version: 1.10.2-3.1.13
+    required: true
+
+  mousetweaks:
+    version: 2.8
+    required: true
+
+  mowziesmobs:
+    version: 1.3.2
+    required: true
+
+  mtlib:
+    version: 1.0.3
+    required: true
+
+  botanicaladdons:
+    version: 1.11
+    required: true
+
+  Neat:
+    version: 1.3-12
+    required: true
+
+  recipehandler:
+    version: 0.6
+    required: true
+
+  plants:
+    version: 1.10.2-beta-0.8.5
+    required: true
+
+  platforms:
+    version: 1.10.0-1.2.10
+    required: true
+
+  Quadrum:
+    version: 0.7.2-MC1.10.2
+    required: true
+
+  Quark:
+    version: r1.1-70
+    required: true
+
+  RadixCore:
+    version: 1.10.2-2.1.3
+    required: true
+
+  railcraft:
+    version: 10.2.0
+    required: true
+
+  rccosmetic:
+    version: 3.0.5
+    required: true
+
+  randomrestockablecrates:
+    version: 1.2.8
+    required: true
+
+  reauth:
+    version: 3.5.0
+    required: true
+
+  reccomplex:
+    version: 1.4.5-1.10
+    required: true
+
+  xreliquary:
+    version: 1.10.2-1.3.3.664
+    required: true
+
+  ResourceLoader:
+    version: 1.5.1
+    required: true
+
+  rftools:
+    version: 1.1x-6.13
+    required: true
+
+  rftoolscontrol:
+    version: 1.1x-1.6.8
+    required: true
+
+  rftoolsdim:
+    version: 1.1x-5.05
+    required: true
+
+  corerm:
+    version: 1.2e-1.8.9
+    required: true
+
+  roguelike:
+    version: 1.10.2-1.5.9
+    required: true
+
+  roots:
+    version: 0.208
+    required: true
+
+  rpghud:
+    version: 3.6.6
+    required: true
+
+  runesofwizardry:
+    version: 1.10.2-0.7.2
+    required: true
+
+  runesofwizardry_classics:
+    version: 1.10.2-0.4.3
+    required: true
+
+  rustic:
+    version: 0.1.2.2
+    required: true
+
+  scalinghealth:
+    version: 1.2.2
+    required: true
+
+  forgelin:
+    version: 1.5.1
+    required: true
+
+  shadowmc:
+    version: 1.10.2-3.6.1
+    required: true
+
+  shetiphiancore:
+    version: 1.10.0-3.3.11
+    required: true
+
+  Signals:
+    version: 1.10.2-0.5.1-universal
+    required: true
+
+  SilentLib:
+    version: 1.10.2-2.2.6-66
+    required: true
+
+  silentgems:
+    version: 2.4.7
+    required: true
+
+  sgextraparts:
+    version: 1.3.3
+    required: true
+
+  SimilsaxTranstructors:
+    version: 1.10.2.18
+    required: true
+
+  inventorysorter:
+    version: 0.11.0+47
+    required: true
+
+  SleepingBag:
+    version: 1.10.2-1.4.0
+    required: true
+
+  soundfilters:
+    version: 0.9_for_1.9.4
+    required: true
+
+  sproutpatcher:
+    version: 2.0
+    required: true
+
+  StacksOnStacks:
+    version: 1.1.4
+    required: true
+
+  StorageDrawers:
+    version: 1.10.2-3.7.10
+    required: true
+
+  rscircuits:
+    version: 1.0.4
+    required: true
+
+  SuperMultiDrills:
+    version: 1.5.2
+    required: true
+
+  terraqueous:
+    version: 1.10.0-1.2.25
+    required: true
+
+  camping:
+    version: 2.3d-1.9.4
+    required: true
+
+  tombmanygraves:
+    version: 1.10.2-2.1.16
+    required: true
+
+  toroquest:
+    version: 1.10.2-3.2.3
+    required: true
+
+  trashslot:
+    version: 6.3.7
+    required: true
+
+  valkyrielib:
+    version: 1.10.2-0.10.6
+    required: true
+
+  VillageNames:
+    version: 1.1a
+    required: true
+
+  Waila:
+    version: 1.8.17-B31_1.10.2
+    required: true
+
+  WailaHarvestability:
+    version: 1.1.10
+    required: true
+
+  waterstrainer:
+    version: 1.9.4-1.4.2
+    required: true
+
+  waystones:
+    version: 2.0.13
+    required: true
+
+  wired:
+    version: 1.7.0
+    required: true

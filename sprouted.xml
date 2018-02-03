@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="sprouted-1.10.2" abstract="false" name="Sprouted - 1.10.2" newsUrl="minecraft.alan-jenkins.com/sprouted/news.html" version="1.10.2" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="sprout.minecraft.alan-jenkins.com:25565" autoConnect="true">
+  <Server id="sprouted-1.10.2" abstract="false" name="Sprouted - 1.10.2" newsUrl="minecraft.redwood-guild.com/packs/sprouted/news.html" version="1.10.2" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="sprouted.minecraft.redwood-guild.com">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.10.2&amp;forge=12.18.3.2185">forge</Import>
-		<Import url="http://minecraft.redwood-guild.com/packs/sprouted-1.10.2/sprouted-mods.xml">initial-mods</Import>
+		<Import url="http://minecraft.redwood-guild.com/packs/sprouted-1.10.2/1.0.0.xml">1.0.0</Import>
 		<Import url="http://minecraft.redwood-guild.com/packs/sprouted-1.10.2/configs.xml">configs</Import>
 		<Import url="http://minecraft.redwood-guild.com/packs/sprouted-1.10.2/optional-configs.xml">optional-configs</Import>
 	</Server>
