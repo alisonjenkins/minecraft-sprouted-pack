@@ -8,6 +8,8 @@ import queue
 import threading
 import hashlib
 import xml.etree.ElementTree as ET
+import sys
+from xml.sax.saxutils import escape as xml_escape
 
 import requests
 import yaml
@@ -109,9 +111,20 @@ class ModDownloader(object):
         return mod
         # }}}
 
-    def get_file_meta(self, mod_file_name):  # {{{
+    def get_file_meta(self, mod, version):  # {{{
         meta = self.dynamodb.Table(self.dynamo_db_table)
-        response = meta.get_item(Key={'Filename': mod_file_name})
+        response = meta.get_item(
+                Key={
+                    'ModName': str(mod),
+                    'Version': str(version)
+                    })
+        if 'Item' not in response:
+            print("ERROR getting file metadata for {} version {}. Aborting".format(
+                mod,
+                version
+            ))
+            pdb.set_trace()
+            sys.exit(1)
         mod_meta = response['Item']
         return mod_meta  # }}}
 
@@ -121,6 +134,11 @@ class ModDownloader(object):
             if mod is None:
                 break
 
+            if 'versions' not in self.mods[mod]:
+                print("{} is missing versions key".format(mod))
+                self.mod_download_queue.task_done()
+                continue
+
             for version in self.mods[mod]['versions']:
                 mod_meta = self.get_mod_metadata(
                         self.mods[mod]['versions'][version]['url'])
@@ -128,6 +146,8 @@ class ModDownloader(object):
 
                 if mod_meta:
                     file_meta = self.get_mod_file_meta(mod_meta['filename'])
+                    file_meta['mod_name'] = mod
+                    file_meta['version'] = version
                     self.upload_mod(mod_meta)
 
                     self.put_mod_file_meta(file_meta)
@@ -218,100 +238,129 @@ class ModDownloader(object):
 
         for mod in version_mods:# {{{
             mod_elem = ET.Element('Module')
-            mod_elem.set('name', mod)
-            mod_elem.set('id', mod)
+            mod_elem.set('name', xml_escape(mod))
+            mod_elem.set('id', xml_escape(mod))
 
-            mod_elem.set('depends', self.mods[mod]['depends'])
-            mod_elem.set('side', self.mods[mod]['side'])
+            if 'depends' in self.mods[mod]:
+                if self.mods[mod]['depends']:
+                    mod_elem.set('depends', xml_escape(self.mods[mod]['depends']))
+            mod_elem.set('side', xml_escape(self.mods[mod]['side']))
 
-            # Load version url from database
-            # mod_url = ET.Element('URL')
-            # mod_url.set('priority', '0')
-            # mod_url.text = self.mods[mod]['versions'][version_mods[mod]]['url']
-            # mod_elem.append(mod_url)
+            mod_meta_data = self.get_file_meta(mod, version_mods[mod]['version'])
+
+            mod_url = ET.Element('URL')
+            mod_url.set('priority', xml_escape('0'))
+            mod_url.text = xml_escape('https://minecraft.redwood-guild.com/mods/{}'.format(mod_meta_data['Filename']))
+            mod_elem.append(mod_url)
 
             # Load mod version size from database
             mod_size = ET.Element('Size')
-            pdb.set_trace()
-            mod_size.text = self.mods[mod]['versions'][version_mods[mod]]['version']['size']
+            mod_size.text = xml_escape(str(mod_meta_data['size']))
             mod_elem.append(mod_size)
 
             mod_required = ET.Element('Required')
-            mod_required.text = version_mods[mod]['required']
+            mod_required.text = xml_escape(str(version_mods[mod]['required']))
             mod_elem.append(mod_required)
 
             mod_type = ET.Element('ModType')
-            mod_type.text = self.mods[mod]['type']
+            mod_type.text = xml_escape(str(self.mods[mod]['mod-type']))
             mod_elem.append(mod_type)
 
             mod_md5 = ET.Element('MD5')
-            mod_md5.text = self.mods[mod]['versions'][version_mods[mod]]['version']['md5']
+            mod_md5.text = xml_escape(str(mod_meta_data['MD5']))
             mod_elem.append(mod_md5)
 
             # Mod Meta
             mod_meta = ET.Element('Meta')
 
-            mod_credits = ET.Element('credits')
-            mod_credits.text = self.mods[mod]['credits']
-            mod_meta.append(mod_credits)
+            if 'credits' in self.mods[mod]:
+                if self.mods[mod]['credits']:
+                    mod_credits = ET.Element('credits')
+                    mod_credits.text = xml_escape(self.mods[mod]['credits'])
+                    mod_meta.append(mod_credits)
+                else:
+                    print("WARNING: {} is missing credits.".format(mod))
 
-            mod_description = ET.Element('description')
-            mod_description.text = self.mods[mod]['description']
-            mod_meta.append(mod_description)
+            else:
+                print("WARNING: {} is missing credits.".format(mod))
+
+            if 'description' in self.mods[mod]:
+                if self.mods[mod]['description']:
+                    mod_description = ET.Element('description')
+                    mod_description.text = xml_escape(self.mods[mod]['description'])
+                    mod_meta.append(mod_description)
+                else:
+                    print("WARNING: {} is missing a description.".format(mod))
+            else:
+                print("WARNING: {} is missing description.".format(mod))
 
             mod_version = ET.Element('version')
-            mod_version.text = version_mods[mod]['version']
+            mod_version.text = str(version_mods[mod]['version'])
             mod_meta.append(mod_version)
 
-            mod_meta_url = ET.Element('url')
-            mod_meta_url.text = self.mods[mod]['url']
-            mod_meta.append(mod_meta_url)
+            if 'url' in self.mods[mod]:
+                if self.mods[mod]['url']:
+                    mod_meta_url = ET.Element('url')
+                    mod_meta_url.text = xml_escape(self.mods[mod]['url'])
+                    mod_meta.append(mod_meta_url)
+                else:
+                    print("WARNING: {} is missing a url.".format(mod))
+            else:
+                print("WARNING: {} is missing url.".format(mod))
 
-            mod_authors = ET.Element('authors')
-            mod_authors.text = self.mods[mod]['authors']
-            mod_meta.append(mod_authors)
+            if 'authors' in self.mods[mod]:
+                if self.mods[mod]['url']:
+                    mod_authors = ET.Element('authors')
+                    mod_authors.text = xml_escape(self.mods[mod]['authors'])
+                    mod_meta.append(mod_authors)
+                else:
+                    print("WARNING: {} is missing authors.".format(mod))
+            else:
+                print("WARNING: {} is missing authors.".format(mod))
 
             mod_elem.append(mod_meta)
-            serverelem.append(mod)# }}}
+            serverelem.append(mod_elem)
+            # }}}
 
-        et.write('{}.xml'.format(version),
+        et.write('{}.xml'.format(str(version)),
                  encoding='utf-8',
                  xml_declaration=True)
     # }}}
 
-    def generate_root_xml(self, versions):# {{{
+    def generate_root_xml(self):  # {{{
 
         # Create root ServerPack element
         xml = ET.Element('ServerPack')
-        xml.set('version', '3.4')
-        xml.set('xmlns', 'http://www.mcupdater.com')
-        xml.set('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance')
-        xml.set('xsi:schemaLocation', 'http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd')
+        xml.set('version', xml_escape('3.4'))
+        xml.set('xmlns', xml_escape('http://www.mcupdater.com'))
+        xml.set('xmlns:xsi', xml_escape('http://www.w3.org/2001/XMLSchema-instance'))
+        xml.set('xsi:schemaLocation', xml_escape('http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd'))
         et = ET.ElementTree(element=xml)
 
         # Create Server Element
         serverelem = ET.Element('Server')
-        serverelem.set('id', 'sprouted-1.10.2')
-        serverelem.set('abstract', 'false')
-        serverelem.set('name', 'Sprouted - 1.10.2')
-        serverelem.set('newsUrl', 'https://minecraft.redwood-guild.com/packs/sprouted-1.10.2/news.html')
-        serverelem.set('version', '1.10.2')
-        serverelem.set('generateList', 'true')
-        serverelem.set('autoConnect', 'true')
-        serverelem.set('revision', '1')
-        serverelem.set('mainClass', 'net.minecraft.launchwrapper.Launch')
-        serverelem.set('launcherType', 'Vanilla')
-        serverelem.set('serverAddress', 'sprouted.minecraft.redwood-guild.com')
+        serverelem.set('id', xml_escape('sprouted-1.10.2'))
+        serverelem.set('abstract', xml_escape('false'))
+        serverelem.set('name', xml_escape('Sprouted - 1.10.2'))
+        serverelem.set('newsUrl', xml_escape('https://minecraft.redwood-guild.com/packs/sprouted-1.10.2/news.html'))
+        serverelem.set('version', xml_escape('1.10.2'))
+        serverelem.set('generateList', xml_escape('true'))
+        serverelem.set('autoConnect', xml_escape('true'))
+        serverelem.set('revision', xml_escape('1'))
+        serverelem.set('mainClass', xml_escape('net.minecraft.launchwrapper.Launch'))
+        serverelem.set('launcherType', xml_escape('Vanilla'))
+        serverelem.set('serverAddress', xml_escape('sprouted.minecraft.redwood-guild.com'))
         xml.append(serverelem)
 
-        for version in versions:
+        for version in self.versions:
             importelem = ET.Element('Import')
             importelem.set('url', 'http://minecraft.redwood-guild.com/packs/sprouted-1.10.2/{}.xml'.format(
-                version['version']
+                xml_escape(str(version))
                 ))
-            importelem.text = version['version']
+            importelem.text = xml_escape(str(version))
             serverelem.append(importelem)
-        et.write('pack.xml', encoding='utf-8', xml_declaration=True)# }}}
+        et.write('pack.xml', encoding='utf-8', xml_declaration=True)
+        # }}}
 
     def upload_mod(self, mod):  # {{{
         print('Uploading {} to s3://{}{}{}'.format(
@@ -340,9 +389,11 @@ class ModDownloader(object):
 
         meta_table.put_item(
             Item={
-                'Filename': meta['filename'],
-                'size': meta['size'],
-                'MD5': meta['md5']
+                'Filename': str(meta['filename']),
+                'Version': str(meta['version']),
+                'ModName': str(meta['mod_name']),
+                'size': int(meta['size']),
+                'MD5': str(meta['md5'])
                 })
     # }}}
 
@@ -350,5 +401,5 @@ if __name__ == '__main__':
     md = ModDownloader()
     md.load_version_yamls()
     md.download_mods()
-    pdb.set_trace()
-    #md.generate_versions_xmls()
+    md.generate_versions_xmls()
+    md.generate_root_xml()

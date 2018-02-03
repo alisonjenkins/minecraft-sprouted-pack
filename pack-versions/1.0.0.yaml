@@ -207,9 +207,9 @@
     version: mc1.10-v4.4
     required: true
 
-  foamfix:
-    version: 
-    required: true
+  # foamfix:
+  #   version: 
+  #   required: true
 
   FTBT:
     version: 2.0.0
