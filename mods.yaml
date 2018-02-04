@@ -1711,7 +1711,7 @@ forgelin:
   name: Shadowfacts&apos; Forgelin
   depends:
   side: BOTH
-  mod-type: Coremod
+  mod-type: Regular
   credits: Emberwalker, for the original Forgelin
   description: Kotlin helper library for Forge.
   versions:
