@@ -24,8 +24,8 @@ class ModDownloader(object):
                  pack_name='sprouted-1.10.2',
                  pack_pretty_name='Sprouted - 1.10.2',
                  server_hostname='sprouted.minecraft.redwood-guild.com',
-                 minecraft_version = '1.10.2',
-                 minecraft_forge_version = '12.18.3.2185',
+                 minecraft_version='1.10.2',
+                 minecraft_forge_version='12.18.3.2511',
                  threads=16
                  ):
         self.s3_client = boto3.client('s3')

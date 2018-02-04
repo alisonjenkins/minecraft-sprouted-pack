@@ -127,6 +127,10 @@
     version: 4.1.9
     required: true
 
+  craftstudioapi:
+    version: 0.3.0.87-mc1.10.2-beta
+    required: true
+
   creativecore:
     version: 1.7
     required: true

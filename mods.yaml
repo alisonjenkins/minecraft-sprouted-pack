@@ -52,7 +52,7 @@ ambientsounds:
 
 animania:
   name: Animania
-  depends:
+  depends: craftstudioapi
   side: BOTH
   mod-type: Regular
   credits: Game concept, creative direction, models, textures, animation, sound design, and development by RazzleberryFox, Purplicious_Cow, cy4n, MrTschipp, ZeAmateis, Timmypote, vroulas, and TheJurassicAlien
@@ -410,6 +410,16 @@ craftingcraft:
   url:
   authors: BlayTheNinth
 
+craftstudioapi:
+  name: CraftStudio API
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Adds support for the Craftstudio 3D modelling format.
+  versions:
+    0.3.0.87-mc1.10.2-beta:
+      url: https://minecraft.curseforge.com/projects/craftstudio-api/files/2437617
+  url: https://minecraft.curseforge.com/projects/craftstudio-api
 creativecore:
   name: CreativeCore
   depends:
