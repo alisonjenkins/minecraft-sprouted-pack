@@ -415,7 +415,7 @@ class ModDownloader(object):
         #serverelem.set('newsUrl', xml_escape('http://minecraft.redwood-guild.com/packs/{}/pack.xml'.format(self.pack_name)))
         serverelem.set('version', xml_escape('1.10.2'))
         serverelem.set('generateList', xml_escape('true'))
-        serverelem.set('autoConnect', xml_escape('true'))
+        serverelem.set('autoConnect', xml_escape('false'))
         serverelem.set('revision', xml_escape('1'))
         serverelem.set('mainClass', xml_escape('net.minecraft.launchwrapper.Launch'))
         serverelem.set('launcherType', xml_escape('Vanilla'))
