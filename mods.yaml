@@ -1745,12 +1745,12 @@ SilentLib:
   description: Shared library for SilentChaos512&apos;s mods.
   versions:
     1.10.2-2.2.6-66:
-      url: https://minecraft.curseforge.com/projects/silents-gems/files/2480520
+      url: https://minecraft.curseforge.com/projects/silent-lib/files/2447709
   url:
   authors: SilentChaos512
 
 silentgems:
-  name: Silent&apos;s Gems
+  name: Silent's Gems
   depends: SilentLib
   side: BOTH
   mod-type: Regular
