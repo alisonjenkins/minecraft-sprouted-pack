@@ -512,7 +512,7 @@
     required: true
 
   forgelin:
-    version: 1.5.1
+    version: 1.0.5
     required: true
 
   shadowmc:

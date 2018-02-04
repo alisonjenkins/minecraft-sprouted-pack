@@ -1702,21 +1702,20 @@ forgelin:
   credits: Emberwalker, for the original Forgelin
   description: Kotlin helper library for Forge.
   versions:
-    1.5.1:
-      url: https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2505090
+    1.0.5:
+      url: https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2331802
   url: https://github.com/shadowfacts/Forgelin
   authors: shadowfacts
 
 shadowmc:
   name: ShadowMC
-  depends: Forgelin
+  depends: forgelin
   side: BOTH
   mod-type: Regular
   credits:
   description: A library mod required for all my other mods.
   versions:
-    1.10.2-3.6.1:
-      url: https://minecraft.curseforge.com/projects/shadowmc/files/2362016
+    url: https://minecraft.curseforge.com/projects/shadowmc/files/2362016
   url: http://github.com/shadowfacts/ShadowMC
   authors: Shadowfacts
 
@@ -1813,7 +1812,7 @@ inventorysorter:
 
 SleepingBag:
   name: Sleeping Bag
-  depends:
+  depends: shadowmc
   side: BOTH
   mod-type: Regular
   credits: OpenMods, from which I borrowed most of the implementation
