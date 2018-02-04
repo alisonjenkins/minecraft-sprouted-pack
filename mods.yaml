@@ -1514,7 +1514,7 @@ reauth:
 
 reccomplex:
   name: Recurrent Complex
-  depends: IvToolKit
+  depends: IvToolkit
   side: BOTH
   mod-type: Regular
   credits: See structurecredits.txt for full default structure list credits.
@@ -1904,7 +1904,7 @@ SuperMultiDrills:
 
 terraqueous:
   name: Terraqueous
-  depends: shetphiancore
+  depends: shetiphiancore
   side: BOTH
   mod-type: Regular
   credits: "Art: Fruzstrated, and ShetiPhian"
