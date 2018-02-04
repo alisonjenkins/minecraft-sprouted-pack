@@ -372,6 +372,7 @@ class ModDownloader(object):
                 ACL='public-read',
                 Bucket=self.mod_bucket,
                 Key=self.configs['path'],
+                StorageClass='REDUCED_REDUNDANCY',
                 Body=zf
             )
     # }}}
@@ -461,6 +462,7 @@ class ModDownloader(object):
                     self.bucket_path,
                     mod['filename']
                 ),
+                StorageClass='REDUCED_REDUNDANCY',
                 Body=modFile
             )  # }}}
 
@@ -497,6 +499,7 @@ class ModDownloader(object):
                     self.s3_client.put_object(
                         ACL='public-read',
                         Bucket=self.mod_bucket,
+                        StorageClass='REDUCED_REDUNDANCY',
                         Key=upload_path,
                         Body=xmlFile
                     )
