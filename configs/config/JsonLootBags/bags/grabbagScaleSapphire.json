@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourScaleSapphire",
+  "name": "grabbagArmourScaleSapphire",
+  "human-name": "Sapphire Dragon Scale Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Rare",
+  "effect": false,
+  "colors": [
+    "#2922aa",
+    "#221c89"
+  ]
+}

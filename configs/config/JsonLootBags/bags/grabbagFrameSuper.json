@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourFrameSuper",
+  "name": "grabbagArmourFrameSuper",
+  "human-name": "Super Armour Frame Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Rare",
+  "effect": false,
+  "colors": [
+    "#6FF7DA",
+    "#FBF7F1"
+  ]
+}

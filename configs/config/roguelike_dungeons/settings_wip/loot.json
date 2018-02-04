@@ -1,0 +1,164 @@
+{
+	"name" : "loot",
+	"loot_rules" : [
+		{	
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {
+					"name" : "minecraft:dirt"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "WEAPONS", 
+			"loot" : [
+				{"data" : {
+					"name" : "minecraft:cobblestone"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "BLOCKS", 
+			"loot" : [
+				{"data" : {
+					"name" : "minecraft:stone"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "ENCHANTING", 
+			"loot" : [
+				{"data" : {
+					"name" : "minecraft:book"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "FOOD", 
+			"loot" : [
+				{"data" : {
+					"name" : "minecraft:apple"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "ORE", 
+			"loot" : [
+				{"data" : {
+					"name" : "minecraft:iron_ingot"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "POTIONS", 
+			"loot" : [
+				{"data" : {
+					"name" : "minecraft:carrot"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "STARTER", 
+			"loot" : [
+				{"data" : {
+					"name" : "minecraft:grass"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "TOOLS", 
+			"loot" : [
+				{"data" : {
+					"name" : "minecraft:fish"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "SUPPLIES", 
+			"loot" : [
+				{"data" : {
+					"name" : "minecraft:wood"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "SMITH", 
+			"loot" : [
+				{"data" : {
+					"name" : "camping:sleepingBag"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "MUSIC", 
+			"loot" : [
+				{"data" : {
+					"name" : "camping:sleepingBag"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "REWARD", 
+			"loot" : [
+				{"data" : {
+					"name" : "camping:sleepingBag"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		},
+		{	
+			"type" : "EMPTY", 
+			"loot" : [
+				{"data" : {
+					"name" : "camping:sleepingBag"
+				}}
+			],
+			"level" : [0, 1, 2, 3, 4],
+			"each" : true,
+			"quantity" : 1
+		}
+	],
+	"criteria" : {
+	},
+	"overrides" : [
+		"LOOTRULES"
+	]
+}

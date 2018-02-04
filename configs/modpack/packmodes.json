@@ -1,0 +1,7 @@
+{
+  "modes": [
+    "normal",
+    "scavenger"
+  ],
+  "default": "normal"
+}

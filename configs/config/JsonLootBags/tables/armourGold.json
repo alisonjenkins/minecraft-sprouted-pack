@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_helmet",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_chestplate",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_leggings",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_boots",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "customnpcs:npcGoldSkirt",
+                    "weight": 10
+                }	,
+                {
+                    "type": "item",
+                    "name": "customnpcs:npcFullGoldHead",
+                    "weight": 10
+                }	,
+                {
+                    "type": "item",
+                    "name": "customnpcs:npcFullGoldChest",
+                    "weight": 10
+                }			
+            ]
+        }
+    ]
+}

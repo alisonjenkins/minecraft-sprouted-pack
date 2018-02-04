@@ -1,0 +1,212 @@
+{
+  "pools": [
+    {
+      "name": "common_treasure",
+      "entries": [
+        {
+          "entryName": "minecraft:clay_ball",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 6.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:fortune_enchant"
+            }
+          ],
+          "name": "minecraft:clay_ball"
+        },
+        {
+          "entryName": "minecraft:bowl",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:fortune_enchant"
+            }
+          ],
+          "name": "minecraft:bowl"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:fortune_enchant"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "minecraft:string",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:fortune_enchant"
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "minecraft:stick",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:fortune_enchant"
+            }
+          ],
+          "name": "minecraft:stick"
+        },
+        {
+          "entryName": "terraqueous:item_main",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+			{
+              "data": 108,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:fortune_enchant"
+            }
+          ],
+          "name": "terraqueous:item_main"
+        },
+        {
+          "name": "actuallyadditions:itemWorm",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:fortune_enchant",
+			  "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            },
+			{
+				"function": "set_count",
+				"count": {
+					"min": 1,
+					"max": 3
+				}
+			}
+          ]
+        },
+		{
+          "name": "waterstrainer:worm",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:fortune_enchant",
+			  "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            },
+			{
+				"function": "set_count",
+				"count": {
+					"min": 1,
+					"max": 3
+				}
+			}
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 3.0,
+        "max": 6.0
+      }
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

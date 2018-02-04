@@ -1,0 +1,79 @@
+<!-- An example of how to add the enchantments from Thaumcraft.
+
+  <enchantment name="Thaumcraft:potency" costPerLevel="5" >
+    <itemStack modID="Thaumcraft" itemName="ItemShard" itemMeta="1" />
+  </enchantment>
+
+  <enchantment name="Thaumcraft:frugal" costPerLevel="5" >
+    <itemStack modID="Thaumcraft" itemName="ItemShard" itemMeta="4" />
+  </enchantment>
+
+  <enchantment name="Thaumcraft:wandfortune" costPerLevel="5" >
+    <itemStack modID="Thaumcraft" itemName="blockCustomPlant" itemMeta="1" />
+  </enchantment>
+
+  <enchantment name="Thaumcraft:haste" costPerLevel="5" >
+    <itemStack modID="Thaumcraft" itemName="blockMetalDevice" itemMeta="8" />
+  </enchantment>
+
+  <enchantment name="Thaumcraft:repair" costPerLevel="15" >
+    <itemStack modID="Thaumcraft" itemName="BlockJarNodeItem" />
+  </enchantment>
+
+-->
+
+<enchaterRecipes>
+
+	<enchantment name="arsmagica2:soulbound" costPerLevel="15">
+		<itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="8" />
+	</enchantment>
+	<enchantment name="silentgems:LifeSteal" costPerLevel="8">
+		<itemStack modID="aquaculture" itemName="fish" itemMeta="19" number="4" />
+	</enchantment>
+	<enchantment name="silentgems:Gravity" costPerLevel="10">
+		<itemStack modID="silentgems" itemName="CraftingMaterial" itemMeta="19" number="2" />
+	</enchantment>
+	<enchantment name="silentgems:LightningAspect" costPerLevel="12">
+		<itemStack modID="minecraft" itemName="glowstone_dust" number="4" />
+	</enchantment>
+	<enchantment name="imc:enchantment_health_draining" costPerLevel="8">
+		<itemStack modID="terraqueous" itemName="multifood" itemMeta="13" number="4"/>
+	</enchantment>
+	<enchantment name="imc:enchantment_health_bonus" costPerLevel="8">
+		<itemStack modID="terraqueous" itemName="multifood" itemMeta="12" number="4"/>
+	</enchantment>
+	<enchantment name="imc:enchantment_speed" costPerLevel="14">
+		<itemStack modID="minecraft" itemName="sugar" number="32"/>
+	</enchantment>
+	<enchantment name="astralsorcery:enchantment.as.nightvision" costPerLevel="22">
+		<itemStack modID="minecraft" itemName="golden_carrot" number="4"/>
+	</enchantment>
+	<enchantment name="wired:technophobic" costPerLevel="4">
+		<itemStack modID="quadrum" itemName="damagedCapacitor" number="1"/>
+	</enchantment>
+	<enchantment name="dungeontactics:runed">
+		<itemStack modID="arsmagica2" itemName="blank_rune" number="8"/>
+	</enchantment>
+	<enchantment name="arsmagica2:magicResist" costPerLevel="6">
+		<itemStack modID="botania" itemName="manaResource" itemMeta="22" number="4"/>
+	</enchantment>
+	<enchantment name="dungeontactics:smelting">
+		<itemStack modID="lit" itemName="ImprovedFurnaceBlcok" number="2"/>
+	</enchantment>
+	<enchantment name="dungeontactics:berserking" costPerLevel="12">
+		<itemStack modID="silentgems" itemName="CraftingMaterial" itemMeta="27" number="4"/>
+	</enchantment>
+	<enchantment name="silentgems:IceAspect" costPerLevel="14">
+		<itemStack modID="minecraft" itemName="packed_ice" number="2"/>
+	</enchantment>
+	<enchantment name="silentgems:MagicDamage" costPerLevel="3">
+		<itemStack modID="botania" itemName="quartz" itemMeta="2" number="8"/>
+	</enchantment>
+	<enchantment name="endercore:xpboost" costPerLevel="6">
+		<itemStack modID="EnderIO" itemName="itemXpTransfer"/>
+	</enchantment>
+  <enchantment name="minecraft:mending">
+    <itemStack modID="silentgems" itemName="CraftingMaterial" itemMeta="20"/>
+  </enchantment>
+	
+</enchaterRecipes>

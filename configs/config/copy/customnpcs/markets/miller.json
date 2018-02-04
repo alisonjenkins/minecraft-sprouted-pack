@@ -1,0 +1,36 @@
+{
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "terraqueous:hay",
+                "Count": 1b,
+                "Damage": 5s
+            },
+            {
+                "Slot": 3b,
+                "id": "minecraft:hay_block",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "TraderIgnoreDamage": 0b,
+    "TraderIgnoreNBT": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "customnpcs:npcCoinBronze",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 2b,
+                "Damage": 0s
+            }
+        ]
+    }
+}

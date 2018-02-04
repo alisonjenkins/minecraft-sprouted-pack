@@ -1,0 +1,7 @@
+{
+	"dialogs.travellerIntro": 
+	{
+		"category": "player",
+		"sounds": ["dialogs.travellerIntro"]
+	}
+}

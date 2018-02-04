@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourBattleMage",
+  "name": "grabbagArmourBattleMage",
+  "human-name": "Battlemage Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Rare",
+  "effect": false,
+  "colors": [
+    "#F6E91C",
+    "#3D3121"
+  ]
+}

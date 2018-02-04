@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourEnori",
+  "name": "grabbagArmourEnori",
+  "human-name": "Enori Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Uncommon",
+  "effect": false,
+  "colors": [
+    "#DAE8E7",
+    "#EBFAF8"
+  ]
+}

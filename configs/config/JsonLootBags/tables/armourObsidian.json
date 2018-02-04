@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "actuallyadditions:itemHelmObsidian",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "actuallyadditions:itemChestObsidian",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "actuallyadditions:itemPantsObsidian",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "actuallyadditions:itemBootsObsidian",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

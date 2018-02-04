@@ -1,0 +1,678 @@
+{
+    "CompleterNpc": "Traveller",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 1b,
+    "Title": "Basic Tools",
+    "Text": "Access to wood means you can make yourself a crafting table, which in turn gives you the means to create more robust tools.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 20,
+    "QuestCommand": "",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1503719163976L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 1b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "ironbackpacks:basicBackpack",
+                "Count": 1b,
+                "tag": {
+                    "SortType": "id",
+                    "Upgrades": [
+                        {
+                            "id": "ironbackpacks:upgrade",
+                            "Count": 1b,
+                            "Damage": 4s
+                        }
+                    ],
+                    "RepairCost": 0,
+                    "MostSigUUID": -2390766290101057184L,
+                    "LeastSigUUID": -9088152903270120887L,
+                    "display": {
+                        "Name": "§rStarter Kit"
+                    },
+                    "Items": [
+                        {
+                            "Slot": 0b,
+                            "id": "akashictome:tome",
+                            "Count": 1b,
+                            "tag": {
+                                "akashictome:data": {
+                                    "silentgems": {
+                                        "id": "silentgems:guide_book",
+                                        "Count": 1b,
+                                        "tag": {
+                                            "akashictome:definedMod": "silentgems"
+                                        },
+                                        "Damage": 0s
+                                    },
+                                    "astralsorcery": {
+                                        "id": "astralsorcery:ItemJournal",
+                                        "Count": 1b,
+                                        "tag": {
+                                            "akashictome:definedMod": "astralsorcery"
+                                        },
+                                        "Damage": 0s
+                                    },
+                                    "gbook": {
+                                        "id": "gbook:guidebook",
+                                        "Count": 1b,
+                                        "tag": {
+                                            "akashictome:definedMod": "gbook",
+                                            "Book": "minecolonies:book/minecolonies.xml"
+                                        },
+                                        "Damage": 0s
+                                    }
+                                }
+                            },
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 1b,
+                            "id": "minecraft:apple",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 2b,
+                            "id": "minecraft:apple",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 3b,
+                            "id": "sleepingbag:sleepingbag",
+                            "Count": 1b,
+                            "tag": {
+                                "ENABLED": 1b,
+                                "RARITY": 2
+                            },
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 4b,
+                            "id": "minecraft:apple",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 5b,
+                            "id": "waystones:warpStone",
+                            "Count": 1b,
+                            "tag": {
+                                "ench": [
+                                    {
+                                        "lvl": 1s,
+                                        "id": 11s
+                                    }
+                                ],
+                                "RepairCost": 1
+                            },
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 6b,
+                            "id": "minecraft:apple",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 7b,
+                            "id": "minecraft:apple",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 8b,
+                            "id": "craftingcraft:portableCraftingTable",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 9b,
+                            "id": "scalinghealth:CrystalShard",
+                            "Count": 9b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 10b,
+                            "id": "minecraft:apple",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 11b,
+                            "id": "minecraft:apple",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 12b,
+                            "id": "customnpcs:npcMailbox",
+                            "Count": 1b,
+                            "Damage": 1s
+                        },
+                        {
+                            "Slot": 13b,
+                            "id": "minecraft:apple",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 14b,
+                            "id": "waystones:waystone",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 15b,
+                            "id": "minecraft:apple",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 16b,
+                            "id": "minecraft:apple",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        {
+                            "Slot": 17b,
+                            "id": "scalinghealth:CrystalShard",
+                            "Count": 9b,
+                            "Damage": 0s
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "bibliocraft:BigBook",
+                "Count": 1b,
+                "tag": {
+                    "pagesCurrent": 0,
+                    "pages": {
+                        "page5": [
+                            "§n§lFriday 17th",
+                            "",
+                            "While talking with a friend earlier, he",
+                            "told me I should make sure to",
+                            "register my profession and regularly",
+                            "apply my experience in developing",
+                            "my skills.",
+                            "What he said after that didn't make",
+                            "much sense though - what in world",
+                            "does ",
+                            "§l\"Press semicolon [;] to choose§l",
+                            "§lyour class\"",
+                            "even mean???",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        "page4": [
+                            "§n§lThursday 16th",
+                            "",
+                            "This evening I found myself fleeing",
+                            "yet another hoard of angry zombies,",
+                            "and sought shelter at the nearby ",
+                            "Slayer's Guild. To my surprise, they",
+                            "were more interested in chasing me",
+                            "away than helping with my zombie",
+                            "problem! I mean, sure, I didn't exactly",
+                            "charge the zombies brandishing a",
+                            "blade, but I'm no warrior. I can only",
+                            "guess that those folk only respect",
+                            "those who've proven themselves in ",
+                            "combat. Pity I didn't ask that",
+                            "Armourer to give me some training...",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        "page3": [
+                            "§n§lWednesday 15th",
+                            "",
+                            "I passed by a monastery earlier,",
+                            "delivering some supplies to the Monks.",
+                            "While I was there they asked me to",
+                            "tell them about my travels, so I told",
+                            "them of the rare red heart crystals",
+                            "I've been collecting. They certainly",
+                            "seemed quite interested, and asked if",
+                            "I could bring some to show them next",
+                            "time I happened by.",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        "pageScale0": [0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                        "page2": [
+                            "§n§lTuesday 14th",
+                            "",
+                            "Today I stopped at a village, hoping",
+                            "to purchase some armour. The",
+                            "local armourer however, wanted me ",
+                            "to prove I'd make good use of it by",
+                            "slaying some monsters. Needless to",
+                            "say, I promptly fled! I wanted the ",
+                            "armour to protect me from monsters,",
+                            "not to hunt them!",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        "page1": [
+                            "§n§lMonday 13th",
+                            "",
+                            "Today I found myself accosted by a ",
+                            "rather strange salesman. He insisted",
+                            "on giving me a so-called Akashic Tome,",
+                            "which I confess to knowing very little",
+                            "about. He told me that it can store the",
+                            "knowledge of many books in it's pages,",
+                            "while taking only the space of a short",
+                            "novel.",
+                            "Experimenting with it, I found I can",
+                            "add to it by simply crafting books with",
+                            "it. Then, when opening it I simply have",
+                            "to will it to be that book and voila, it",
+                            "is. It took me a while to figure out how",
+                            "to get it back to its normal form, but",
+                            "in the end it happened when I tried",
+                            "to sneakily hit my horse with it (tried,",
+                            "but missed).",
+                            "Surprisingly, it even lets me stick the",
+                            "loose constellation papers in the",
+                            "back of my Astral Journal.",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        "page0": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "Journal",
+                            "Private. Don't Read!",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        "pageScale2": [5,0,3,3,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                        "pageScale1": [5,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                        "pageScale4": [5,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                        "pageScale3": [5,0,3,3,3,3,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                        "pageScale5": [5,0,3,3,3,3,3,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+                    },
+                    "chapters": {
+                        "chapline7": "Slayers?!",
+                        "chapline6": "Thurs. 16th",
+                        "chapline10": "",
+                        "chapline5": "Heart Crystal",
+                        "chapline4": "Wed. 15th",
+                        "chapline3": "The Armourer",
+                        "chapline2": "Tues. 14th",
+                        "chapline1": "Akashic Tome",
+                        "chapline0": "Mon. 13th",
+                        "chapline15": "",
+                        "chapline13": "",
+                        "chapline14": "",
+                        "chapline11": "",
+                        "chapline12": "",
+                        "chapPages": [1,2,3,4,5,0,0,0],
+                        "chapBools": [1,1,1,1,1,0,0,0],
+                        "chapline9": "Class..?",
+                        "chapline8": "Fri. 17th"
+                    },
+                    "author": "a traveller",
+                    "display": {
+                        "Name": "§fTraveller's Journal"
+                    },
+                    "signed": 1b,
+                    "pagesTotal": 6
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "silentgems:Sword",
+                "Count": 1b,
+                "tag": {
+                    "SGProperties": {
+                        "ToolTier": 0,
+                        "MeleeDamage": 1.5f,
+                        "MagicDamage": 0.0f,
+                        "Enchantability": 8,
+                        "ChargeSpeed": 0.5f,
+                        "HarvestSpeed": 5.0f,
+                        "Durability": 128,
+                        "MeleeSpeed": 1.1f,
+                        "HarvestLevel": 1,
+                        "BlockingPower": 0.4f
+                    },
+                    "SGStatistics": {
+                        "OriginalOwner": "a cheater!"
+                    },
+                    "SGConstruction": {
+                        "PartRod": "SilentGems:RodWood#NONE",
+                        "Part0": "SilentGems:flint#NONE",
+                        "Part2": "SilentGems:flint#NONE",
+                        "Part1": "SilentGems:flint#NONE"
+                    },
+                    "display": {
+                        "Name": "Flint Sword"
+                    },
+                    "ENABLED": 1b,
+                    "SGModel": {
+                        "Layer0": 702,
+                        "Layer1Color": 16777215,
+                        "Layer2Color": 16777215,
+                        "Layer3Color": 16777215,
+                        "Layer6": -1,
+                        "Layer5": -1,
+                        "Layer4": -1,
+                        "Layer3": 596,
+                        "Layer2": 548,
+                        "Layer0Color": 16777215,
+                        "Layer1": 311
+                    },
+                    "RARITY": 1
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "silentgems:Axe",
+                "Count": 1b,
+                "tag": {
+                    "SGProperties": {
+                        "ToolTier": 0,
+                        "MeleeDamage": 1.5f,
+                        "MagicDamage": 0.0f,
+                        "Enchantability": 8,
+                        "ChargeSpeed": 0.5f,
+                        "HarvestSpeed": 5.0f,
+                        "Durability": 128,
+                        "MeleeSpeed": 1.1f,
+                        "HarvestLevel": 1,
+                        "BlockingPower": 0.4f
+                    },
+                    "SGStatistics": {
+                        "OriginalOwner": "a cheater!"
+                    },
+                    "SGConstruction": {
+                        "PartRod": "SilentGems:RodWood#NONE",
+                        "Part0": "SilentGems:flint#NONE",
+                        "Part2": "SilentGems:flint#NONE",
+                        "Part1": "SilentGems:flint#NONE"
+                    },
+                    "display": {
+                        "Name": "Flint Axe"
+                    },
+                    "ENABLED": 1b,
+                    "SGModel": {
+                        "Layer0": 368,
+                        "Layer1Color": 16777215,
+                        "Layer2Color": 16777215,
+                        "Layer3Color": 16777215,
+                        "Layer6": -1,
+                        "Layer5": -1,
+                        "Layer4": -1,
+                        "Layer3": 1080,
+                        "Layer2": 972,
+                        "Layer0Color": 16777215,
+                        "Layer1": 885
+                    },
+                    "RARITY": 1
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "silentgems:Pickaxe",
+                "Count": 1b,
+                "tag": {
+                    "SGProperties": {
+                        "ToolTier": 0,
+                        "MeleeDamage": 1.5f,
+                        "MagicDamage": 0.0f,
+                        "Enchantability": 8,
+                        "ChargeSpeed": 0.5f,
+                        "HarvestSpeed": 5.0f,
+                        "Durability": 128,
+                        "MeleeSpeed": 1.1f,
+                        "HarvestLevel": 1,
+                        "BlockingPower": 0.4f
+                    },
+                    "SGStatistics": {
+                        "OriginalOwner": "a cheater!"
+                    },
+                    "SGConstruction": {
+                        "PartRod": "SilentGems:RodWood#NONE",
+                        "Part0": "SilentGems:flint#NONE",
+                        "Part2": "SilentGems:flint#NONE",
+                        "Part1": "SilentGems:flint#NONE"
+                    },
+                    "display": {
+                        "Name": "Flint Pickaxe"
+                    },
+                    "SGModel": {
+                        "Layer0": 1305,
+                        "Layer1Color": 16777215,
+                        "Layer2Color": 16777215,
+                        "Layer3Color": 16777215,
+                        "Layer6": -1,
+                        "Layer5": -1,
+                        "Layer4": -1,
+                        "Layer3": 753,
+                        "Layer2": 871,
+                        "Layer0Color": 16777215,
+                        "Layer1": 1323
+                    }
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "LeaveItems": 1b,
+    "CompleteText": "Now you're armed and ready to take on the world. Go. Explore. Meet new people. Maybe some of them will have tasks for you too?",
+    "NextQuestTitle": ""
+}

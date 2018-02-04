@@ -1,0 +1,75 @@
+{
+    "CompleterNpc": "Undeath Slayer",
+    "NextQuestId": -1,
+    "RandomReward": 1b,
+    "QuestRepeat": 2,
+    "QuestCompletion": 0,
+    "Title": "That's a Wrap!",
+    "Text": "The desert isn't so deserted it seems, since the Slayer's Guild has contracted you to take care of some not so dead mummies. They've been reported to roam the sands under the cover of darkness, and the contract is for 3.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": 3,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 30,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 30,
+    "QuestCommand": "",
+    "QuestDialogs": [
+        {
+            "Value": 3,
+            "Slot": "grimoireofgaia.Mummy"
+        }
+    ],
+    "ModRev": 18,
+    "Type": 2,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1496203852140L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "grimoireofgaia:spawnguard",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "grimoireofgaia:item.Box",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "jsonlootbags:grabbagArmourFrameRegular",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "scalinghealth:CrystalShard",
+                "Count": 2b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "CompleteText": "",
+    "NextQuestTitle": ""
+}

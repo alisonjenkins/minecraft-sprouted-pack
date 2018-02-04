@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "botania:elementiumHelm",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "botania:elementiumChest",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "botania:elementiumLegs",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "botania:elementiumBoots",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

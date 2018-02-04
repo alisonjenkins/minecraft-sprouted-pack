@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourManaweave",
+  "name": "grabbagArmourManaweave",
+  "human-name": "Manaweave Robes Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Uncommon",
+  "effect": false,
+  "colors": [
+    "#1EDFBF",
+    "#1AB69C"
+  ]
+}

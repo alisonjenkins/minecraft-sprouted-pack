@@ -1,0 +1,58 @@
+{
+    "CompleterNpc": "Monk",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "A Healthy Task",
+    "Text": "A Monk has tasked you to collect some rare heart crystals he's heard tales of. He seemed to think he might be able to make something of value from it...",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 20,
+    "QuestCommand": "",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1492935384218L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 4b,
+                "id": "scalinghealth:HeartContainer",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "scalinghealth:CrystalShard",
+                "Count": 9b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "Hmmm, yes, yes! I think this crystal is overflowing with life energy. I should be able to fashion an enchanted vessel from these which should imbue you with improved vitality. In fact, yes, that wasn't so hard, here's what I hope will be the first of many. I'll let you have this one for free. If you find any more of that crystal, bring it to me, and I can turn it into more of these Heart Containers, but I'm not giving out any more freebies, you'll have to pay for the labour.",
+    "NextQuestTitle": ""
+}

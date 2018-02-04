@@ -1,0 +1,121 @@
+{
+    "CompleterNpc": "Armourer",
+    "NextQuestId": -1,
+    "RandomReward": 1b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "Title": "Thinning the Herd",
+    "Text": "The local armourer has requested you help the village out by killing off some of the dark creatures that plague them by moonlight. Completing this will make show him you are worth selling armour to.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": 3,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 100,
+    "QuestCommand": "",
+    "QuestDialogs": [
+        {
+            "Value": 10,
+            "Slot": "Zombie"
+        },
+        {
+            "Value": 5,
+            "Slot": "Creeper"
+        },
+        {
+            "Value": 10,
+            "Slot": "Skeleton"
+        }
+    ],
+    "ModRev": 18,
+    "Type": 2,
+    "QuestMail": {
+        "Sender": "Guildmaster Kingle",
+        "BeenRead": 0b,
+        "Message": {
+            "pages": [
+                "It's come to our attention that you undertook a monster hunting contract from a certain armourer. By rights, he should have brought his request to us, so any reward should have come through our Guild. However, we have chosen to overlook it, and in light",
+                "of your exemplary performance completing his contract, we would like to formally invite you to join our guild. If you wish to accept, come speak with me at the guild. Attached is some heart crystal, as a gesture of good faith."
+            ]
+        },
+        "MailItems": [
+            {
+                "Slot": 0b,
+                "id": "imc:item_present",
+                "Count": 1b,
+                "tag": {
+                    "hidden_present": {
+                        "id": "scalinghealth:CrystalShard",
+                        "Count": 9b,
+                        "Damage": 0s
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "imc:item_present",
+                "Count": 1b,
+                "tag": {
+                    "hidden_present": {
+                        "id": "scalinghealth:CrystalShard",
+                        "Count": 1b,
+                        "Damage": 0s
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "imc:item_present",
+                "Count": 1b,
+                "tag": {
+                    "hidden_present": {
+                        "id": "scalinghealth:CrystalShard",
+                        "Count": 1b,
+                        "Damage": 0s
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "imc:item_present",
+                "Count": 1b,
+                "tag": {
+                    "hidden_present": {
+                        "id": "scalinghealth:CrystalShard",
+                        "Count": 1b,
+                        "Damage": 0s
+                    }
+                },
+                "Damage": 0s
+            }
+        ],
+        "MailQuest": -1,
+        "TimePast": 5471958270L,
+        "Time": 1498352969534L,
+        "Subject": "Invitation to the Slayer's Guild"
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "jsonlootbags:grabbagArmourIron",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "jsonlootbags:grabbagArmourLeather",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "CompleteText": "Thanks for giving us a hand there. You're welcome to browse my wares anytime you like.",
+    "NextQuestTitle": ""
+}

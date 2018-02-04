@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "roots:druidArmorHead",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "roots:druidArmorChest",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "roots:druidArmorLegs",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "roots:druidArmorBoots",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

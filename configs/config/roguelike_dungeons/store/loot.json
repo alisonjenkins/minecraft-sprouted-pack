@@ -1,0 +1,24 @@
+{
+	"name" : "loot",
+	"inherit" : [
+		"loot_all",
+		"loot0",
+		"loot1",
+		"loot2",
+		"loot3",
+		"loot4"
+	],
+	"criteria" : {
+	},
+	"overrides" : [
+		"LOOTRULES"
+	],
+	"levels" : {
+		"0" : {
+			"secrets" : [
+				{"type": "SMITH", "num" : 2},
+				{"type": "BEDROOM", "num" : 2}
+			]
+		}	
+	}
+}

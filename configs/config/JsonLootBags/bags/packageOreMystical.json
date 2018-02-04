@@ -1,0 +1,8 @@
+{
+  "loot-table": "jsonlootbags:oreMystical",
+  "name": "packageOreMystical",
+  "human-name": "Mystical Ore Package",
+  "texture": "dungeontactics:bag_ore",
+  "rarity": "Uncommon",
+  "effect": false
+}

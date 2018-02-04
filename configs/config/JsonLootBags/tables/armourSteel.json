@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "railcraft:armor_helmet_steel",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "railcraft:armor_chestplate_steel",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "railcraft:armor_leggings_steel",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "railcraft:armor_boots_steel",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

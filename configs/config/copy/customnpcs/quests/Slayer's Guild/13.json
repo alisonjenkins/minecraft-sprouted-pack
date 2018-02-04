@@ -1,0 +1,61 @@
+{
+    "CompleterNpc": "Undeath Slayer",
+    "NextQuestId": -1,
+    "RandomReward": 1b,
+    "QuestRepeat": 1,
+    "QuestCompletion": 0,
+    "Title": "Death to the Dead",
+    "Text": "You've been contracted to kill many undead by the Slayer's Guild. Namely, zombies and skeletons. There's plenty around, so it shouldn't prove too difficult.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": 3,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 10,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 25,
+    "QuestCommand": "",
+    "QuestDialogs": [
+        {
+            "Value": 25,
+            "Slot": "Zombie"
+        },
+        {
+            "Value": 25,
+            "Slot": "Skeleton"
+        }
+    ],
+    "ModRev": 18,
+    "Type": 2,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1496203948939L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "scalinghealth:CrystalShard",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "CompleteText": "After getting knee deep in decaying bodies, you return to the Guild for your reward.",
+    "NextQuestTitle": ""
+}

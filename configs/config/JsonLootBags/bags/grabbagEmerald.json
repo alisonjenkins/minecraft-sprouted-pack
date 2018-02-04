@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourEmerald",
+  "name": "grabbagArmourEmerald",
+  "human-name": "Emerald Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Rare",
+  "effect": false,
+  "colors": [
+    "#47AD05",
+    "#60E10C"
+  ]
+}

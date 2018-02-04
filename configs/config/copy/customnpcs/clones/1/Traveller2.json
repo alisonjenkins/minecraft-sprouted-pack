@@ -1,0 +1,704 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.9577465f,
+        "Explosion": 1.9577465f,
+        "Knockback": 1.0f,
+        "Melee": 1.9577465f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 2,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs.CustomNpc",
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.arrow.hit",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "bibliocraft:BigBook",
+                "Count": 1b,
+                "tag": {
+                    "pagesCurrent": 0,
+                    "pages": {
+                        "pageScale0": [7,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                        "page2": [
+                            "Warping to Waystones:",
+                            "",
+                            "The main method of warping to",
+                            "waystones is with the §5Warp Stone.",
+                            "Holding right click with this item",
+                            "lets you choose which of the",
+                            "waystones you've discovered to",
+                            "travel to.",
+                            "",
+                            "Before you can warp to a waystone,",
+                            "You must §2activate§2 §0it by right clicking",
+                            "on it.",
+                            "",
+                            "You can also warp using §5Recall",
+                            "§5Scrolls§0. These must be linked to",
+                            "specific waystones, and will warp",
+                            "the user directly to that waystone,",
+                            "whether they have prior knowledge",
+                            "of it or not.",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        "page1": [
+                            "Where to find them:",
+                            "",
+                            "",
+                            "Waystones can be found in 3 places",
+                            "normally;",
+                            "- At world spawn",
+                            "- In villages",
+                            "- Randomly in the wilderness",
+                            "",
+                            "",
+                            "",
+                            "They can also be crafted and",
+                            "placed wherever they are needed.",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        "page0": [
+                            "On Waystones;",
+                            "",
+                            "Waystones can be found in many",
+                            "places around the world. See the",
+                            "tabs to the right for more info.",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        "pageScale2": [6,0,3,3,3,3,3,3,0,3,3,3,0,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                        "pageScale1": [6,3,3,3,3,3,3,3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+                    },
+                    "chapters": {
+                        "chapline7": "",
+                        "chapline6": "",
+                        "chapline10": "",
+                        "chapline5": "Warping",
+                        "chapline4": "",
+                        "chapline3": "Where?",
+                        "chapline2": "",
+                        "chapline1": "Home",
+                        "chapline0": "",
+                        "chapline15": "",
+                        "chapline13": "",
+                        "chapline14": "",
+                        "chapline11": "",
+                        "chapline12": "",
+                        "chapPages": [0,1,2,0,0,0,0,0],
+                        "chapBools": [1,1,1,0,0,0,0,0],
+                        "chapline9": "",
+                        "chapline8": ""
+                    },
+                    "author": "a traveller",
+                    "display": {
+                        "Name": "§fOn Waystones"
+                    },
+                    "signed": 1b,
+                    "pagesTotal": 3
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "HurtTime": 0s,
+    "WalkingRange": 4,
+    "ShotCount": 1,
+    "pDur": 5,
+    "TraderIgnoreDamage": 0b,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/humanmale/VillagerSteve2.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "TargetType": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "pEffect": 0,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "SpecialAggroRange": 14,
+    "TraderMarket": "",
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 8339,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 0,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "am2.burnoutReduction"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.manaRegenModifier"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxBurnoutBonus"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxManaBonus"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.xpMultiplier"
+        },
+        {
+            "Base": 100.0d,
+            "Name": "cyberware.tolerance"
+        },
+        {
+            "Base": 20.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -4557935957806527035L,
+                    "UUIDLeast": -4950522221421205810L,
+                    "Amount": 0.202972412109375d,
+                    "Operation": 1,
+                    "Name": "ScalingHealth.HealthModifier"
+                }
+            ],
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.15000000596046448d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3218372695593237220L,
+                    "UUIDLeast": -8743736172551149415L,
+                    "Amount": 0.35901883244514465d,
+                    "Operation": 0,
+                    "Name": "ScalingHealth.DamageModifier"
+                }
+            ],
+            "Name": "generic.attackDamage"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 1b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Traveller",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+    ],
+    "NPCDialogOptions": [
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 61,
+                "Title": "Alt Start2",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 0
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 60,
+                "Title": "Start2",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 1
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 5,
+                "Title": "Who",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 2
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 6,
+                "Title": "Help",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 3
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 8,
+                "Title": "Waystones",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 4
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 7,
+                "Title": "Surviving",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 6
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 10,
+                "Title": "Surviving2",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 7
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 11,
+                "Title": "Surviving3",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 8
+        }
+    ],
+    "AggroRange": 5,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "llibrary:ExtendedEntityDataCapability": {
+        },
+        "dsurround:emojiData": {
+            "as": 0,
+            "es": 0,
+            "et": 0
+        },
+        "arsmagica2:ExtendedProp": {
+            "AM2": {
+                "CurrentBurnout": 0.0f,
+                "MarkX": 0.0d,
+                "HealCooldown": 0,
+                "TK_Distance": 8.0f,
+                "Shrunk": 0b,
+                "MarkY": 0.0d,
+                "MarkZ": 0.0d,
+                "FallProtection": 0.0f,
+                "AffinityHealCooldown": 0,
+                "CurrentLevel": 1,
+                "Contingency": {
+                    "Type": "null"
+                },
+                "CurrentSummons": 0,
+                "MarkDimensionId": -512,
+                "CurrentXP": 0.0f,
+                "Inverted": 0b,
+                "ManaShielding": 0.0f,
+                "CurrentMana": 500.85f
+            }
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": -1b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 6724056,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 1,
+    "MoveSpeed": 3,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "TraderIgnoreNBT": 0b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MaxHealth": 20,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "MP|Init": 1b,
+        "PlayerPersisted": {
+        }
+    },
+    "MovingState": 1,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 1,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "ModRev": 18,
+    "Accuracy": 60,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 0b,
+    "Scripts": [
+    ],
+    "Health": 24.059448f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 1,
+    "Title": "",
+    "TotalTicksAlive": 1144935L,
+    "Rotation": [
+        139.14482f,
+        0.0f
+    ],
+    "ShowName": 1,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

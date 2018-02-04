@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "dungeontactics:flight_goggles",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:battle_harness",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:engineer_dungarees",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:engineer_doorag",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

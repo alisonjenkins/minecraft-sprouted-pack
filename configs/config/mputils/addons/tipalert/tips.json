@@ -1,0 +1,27 @@
+{
+  "BLOCK_LOOKING_AT": [
+    {
+      "tipID": "wood",
+      "tipName": "Birdsnests",
+      "block": "minecraft:log",
+      "desc": "Birds sometimes make their nests in the leaves of trees, maybe they'll have left some goodies in them?",
+      "useOreDictonary": true
+    }
+  ],
+  "DIMENSION": [
+    {
+      "tipID": "overworld",
+      "tipName": "Level Up!",
+      "dimid": 0,
+      "desc": "Press L to access the "Level Up!" menu and use your exp to choose a class and allocate skillpoints!"
+    }
+  ],
+  "ON_ENTITY_KILL": [
+    {      
+      "tipID": "lootBags",
+      "entityID": "zombie",
+      "tipName": "Loot Bags?",
+      "desc": "Mobs sometimes drop various loot bags. Open them up for a bunch of different goodies!"
+    }
+  ]
+}

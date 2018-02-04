@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "dungeontactics:jewelled_helmet",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:jewelled_chestplate",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:jewelled_leggings",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:jewelled_boots",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

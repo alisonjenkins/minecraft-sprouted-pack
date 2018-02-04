@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourDiamond",
+  "name": "grabbagArmourDiamond",
+  "human-name": "Diamond Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Rare",
+  "effect": false,
+  "colors": [
+    "#3AD0EB",
+    "#3DE1FE"
+  ]
+}

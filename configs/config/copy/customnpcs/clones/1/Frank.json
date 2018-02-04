@@ -1,0 +1,3131 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "id": "quadrum:damagedCapacitor",
+            "Count": 4b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "id": "quadrum:damagedCapacitor",
+            "Count": 2b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "id": "quadrum:damagedCapacitor",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "id": "quadrum:damagedCapacitor",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "id": "jsonlootbags:grabbagArmourTactical",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 5b,
+            "id": "jsonlootbags:grabbagArmourActuallyAdditions",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 1,
+    "PotionEffect": 4,
+    "Size": 6,
+    "stopAndInteract": 0b,
+    "Resistances": {
+        "Arrow": 1.5070423f,
+        "Explosion": 1.2535211f,
+        "Knockback": 0.64788735f,
+        "Melee": 0.8450704f
+    },
+    "BossBar": 1b,
+    "RespawnTime": 0,
+    "NpcAngrySound": "dsurround:battle.wither",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 4,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs.CustomNpc",
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 1b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:block.fire.extinguish",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 5,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 4,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "SpawnerType": 0,
+    "BurnInSun": 0b,
+    "StandingState": 2,
+    "AttackInvisible": 0b,
+    "HurtTime": 0s,
+    "SpawnerDoesntDie": 1b,
+    "WalkingRange": 10,
+    "ShotCount": 3,
+    "pDur": 5,
+    "AttackRange": 1,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "cyberware:textures/models/cyberzombie.png",
+    "NpcJob": 6,
+    "BurstCount": 3,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "SpawnerYOffset": 0,
+    "pSpeed": 3,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 2,
+    "MoveState": 0,
+    "TargetType": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "pEffect": 0,
+    "DistanceToMelee": 3,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "DespawnOnTargetLost": 1b,
+    "SpecialAggroRange": 14,
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "SpawnerZOffset": 0,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 63811,
+    "pSpin": 1b,
+    "NpcHurtSound": "grimoireofgaia:minotaur_hurt",
+    "pTrail": 0,
+    "CreatureType": 1,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "am2.burnoutReduction"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.manaRegenModifier"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxBurnoutBonus"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxManaBonus"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.xpMultiplier"
+        },
+        {
+            "Base": 100.0d,
+            "Name": "cyberware.tolerance"
+        },
+        {
+            "Base": 20.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -4557935957806527035L,
+                    "UUIDLeast": -4950522221421205810L,
+                    "Amount": 5.202455520629883d,
+                    "Operation": 1,
+                    "Name": "ScalingHealth.HealthModifier"
+                }
+            ],
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.3499999940395355d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 4.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3218372695593237220L,
+                    "UUIDLeast": -8743736172551149415L,
+                    "Amount": 0.7468622922897339d,
+                    "Operation": 0,
+                    "Name": "ScalingHealth.DamageModifier"
+                }
+            ],
+            "Name": "generic.attackDamage"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Frank",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "id": "cyberware:katana",
+            "Count": 1b,
+            "tag": {
+                "ENABLED": 1b,
+                "RARITY": 1
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "id": "arsmagica2:binding_catalyst",
+            "Count": 1b,
+            "Damage": 7s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 10,
+    "DirectLOS": 1b,
+    "HealthRegen": 10,
+    "ForgeCaps": {
+        "llibrary:ExtendedEntityDataCapability": {
+        },
+        "dsurround:emojiData": {
+            "as": 0,
+            "es": 0,
+            "et": 0
+        },
+        "arsmagica2:ExtendedProp": {
+            "AM2": {
+                "CurrentBurnout": 0.0f,
+                "MarkX": 0.0d,
+                "HealCooldown": 0,
+                "TK_Distance": 8.0f,
+                "Shrunk": 0b,
+                "MarkY": 0.0d,
+                "MarkZ": 0.0d,
+                "FallProtection": 0.0f,
+                "AffinityHealCooldown": 0,
+                "CurrentLevel": 0,
+                "Contingency": {
+                    "Type": "null"
+                },
+                "CurrentSummons": 0,
+                "MarkDimensionId": -512,
+                "CurrentXP": 0.0f,
+                "Inverted": 0b,
+                "ManaShielding": 0.0f,
+                "CurrentMana": 500.0f
+            }
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 11685080,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "EntityClass": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 7,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.stone.break",
+    "SpawnerXOffset": 0,
+    "MaxHealth": 20,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 20,
+    "PotionDuration": 10,
+    "maxDelay": 60,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 50,
+            "Slot": 1
+        },
+        {
+            "Integer": 25,
+            "Slot": 2
+        },
+        {
+            "Integer": 10,
+            "Slot": 3
+        },
+        {
+            "Integer": 75,
+            "Slot": 4
+        },
+        {
+            "Integer": 75,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "AimWhileShooting": 1b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 1b,
+    "CanDrown": 0b,
+    "SpawnerId": "9esSQccf",
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "PlayerPersisted": {
+        }
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "SpawnerNBT3": {
+        "ReturnToStart": 1b,
+        "NpcInv": [
+        ],
+        "BossColor": 0,
+        "PotionEffect": 0,
+        "Size": 4,
+        "stopAndInteract": 1b,
+        "Resistances": {
+            "Arrow": 0.0f,
+            "Explosion": 1.0f,
+            "Knockback": 1.0f,
+            "Melee": 1.3098592f
+        },
+        "BossBar": 0b,
+        "RespawnTime": 0,
+        "NpcAngrySound": "",
+        "ReactsToFire": 0b,
+        "IgnoreCobweb": 0b,
+        "PositionOffsetZ": 5.0f,
+        "PositionOffsetY": 5.0f,
+        "PositionOffsetX": 5.0f,
+        "LootMode": 0,
+        "TransformHasAI": 0b,
+        "AttackStrenght": 6,
+        "PersistenceRequired": 0b,
+        "id": "customnpcs.CustomNpc",
+        "MovingPatern": 0,
+        "NpcLines": {
+            "Lines": [
+            ]
+        },
+        "DefendFaction": 0b,
+        "FireIndirect": 0,
+        "NpcVisible": 0,
+        "LinkedNpcName": "",
+        "NpcScenes": {
+            "Scenes": [
+            ]
+        },
+        "HitSound": "minecraft:entity.arrow.hit",
+        "FindShelter": 2,
+        "Air": 300s,
+        "TacticalVariant": 0,
+        "Orientation": 0,
+        "ScriptLanguage": "ECMAScript",
+        "HandItems": [
+            {
+            },
+            {
+            }
+        ],
+        "KnockBack": 1,
+        "TransformHasJob": 0b,
+        "ArmorDropChances": [
+            0.085f,
+            0.085f,
+            0.085f,
+            0.085f
+        ],
+        "BurnInSun": 0b,
+        "StandingState": 0,
+        "AttackInvisible": 0b,
+        "HurtTime": 0s,
+        "WalkingRange": 10,
+        "ShotCount": 1,
+        "pDur": 5,
+        "AttackRange": 2,
+        "NpcKillLines": {
+            "Lines": [
+            ]
+        },
+        "PotionImmune": 0b,
+        "AvoidsSun": 0b,
+        "Texture": "cyberware:textures/models/cyberzombie.png",
+        "NpcJob": 0,
+        "BurstCount": 1,
+        "NpcAttackLines": {
+            "Lines": [
+            ]
+        },
+        "pSpeed": 10,
+        "pArea": 0,
+        "DeathTime": 0s,
+        "pImpact": 0,
+        "MoveState": 0,
+        "TargetType": 0,
+        "pRender3D": 1b,
+        "Motion": [
+            0.0d,
+            -0.0784000015258789d,
+            0.0d
+        ],
+        "CombatRegen": 0,
+        "NpcsTimers": [
+        ],
+        "pEffect": 0,
+        "DistanceToMelee": 0,
+        "NpcStepSound": "",
+        "FireRate": 5,
+        "LeftHanded": 0b,
+        "pEffAmp": 0,
+        "OnGround": 1b,
+        "Dimension": 0,
+        "ImmuneToFire": 0b,
+        "NpcKilledLines": {
+            "Lines": [
+            ]
+        },
+        "SpecialAggroRange": 14,
+        "Fire": -1s,
+        "ArmorItems": [
+            {
+            },
+            {
+            },
+            {
+            },
+            {
+            }
+        ],
+        "DisablePitch": 0b,
+        "pPhysics": 1b,
+        "TransformHasInv": 0b,
+        "NpcInteractLines": {
+            "Lines": [
+            ]
+        },
+        "HurtByTimestamp": 4943,
+        "pSpin": 0b,
+        "NpcHurtSound": "grimoireofgaia:minotaur_hurt",
+        "pTrail": 0,
+        "CreatureType": 0,
+        "Attributes": [
+            {
+                "Base": 1.0d,
+                "Name": "am2.burnoutReduction"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.manaRegenModifier"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxBurnoutBonus"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxManaBonus"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.xpMultiplier"
+            },
+            {
+                "Base": 100.0d,
+                "Name": "cyberware.tolerance"
+            },
+            {
+                "Base": 10.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -4557935957806527035L,
+                        "UUIDLeast": -4950522221421205810L,
+                        "Amount": 0.42177581787109375d,
+                        "Operation": 1,
+                        "Name": "ScalingHealth.HealthModifier"
+                    }
+                ],
+                "Name": "generic.maxHealth"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.knockbackResistance"
+            },
+            {
+                "Base": 0.4000000059604645d,
+                "Name": "generic.movementSpeed"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.armor"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.armorToughness"
+            },
+            {
+                "Base": 32.0d,
+                "Name": "generic.followRange"
+            },
+            {
+                "Base": 6.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -3218372695593237220L,
+                        "UUIDLeast": -8743736172551149415L,
+                        "Amount": 0.3234315514564514d,
+                        "Operation": 0,
+                        "Name": "ScalingHealth.DamageModifier"
+                    }
+                ],
+                "Name": "generic.attackDamage"
+            }
+        ],
+        "Invulnerable": 0b,
+        "TransformHasDisplay": 0b,
+        "NoFallDamage": 0b,
+        "AbsorptionAmount": 0.0f,
+        "TransformHasRole": 0b,
+        "Name": "Frankling",
+        "FallDistance": 0.0f,
+        "SkinColor": 16777215,
+        "NpcIdleSound": "",
+        "Weapons": [
+        ],
+        "NPCDialogOptions": [
+        ],
+        "AggroRange": 16,
+        "DirectLOS": 1b,
+        "HealthRegen": 0,
+        "ForgeCaps": {
+            "llibrary:ExtendedEntityDataCapability": {
+            },
+            "dsurround:emojiData": {
+                "as": 0,
+                "es": 0,
+                "et": 0
+            },
+            "arsmagica2:ExtendedProp": {
+                "AM2": {
+                    "CurrentBurnout": 0.0f,
+                    "MarkX": 0.0d,
+                    "HealCooldown": 0,
+                    "TK_Distance": 8.0f,
+                    "Shrunk": 0b,
+                    "MarkY": 0.0d,
+                    "MarkZ": 0.0d,
+                    "FallProtection": 0.0f,
+                    "AffinityHealCooldown": 0,
+                    "CurrentLevel": 0,
+                    "Contingency": {
+                        "Type": "null"
+                    },
+                    "CurrentSummons": 0,
+                    "MarkDimensionId": -512,
+                    "CurrentXP": 0.0f,
+                    "Inverted": 0b,
+                    "ManaShielding": 0.0f,
+                    "CurrentMana": 500.0f
+                }
+            }
+        },
+        "HandDropChances": [
+            0.085f,
+            0.085f
+        ],
+        "NpcModelData": {
+            "LegsConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.012000002f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "BodyConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "Eyes": {
+                "Pattern": 0b,
+                "Glint": 1b,
+                "Type": 0b,
+                "PositionY": 1,
+                "SkinColor": 11830381,
+                "PlayerTexture": 0b,
+                "Color": 8339378,
+                "BrowColor": 5982516,
+                "BrowThickness": 4
+            },
+            "EntityClass": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
+            "LegParts": {
+                "Pattern": 0b,
+                "Type": 0b,
+                "PlayerTexture": 0b,
+                "Color": 16777215
+            },
+            "Parts": [
+            ],
+            "ArmsConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": -0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "ExtraData": {
+            },
+            "HeadConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            }
+        },
+        "minDelay": 20,
+        "DoorInteract": 2,
+        "MoveSpeed": 8,
+        "TransformEditingModus": 0b,
+        "UsingSkinUrl": 0b,
+        "Leashed": 0b,
+        "SkinUrl": "",
+        "CanSwim": 1b,
+        "GroundSound": "minecraft:block.stone.break",
+        "MaxHealth": 10,
+        "HideBodyWhenKilled": 0b,
+        "AttackSpeed": 20,
+        "PotionDuration": 5,
+        "maxDelay": 40,
+        "ScriptEnabled": 0b,
+        "Role": 0,
+        "DropChance": [
+            {
+                "Integer": 100,
+                "Slot": 0
+            },
+            {
+                "Integer": 100,
+                "Slot": 1
+            },
+            {
+                "Integer": 100,
+                "Slot": 2
+            },
+            {
+                "Integer": 100,
+                "Slot": 3
+            },
+            {
+                "Integer": 100,
+                "Slot": 4
+            },
+            {
+                "Integer": 100,
+                "Slot": 5
+            },
+            {
+                "Integer": 100,
+                "Slot": 6
+            },
+            {
+                "Integer": 100,
+                "Slot": 7
+            },
+            {
+                "Integer": 100,
+                "Slot": 8
+            }
+        ],
+        "FactionPoints": {
+            "DecreaseFaction1Points": 0b,
+            "OptionFaction2Points": 100,
+            "OptionFactions1": -1,
+            "OptionFactions2": -1,
+            "OptionFaction1Points": 100,
+            "DecreaseFaction2Points": 0b
+        },
+        "pDamage": 4,
+        "KilledTime": 0L,
+        "AimWhileShooting": 0b,
+        "CanPickUpLoot": 0b,
+        "AttackOtherFactions": 0b,
+        "CanDrown": 1b,
+        "pSize": 5,
+        "CanSprint": 0b,
+        "CanLeap": 1b,
+        "TransformIsActive": 0b,
+        "ForgeData": {
+            "PlayerPersisted": {
+            }
+        },
+        "MovingState": 0,
+        "MovingPos": 0,
+        "PotionAmp": 0,
+        "OnAttack": 0,
+        "TacticalRadius": 8,
+        "FallFlying": 0b,
+        "MaxExp": 0,
+        "OrderedLines": 0b,
+        "PortalCooldown": 0,
+        "pGlows": 0b,
+        "TransformHasAdvanced": 0b,
+        "TransformHasStats": 0b,
+        "MovementType": 0,
+        "FiringSound": "minecraft:entity.arrow.shoot",
+        "ModRev": 18,
+        "Accuracy": 60,
+        "MinExp": 0,
+        "Armor": [
+        ],
+        "CloakTexture": "",
+        "GlowTexture": "",
+        "MaxFiringRange": 15,
+        "pXlr8": 0b,
+        "Scripts": [
+        ],
+        "Health": 14.217758f,
+        "pStick": 0b,
+        "MovingPause": 1b,
+        "NpcDeathSound": "grimoireofgaia:minotaur_hurt",
+        "FactionID": 1,
+        "Title": "",
+        "TotalTicksAlive": 4993L,
+        "Rotation": [
+            -322.95105f,
+            0.0f
+        ],
+        "ShowName": 1,
+        "npcInteracting": 1b,
+        "AvoidsWater": 1b,
+        "NoLivingAnimation": 0b,
+        "SpawnCycle": 3
+    },
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "SpawnerNBT2": {
+        "ReturnToStart": 1b,
+        "NpcInv": [
+        ],
+        "BossColor": 0,
+        "PotionEffect": 0,
+        "Size": 4,
+        "stopAndInteract": 1b,
+        "Resistances": {
+            "Arrow": 0.0f,
+            "Explosion": 1.0f,
+            "Knockback": 1.0f,
+            "Melee": 1.3098592f
+        },
+        "BossBar": 0b,
+        "RespawnTime": 0,
+        "NpcAngrySound": "",
+        "ReactsToFire": 0b,
+        "IgnoreCobweb": 0b,
+        "PositionOffsetZ": 5.0f,
+        "PositionOffsetY": 5.0f,
+        "PositionOffsetX": 5.0f,
+        "LootMode": 0,
+        "TransformHasAI": 0b,
+        "AttackStrenght": 6,
+        "PersistenceRequired": 0b,
+        "id": "customnpcs.CustomNpc",
+        "MovingPatern": 0,
+        "NpcLines": {
+            "Lines": [
+            ]
+        },
+        "DefendFaction": 0b,
+        "FireIndirect": 0,
+        "NpcVisible": 0,
+        "LinkedNpcName": "",
+        "NpcScenes": {
+            "Scenes": [
+            ]
+        },
+        "HitSound": "minecraft:entity.arrow.hit",
+        "FindShelter": 2,
+        "Air": 300s,
+        "TacticalVariant": 0,
+        "Orientation": 0,
+        "ScriptLanguage": "ECMAScript",
+        "HandItems": [
+            {
+            },
+            {
+            }
+        ],
+        "KnockBack": 1,
+        "TransformHasJob": 0b,
+        "ArmorDropChances": [
+            0.085f,
+            0.085f,
+            0.085f,
+            0.085f
+        ],
+        "Pos": [
+            -1548.8137013316154d,
+            64.11622934972651d,
+            2325.707521855831d
+        ],
+        "BurnInSun": 0b,
+        "StandingState": 0,
+        "AttackInvisible": 0b,
+        "HurtTime": 0s,
+        "WalkingRange": 10,
+        "ShotCount": 1,
+        "pDur": 5,
+        "AttackRange": 2,
+        "NpcKillLines": {
+            "Lines": [
+            ]
+        },
+        "PotionImmune": 0b,
+        "AvoidsSun": 0b,
+        "Texture": "cyberware:textures/models/cyberzombie.png",
+        "NpcJob": 0,
+        "BurstCount": 1,
+        "NpcAttackLines": {
+            "Lines": [
+            ]
+        },
+        "pSpeed": 10,
+        "pArea": 0,
+        "DeathTime": 0s,
+        "pImpact": 0,
+        "MoveState": 0,
+        "TargetType": 0,
+        "pRender3D": 1b,
+        "Motion": [
+            0.0d,
+            -0.0784000015258789d,
+            0.0d
+        ],
+        "CombatRegen": 0,
+        "NpcsTimers": [
+        ],
+        "pEffect": 0,
+        "DistanceToMelee": 0,
+        "NpcStepSound": "",
+        "FireRate": 5,
+        "LeftHanded": 0b,
+        "pEffAmp": 0,
+        "OnGround": 1b,
+        "Dimension": 0,
+        "ImmuneToFire": 0b,
+        "NpcKilledLines": {
+            "Lines": [
+            ]
+        },
+        "SpecialAggroRange": 14,
+        "Fire": -1s,
+        "ArmorItems": [
+            {
+            },
+            {
+            },
+            {
+            },
+            {
+            }
+        ],
+        "DisablePitch": 0b,
+        "pPhysics": 1b,
+        "TransformHasInv": 0b,
+        "NpcInteractLines": {
+            "Lines": [
+            ]
+        },
+        "HurtByTimestamp": 4943,
+        "pSpin": 0b,
+        "NpcHurtSound": "grimoireofgaia:minotaur_hurt",
+        "pTrail": 0,
+        "CreatureType": 0,
+        "Attributes": [
+            {
+                "Base": 1.0d,
+                "Name": "am2.burnoutReduction"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.manaRegenModifier"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxBurnoutBonus"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxManaBonus"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.xpMultiplier"
+            },
+            {
+                "Base": 100.0d,
+                "Name": "cyberware.tolerance"
+            },
+            {
+                "Base": 10.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -4557935957806527035L,
+                        "UUIDLeast": -4950522221421205810L,
+                        "Amount": 0.42177581787109375d,
+                        "Operation": 1,
+                        "Name": "ScalingHealth.HealthModifier"
+                    }
+                ],
+                "Name": "generic.maxHealth"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.knockbackResistance"
+            },
+            {
+                "Base": 0.4000000059604645d,
+                "Name": "generic.movementSpeed"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.armor"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.armorToughness"
+            },
+            {
+                "Base": 32.0d,
+                "Name": "generic.followRange"
+            },
+            {
+                "Base": 6.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -3218372695593237220L,
+                        "UUIDLeast": -8743736172551149415L,
+                        "Amount": 0.3234315514564514d,
+                        "Operation": 0,
+                        "Name": "ScalingHealth.DamageModifier"
+                    }
+                ],
+                "Name": "generic.attackDamage"
+            }
+        ],
+        "Invulnerable": 0b,
+        "TransformHasDisplay": 0b,
+        "NoFallDamage": 0b,
+        "AbsorptionAmount": 0.0f,
+        "TransformHasRole": 0b,
+        "Name": "Frankling",
+        "FallDistance": 0.0f,
+        "SkinColor": 16777215,
+        "NpcIdleSound": "",
+        "Weapons": [
+        ],
+        "NPCDialogOptions": [
+        ],
+        "AggroRange": 16,
+        "DirectLOS": 1b,
+        "HealthRegen": 0,
+        "ForgeCaps": {
+            "llibrary:ExtendedEntityDataCapability": {
+            },
+            "dsurround:emojiData": {
+                "as": 0,
+                "es": 0,
+                "et": 0
+            },
+            "arsmagica2:ExtendedProp": {
+                "AM2": {
+                    "CurrentBurnout": 0.0f,
+                    "MarkX": 0.0d,
+                    "HealCooldown": 0,
+                    "TK_Distance": 8.0f,
+                    "Shrunk": 0b,
+                    "MarkY": 0.0d,
+                    "MarkZ": 0.0d,
+                    "FallProtection": 0.0f,
+                    "AffinityHealCooldown": 0,
+                    "CurrentLevel": 0,
+                    "Contingency": {
+                        "Type": "null"
+                    },
+                    "CurrentSummons": 0,
+                    "MarkDimensionId": -512,
+                    "CurrentXP": 0.0f,
+                    "Inverted": 0b,
+                    "ManaShielding": 0.0f,
+                    "CurrentMana": 500.0f
+                }
+            }
+        },
+        "HandDropChances": [
+            0.085f,
+            0.085f
+        ],
+        "NpcModelData": {
+            "LegsConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.012000002f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "BodyConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "Eyes": {
+                "Pattern": 0b,
+                "Glint": 1b,
+                "Type": 0b,
+                "PositionY": 1,
+                "SkinColor": 11830381,
+                "PlayerTexture": 0b,
+                "Color": 8339378,
+                "BrowColor": 5982516,
+                "BrowThickness": 4
+            },
+            "EntityClass": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
+            "LegParts": {
+                "Pattern": 0b,
+                "Type": 0b,
+                "PlayerTexture": 0b,
+                "Color": 16777215
+            },
+            "Parts": [
+            ],
+            "ArmsConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": -0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "ExtraData": {
+            },
+            "HeadConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            }
+        },
+        "minDelay": 20,
+        "DoorInteract": 2,
+        "MoveSpeed": 8,
+        "TransformEditingModus": 0b,
+        "UsingSkinUrl": 0b,
+        "Leashed": 0b,
+        "SkinUrl": "",
+        "CanSwim": 1b,
+        "GroundSound": "minecraft:block.stone.break",
+        "MaxHealth": 10,
+        "HideBodyWhenKilled": 0b,
+        "AttackSpeed": 20,
+        "PotionDuration": 5,
+        "maxDelay": 40,
+        "ScriptEnabled": 0b,
+        "Role": 0,
+        "DropChance": [
+            {
+                "Integer": 100,
+                "Slot": 0
+            },
+            {
+                "Integer": 100,
+                "Slot": 1
+            },
+            {
+                "Integer": 100,
+                "Slot": 2
+            },
+            {
+                "Integer": 100,
+                "Slot": 3
+            },
+            {
+                "Integer": 100,
+                "Slot": 4
+            },
+            {
+                "Integer": 100,
+                "Slot": 5
+            },
+            {
+                "Integer": 100,
+                "Slot": 6
+            },
+            {
+                "Integer": 100,
+                "Slot": 7
+            },
+            {
+                "Integer": 100,
+                "Slot": 8
+            }
+        ],
+        "FactionPoints": {
+            "DecreaseFaction1Points": 0b,
+            "OptionFaction2Points": 100,
+            "OptionFactions1": -1,
+            "OptionFactions2": -1,
+            "OptionFaction1Points": 100,
+            "DecreaseFaction2Points": 0b
+        },
+        "pDamage": 4,
+        "KilledTime": 0L,
+        "AimWhileShooting": 0b,
+        "CanPickUpLoot": 0b,
+        "AttackOtherFactions": 0b,
+        "CanDrown": 1b,
+        "pSize": 5,
+        "CanSprint": 0b,
+        "CanLeap": 1b,
+        "TransformIsActive": 0b,
+        "ForgeData": {
+            "NpcSpawnerId": "9esSQccf",
+            "NpcSpawnerNr": 2,
+            "PlayerPersisted": {
+            }
+        },
+        "MovingState": 0,
+        "MovingPos": 0,
+        "PotionAmp": 0,
+        "OnAttack": 0,
+        "TacticalRadius": 8,
+        "FallFlying": 0b,
+        "MaxExp": 0,
+        "OrderedLines": 0b,
+        "PortalCooldown": 0,
+        "pGlows": 0b,
+        "TransformHasAdvanced": 0b,
+        "TransformHasStats": 0b,
+        "MovementType": 0,
+        "FiringSound": "minecraft:entity.arrow.shoot",
+        "ModRev": 18,
+        "Accuracy": 60,
+        "MinExp": 0,
+        "Armor": [
+        ],
+        "CloakTexture": "",
+        "GlowTexture": "",
+        "MaxFiringRange": 15,
+        "pXlr8": 0b,
+        "Scripts": [
+        ],
+        "Health": 14.217758f,
+        "pStick": 0b,
+        "MovingPause": 1b,
+        "NpcDeathSound": "grimoireofgaia:minotaur_hurt",
+        "FactionID": 1,
+        "Title": "",
+        "TotalTicksAlive": 4993L,
+        "Rotation": [
+            -322.95105f,
+            0.0f
+        ],
+        "ShowName": 1,
+        "npcInteracting": 1b,
+        "AvoidsWater": 1b,
+        "NoLivingAnimation": 0b,
+        "SpawnCycle": 3
+    },
+    "FallFlying": 0b,
+    "SpawnerNBT1": {
+        "ReturnToStart": 1b,
+        "NpcInv": [
+        ],
+        "BossColor": 0,
+        "PotionEffect": 0,
+        "Size": 4,
+        "stopAndInteract": 1b,
+        "Resistances": {
+            "Arrow": 0.0f,
+            "Explosion": 1.0f,
+            "Knockback": 1.0f,
+            "Melee": 1.3098592f
+        },
+        "BossBar": 0b,
+        "RespawnTime": 0,
+        "NpcAngrySound": "",
+        "ReactsToFire": 0b,
+        "IgnoreCobweb": 0b,
+        "PositionOffsetZ": 5.0f,
+        "PositionOffsetY": 5.0f,
+        "PositionOffsetX": 5.0f,
+        "LootMode": 0,
+        "TransformHasAI": 0b,
+        "AttackStrenght": 6,
+        "PersistenceRequired": 0b,
+        "id": "customnpcs.CustomNpc",
+        "MovingPatern": 0,
+        "NpcLines": {
+            "Lines": [
+            ]
+        },
+        "DefendFaction": 0b,
+        "FireIndirect": 0,
+        "NpcVisible": 0,
+        "LinkedNpcName": "",
+        "NpcScenes": {
+            "Scenes": [
+            ]
+        },
+        "HitSound": "minecraft:entity.arrow.hit",
+        "FindShelter": 2,
+        "Air": 300s,
+        "TacticalVariant": 0,
+        "Orientation": 0,
+        "ScriptLanguage": "ECMAScript",
+        "HandItems": [
+            {
+            },
+            {
+            }
+        ],
+        "KnockBack": 1,
+        "TransformHasJob": 0b,
+        "ArmorDropChances": [
+            0.085f,
+            0.085f,
+            0.085f,
+            0.085f
+        ],
+        "BurnInSun": 0b,
+        "StandingState": 0,
+        "AttackInvisible": 0b,
+        "HurtTime": 0s,
+        "WalkingRange": 10,
+        "ShotCount": 1,
+        "pDur": 5,
+        "AttackRange": 2,
+        "NpcKillLines": {
+            "Lines": [
+            ]
+        },
+        "PotionImmune": 0b,
+        "AvoidsSun": 0b,
+        "Texture": "cyberware:textures/models/cyberzombie.png",
+        "NpcJob": 0,
+        "BurstCount": 1,
+        "NpcAttackLines": {
+            "Lines": [
+            ]
+        },
+        "pSpeed": 10,
+        "pArea": 0,
+        "DeathTime": 0s,
+        "pImpact": 0,
+        "MoveState": 0,
+        "TargetType": 0,
+        "pRender3D": 1b,
+        "Motion": [
+            0.0d,
+            -0.0784000015258789d,
+            0.0d
+        ],
+        "CombatRegen": 0,
+        "NpcsTimers": [
+        ],
+        "pEffect": 0,
+        "DistanceToMelee": 0,
+        "NpcStepSound": "",
+        "FireRate": 5,
+        "LeftHanded": 0b,
+        "pEffAmp": 0,
+        "OnGround": 1b,
+        "Dimension": 0,
+        "ImmuneToFire": 0b,
+        "NpcKilledLines": {
+            "Lines": [
+            ]
+        },
+        "SpecialAggroRange": 14,
+        "Fire": -1s,
+        "ArmorItems": [
+            {
+            },
+            {
+            },
+            {
+            },
+            {
+            }
+        ],
+        "DisablePitch": 0b,
+        "pPhysics": 1b,
+        "TransformHasInv": 0b,
+        "NpcInteractLines": {
+            "Lines": [
+            ]
+        },
+        "HurtByTimestamp": 4943,
+        "pSpin": 0b,
+        "NpcHurtSound": "grimoireofgaia:minotaur_hurt",
+        "pTrail": 0,
+        "CreatureType": 0,
+        "Attributes": [
+            {
+                "Base": 1.0d,
+                "Name": "am2.burnoutReduction"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.manaRegenModifier"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxBurnoutBonus"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxManaBonus"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.xpMultiplier"
+            },
+            {
+                "Base": 100.0d,
+                "Name": "cyberware.tolerance"
+            },
+            {
+                "Base": 10.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -4557935957806527035L,
+                        "UUIDLeast": -4950522221421205810L,
+                        "Amount": 0.42177581787109375d,
+                        "Operation": 1,
+                        "Name": "ScalingHealth.HealthModifier"
+                    }
+                ],
+                "Name": "generic.maxHealth"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.knockbackResistance"
+            },
+            {
+                "Base": 0.4000000059604645d,
+                "Name": "generic.movementSpeed"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.armor"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.armorToughness"
+            },
+            {
+                "Base": 32.0d,
+                "Name": "generic.followRange"
+            },
+            {
+                "Base": 6.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -3218372695593237220L,
+                        "UUIDLeast": -8743736172551149415L,
+                        "Amount": 0.3234315514564514d,
+                        "Operation": 0,
+                        "Name": "ScalingHealth.DamageModifier"
+                    }
+                ],
+                "Name": "generic.attackDamage"
+            }
+        ],
+        "Invulnerable": 0b,
+        "TransformHasDisplay": 0b,
+        "NoFallDamage": 0b,
+        "AbsorptionAmount": 0.0f,
+        "TransformHasRole": 0b,
+        "Name": "Frankling",
+        "FallDistance": 0.0f,
+        "SkinColor": 16777215,
+        "NpcIdleSound": "",
+        "Weapons": [
+        ],
+        "NPCDialogOptions": [
+        ],
+        "AggroRange": 16,
+        "DirectLOS": 1b,
+        "HealthRegen": 0,
+        "ForgeCaps": {
+            "llibrary:ExtendedEntityDataCapability": {
+            },
+            "dsurround:emojiData": {
+                "as": 0,
+                "es": 0,
+                "et": 0
+            },
+            "arsmagica2:ExtendedProp": {
+                "AM2": {
+                    "CurrentBurnout": 0.0f,
+                    "MarkX": 0.0d,
+                    "HealCooldown": 0,
+                    "TK_Distance": 8.0f,
+                    "Shrunk": 0b,
+                    "MarkY": 0.0d,
+                    "MarkZ": 0.0d,
+                    "FallProtection": 0.0f,
+                    "AffinityHealCooldown": 0,
+                    "CurrentLevel": 0,
+                    "Contingency": {
+                        "Type": "null"
+                    },
+                    "CurrentSummons": 0,
+                    "MarkDimensionId": -512,
+                    "CurrentXP": 0.0f,
+                    "Inverted": 0b,
+                    "ManaShielding": 0.0f,
+                    "CurrentMana": 500.0f
+                }
+            }
+        },
+        "HandDropChances": [
+            0.085f,
+            0.085f
+        ],
+        "NpcModelData": {
+            "LegsConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.012000002f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "BodyConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "Eyes": {
+                "Pattern": 0b,
+                "Glint": 1b,
+                "Type": 0b,
+                "PositionY": 1,
+                "SkinColor": 11830381,
+                "PlayerTexture": 0b,
+                "Color": 8339378,
+                "BrowColor": 5982516,
+                "BrowThickness": 4
+            },
+            "EntityClass": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
+            "LegParts": {
+                "Pattern": 0b,
+                "Type": 0b,
+                "PlayerTexture": 0b,
+                "Color": 16777215
+            },
+            "Parts": [
+            ],
+            "ArmsConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": -0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "ExtraData": {
+            },
+            "HeadConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            }
+        },
+        "minDelay": 20,
+        "DoorInteract": 2,
+        "MoveSpeed": 8,
+        "TransformEditingModus": 0b,
+        "UsingSkinUrl": 0b,
+        "Leashed": 0b,
+        "SkinUrl": "",
+        "CanSwim": 1b,
+        "GroundSound": "minecraft:block.stone.break",
+        "MaxHealth": 10,
+        "HideBodyWhenKilled": 0b,
+        "AttackSpeed": 20,
+        "PotionDuration": 5,
+        "maxDelay": 40,
+        "ScriptEnabled": 0b,
+        "Role": 0,
+        "DropChance": [
+            {
+                "Integer": 100,
+                "Slot": 0
+            },
+            {
+                "Integer": 100,
+                "Slot": 1
+            },
+            {
+                "Integer": 100,
+                "Slot": 2
+            },
+            {
+                "Integer": 100,
+                "Slot": 3
+            },
+            {
+                "Integer": 100,
+                "Slot": 4
+            },
+            {
+                "Integer": 100,
+                "Slot": 5
+            },
+            {
+                "Integer": 100,
+                "Slot": 6
+            },
+            {
+                "Integer": 100,
+                "Slot": 7
+            },
+            {
+                "Integer": 100,
+                "Slot": 8
+            }
+        ],
+        "FactionPoints": {
+            "DecreaseFaction1Points": 0b,
+            "OptionFaction2Points": 100,
+            "OptionFactions1": -1,
+            "OptionFactions2": -1,
+            "OptionFaction1Points": 100,
+            "DecreaseFaction2Points": 0b
+        },
+        "pDamage": 4,
+        "KilledTime": 0L,
+        "AimWhileShooting": 0b,
+        "CanPickUpLoot": 0b,
+        "AttackOtherFactions": 0b,
+        "CanDrown": 1b,
+        "pSize": 5,
+        "CanSprint": 0b,
+        "CanLeap": 1b,
+        "TransformIsActive": 0b,
+        "ForgeData": {
+            "PlayerPersisted": {
+            }
+        },
+        "MovingState": 0,
+        "MovingPos": 0,
+        "PotionAmp": 0,
+        "OnAttack": 0,
+        "TacticalRadius": 8,
+        "FallFlying": 0b,
+        "MaxExp": 0,
+        "OrderedLines": 0b,
+        "PortalCooldown": 0,
+        "pGlows": 0b,
+        "TransformHasAdvanced": 0b,
+        "TransformHasStats": 0b,
+        "MovementType": 0,
+        "FiringSound": "minecraft:entity.arrow.shoot",
+        "ModRev": 18,
+        "Accuracy": 60,
+        "MinExp": 0,
+        "Armor": [
+        ],
+        "CloakTexture": "",
+        "GlowTexture": "",
+        "MaxFiringRange": 15,
+        "pXlr8": 0b,
+        "Scripts": [
+        ],
+        "Health": 14.217758f,
+        "pStick": 0b,
+        "MovingPause": 1b,
+        "NpcDeathSound": "grimoireofgaia:minotaur_hurt",
+        "FactionID": 1,
+        "Title": "",
+        "TotalTicksAlive": 4993L,
+        "Rotation": [
+            -322.95105f,
+            0.0f
+        ],
+        "ShowName": 1,
+        "npcInteracting": 1b,
+        "AvoidsWater": 1b,
+        "NoLivingAnimation": 0b,
+        "SpawnCycle": 3
+    },
+    "MaxExp": 100,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "SpawnerNBT6": {
+        "ReturnToStart": 1b,
+        "NpcInv": [
+        ],
+        "BossColor": 0,
+        "PotionEffect": 0,
+        "Size": 4,
+        "stopAndInteract": 1b,
+        "Resistances": {
+            "Arrow": 0.0f,
+            "Explosion": 1.0f,
+            "Knockback": 1.0f,
+            "Melee": 1.3098592f
+        },
+        "BossBar": 0b,
+        "RespawnTime": 0,
+        "NpcAngrySound": "",
+        "ReactsToFire": 0b,
+        "IgnoreCobweb": 0b,
+        "PositionOffsetZ": 5.0f,
+        "PositionOffsetY": 5.0f,
+        "PositionOffsetX": 5.0f,
+        "LootMode": 0,
+        "TransformHasAI": 0b,
+        "AttackStrenght": 6,
+        "PersistenceRequired": 0b,
+        "id": "customnpcs.CustomNpc",
+        "MovingPatern": 0,
+        "NpcLines": {
+            "Lines": [
+            ]
+        },
+        "DefendFaction": 0b,
+        "FireIndirect": 0,
+        "NpcVisible": 0,
+        "LinkedNpcName": "",
+        "NpcScenes": {
+            "Scenes": [
+            ]
+        },
+        "HitSound": "minecraft:entity.arrow.hit",
+        "FindShelter": 2,
+        "Air": 300s,
+        "TacticalVariant": 0,
+        "Orientation": 0,
+        "ScriptLanguage": "ECMAScript",
+        "HandItems": [
+            {
+            },
+            {
+            }
+        ],
+        "KnockBack": 1,
+        "TransformHasJob": 0b,
+        "ArmorDropChances": [
+            0.085f,
+            0.085f,
+            0.085f,
+            0.085f
+        ],
+        "BurnInSun": 0b,
+        "StandingState": 0,
+        "AttackInvisible": 0b,
+        "HurtTime": 0s,
+        "WalkingRange": 10,
+        "ShotCount": 1,
+        "pDur": 5,
+        "AttackRange": 2,
+        "NpcKillLines": {
+            "Lines": [
+            ]
+        },
+        "PotionImmune": 0b,
+        "AvoidsSun": 0b,
+        "Texture": "cyberware:textures/models/cyberzombie.png",
+        "NpcJob": 0,
+        "BurstCount": 1,
+        "NpcAttackLines": {
+            "Lines": [
+            ]
+        },
+        "pSpeed": 10,
+        "pArea": 0,
+        "DeathTime": 0s,
+        "pImpact": 0,
+        "MoveState": 0,
+        "TargetType": 0,
+        "pRender3D": 1b,
+        "Motion": [
+            0.0d,
+            -0.0784000015258789d,
+            0.0d
+        ],
+        "CombatRegen": 0,
+        "NpcsTimers": [
+        ],
+        "pEffect": 0,
+        "DistanceToMelee": 0,
+        "NpcStepSound": "",
+        "FireRate": 5,
+        "LeftHanded": 0b,
+        "pEffAmp": 0,
+        "OnGround": 1b,
+        "Dimension": 0,
+        "ImmuneToFire": 0b,
+        "NpcKilledLines": {
+            "Lines": [
+            ]
+        },
+        "SpecialAggroRange": 14,
+        "Fire": -1s,
+        "ArmorItems": [
+            {
+            },
+            {
+            },
+            {
+            },
+            {
+            }
+        ],
+        "DisablePitch": 0b,
+        "pPhysics": 1b,
+        "TransformHasInv": 0b,
+        "NpcInteractLines": {
+            "Lines": [
+            ]
+        },
+        "HurtByTimestamp": 4943,
+        "pSpin": 0b,
+        "NpcHurtSound": "grimoireofgaia:minotaur_hurt",
+        "pTrail": 0,
+        "CreatureType": 0,
+        "Attributes": [
+            {
+                "Base": 1.0d,
+                "Name": "am2.burnoutReduction"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.manaRegenModifier"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxBurnoutBonus"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxManaBonus"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.xpMultiplier"
+            },
+            {
+                "Base": 100.0d,
+                "Name": "cyberware.tolerance"
+            },
+            {
+                "Base": 10.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -4557935957806527035L,
+                        "UUIDLeast": -4950522221421205810L,
+                        "Amount": 0.42177581787109375d,
+                        "Operation": 1,
+                        "Name": "ScalingHealth.HealthModifier"
+                    }
+                ],
+                "Name": "generic.maxHealth"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.knockbackResistance"
+            },
+            {
+                "Base": 0.4000000059604645d,
+                "Name": "generic.movementSpeed"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.armor"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.armorToughness"
+            },
+            {
+                "Base": 32.0d,
+                "Name": "generic.followRange"
+            },
+            {
+                "Base": 6.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -3218372695593237220L,
+                        "UUIDLeast": -8743736172551149415L,
+                        "Amount": 0.3234315514564514d,
+                        "Operation": 0,
+                        "Name": "ScalingHealth.DamageModifier"
+                    }
+                ],
+                "Name": "generic.attackDamage"
+            }
+        ],
+        "Invulnerable": 0b,
+        "TransformHasDisplay": 0b,
+        "NoFallDamage": 0b,
+        "AbsorptionAmount": 0.0f,
+        "TransformHasRole": 0b,
+        "Name": "Frankling",
+        "FallDistance": 0.0f,
+        "SkinColor": 16777215,
+        "NpcIdleSound": "",
+        "Weapons": [
+        ],
+        "NPCDialogOptions": [
+        ],
+        "AggroRange": 16,
+        "DirectLOS": 1b,
+        "HealthRegen": 0,
+        "ForgeCaps": {
+            "llibrary:ExtendedEntityDataCapability": {
+            },
+            "dsurround:emojiData": {
+                "as": 0,
+                "es": 0,
+                "et": 0
+            },
+            "arsmagica2:ExtendedProp": {
+                "AM2": {
+                    "CurrentBurnout": 0.0f,
+                    "MarkX": 0.0d,
+                    "HealCooldown": 0,
+                    "TK_Distance": 8.0f,
+                    "Shrunk": 0b,
+                    "MarkY": 0.0d,
+                    "MarkZ": 0.0d,
+                    "FallProtection": 0.0f,
+                    "AffinityHealCooldown": 0,
+                    "CurrentLevel": 0,
+                    "Contingency": {
+                        "Type": "null"
+                    },
+                    "CurrentSummons": 0,
+                    "MarkDimensionId": -512,
+                    "CurrentXP": 0.0f,
+                    "Inverted": 0b,
+                    "ManaShielding": 0.0f,
+                    "CurrentMana": 500.0f
+                }
+            }
+        },
+        "HandDropChances": [
+            0.085f,
+            0.085f
+        ],
+        "NpcModelData": {
+            "LegsConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.012000002f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "BodyConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "Eyes": {
+                "Pattern": 0b,
+                "Glint": 1b,
+                "Type": 0b,
+                "PositionY": 1,
+                "SkinColor": 11830381,
+                "PlayerTexture": 0b,
+                "Color": 8339378,
+                "BrowColor": 5982516,
+                "BrowThickness": 4
+            },
+            "EntityClass": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
+            "LegParts": {
+                "Pattern": 0b,
+                "Type": 0b,
+                "PlayerTexture": 0b,
+                "Color": 16777215
+            },
+            "Parts": [
+            ],
+            "ArmsConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": -0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "ExtraData": {
+            },
+            "HeadConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            }
+        },
+        "minDelay": 20,
+        "DoorInteract": 2,
+        "MoveSpeed": 8,
+        "TransformEditingModus": 0b,
+        "UsingSkinUrl": 0b,
+        "Leashed": 0b,
+        "SkinUrl": "",
+        "CanSwim": 1b,
+        "GroundSound": "minecraft:block.stone.break",
+        "MaxHealth": 10,
+        "HideBodyWhenKilled": 0b,
+        "AttackSpeed": 20,
+        "PotionDuration": 5,
+        "maxDelay": 40,
+        "ScriptEnabled": 0b,
+        "Role": 0,
+        "DropChance": [
+            {
+                "Integer": 100,
+                "Slot": 0
+            },
+            {
+                "Integer": 100,
+                "Slot": 1
+            },
+            {
+                "Integer": 100,
+                "Slot": 2
+            },
+            {
+                "Integer": 100,
+                "Slot": 3
+            },
+            {
+                "Integer": 100,
+                "Slot": 4
+            },
+            {
+                "Integer": 100,
+                "Slot": 5
+            },
+            {
+                "Integer": 100,
+                "Slot": 6
+            },
+            {
+                "Integer": 100,
+                "Slot": 7
+            },
+            {
+                "Integer": 100,
+                "Slot": 8
+            }
+        ],
+        "FactionPoints": {
+            "DecreaseFaction1Points": 0b,
+            "OptionFaction2Points": 100,
+            "OptionFactions1": -1,
+            "OptionFactions2": -1,
+            "OptionFaction1Points": 100,
+            "DecreaseFaction2Points": 0b
+        },
+        "pDamage": 4,
+        "KilledTime": 0L,
+        "AimWhileShooting": 0b,
+        "CanPickUpLoot": 0b,
+        "AttackOtherFactions": 0b,
+        "CanDrown": 1b,
+        "pSize": 5,
+        "CanSprint": 0b,
+        "CanLeap": 1b,
+        "TransformIsActive": 0b,
+        "ForgeData": {
+            "PlayerPersisted": {
+            }
+        },
+        "MovingState": 0,
+        "MovingPos": 0,
+        "PotionAmp": 0,
+        "OnAttack": 0,
+        "TacticalRadius": 8,
+        "FallFlying": 0b,
+        "MaxExp": 0,
+        "OrderedLines": 0b,
+        "PortalCooldown": 0,
+        "pGlows": 0b,
+        "TransformHasAdvanced": 0b,
+        "TransformHasStats": 0b,
+        "MovementType": 0,
+        "FiringSound": "minecraft:entity.arrow.shoot",
+        "ModRev": 18,
+        "Accuracy": 60,
+        "MinExp": 0,
+        "Armor": [
+        ],
+        "CloakTexture": "",
+        "GlowTexture": "",
+        "MaxFiringRange": 15,
+        "pXlr8": 0b,
+        "Scripts": [
+        ],
+        "Health": 14.217758f,
+        "pStick": 0b,
+        "MovingPause": 1b,
+        "NpcDeathSound": "grimoireofgaia:minotaur_hurt",
+        "FactionID": 1,
+        "Title": "",
+        "TotalTicksAlive": 4993L,
+        "Rotation": [
+            -322.95105f,
+            0.0f
+        ],
+        "ShowName": 1,
+        "npcInteracting": 1b,
+        "AvoidsWater": 1b,
+        "NoLivingAnimation": 0b,
+        "SpawnCycle": 3
+    },
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "SpawnerNBT5": {
+        "ReturnToStart": 1b,
+        "NpcInv": [
+        ],
+        "BossColor": 0,
+        "PotionEffect": 0,
+        "Size": 4,
+        "stopAndInteract": 1b,
+        "Resistances": {
+            "Arrow": 0.0f,
+            "Explosion": 1.0f,
+            "Knockback": 1.0f,
+            "Melee": 1.3098592f
+        },
+        "BossBar": 0b,
+        "RespawnTime": 0,
+        "NpcAngrySound": "",
+        "ReactsToFire": 0b,
+        "IgnoreCobweb": 0b,
+        "PositionOffsetZ": 5.0f,
+        "PositionOffsetY": 5.0f,
+        "PositionOffsetX": 5.0f,
+        "LootMode": 0,
+        "TransformHasAI": 0b,
+        "AttackStrenght": 6,
+        "PersistenceRequired": 0b,
+        "id": "customnpcs.CustomNpc",
+        "MovingPatern": 0,
+        "NpcLines": {
+            "Lines": [
+            ]
+        },
+        "DefendFaction": 0b,
+        "FireIndirect": 0,
+        "NpcVisible": 0,
+        "LinkedNpcName": "",
+        "NpcScenes": {
+            "Scenes": [
+            ]
+        },
+        "HitSound": "minecraft:entity.arrow.hit",
+        "FindShelter": 2,
+        "Air": 300s,
+        "TacticalVariant": 0,
+        "Orientation": 0,
+        "ScriptLanguage": "ECMAScript",
+        "HandItems": [
+            {
+            },
+            {
+            }
+        ],
+        "KnockBack": 1,
+        "TransformHasJob": 0b,
+        "ArmorDropChances": [
+            0.085f,
+            0.085f,
+            0.085f,
+            0.085f
+        ],
+        "BurnInSun": 0b,
+        "StandingState": 0,
+        "AttackInvisible": 0b,
+        "HurtTime": 0s,
+        "WalkingRange": 10,
+        "ShotCount": 1,
+        "pDur": 5,
+        "AttackRange": 2,
+        "NpcKillLines": {
+            "Lines": [
+            ]
+        },
+        "PotionImmune": 0b,
+        "AvoidsSun": 0b,
+        "Texture": "cyberware:textures/models/cyberzombie.png",
+        "NpcJob": 0,
+        "BurstCount": 1,
+        "NpcAttackLines": {
+            "Lines": [
+            ]
+        },
+        "pSpeed": 10,
+        "pArea": 0,
+        "DeathTime": 0s,
+        "pImpact": 0,
+        "MoveState": 0,
+        "TargetType": 0,
+        "pRender3D": 1b,
+        "Motion": [
+            0.0d,
+            -0.0784000015258789d,
+            0.0d
+        ],
+        "CombatRegen": 0,
+        "NpcsTimers": [
+        ],
+        "pEffect": 0,
+        "DistanceToMelee": 0,
+        "NpcStepSound": "",
+        "FireRate": 5,
+        "LeftHanded": 0b,
+        "pEffAmp": 0,
+        "OnGround": 1b,
+        "Dimension": 0,
+        "ImmuneToFire": 0b,
+        "NpcKilledLines": {
+            "Lines": [
+            ]
+        },
+        "SpecialAggroRange": 14,
+        "Fire": -1s,
+        "ArmorItems": [
+            {
+            },
+            {
+            },
+            {
+            },
+            {
+            }
+        ],
+        "DisablePitch": 0b,
+        "pPhysics": 1b,
+        "TransformHasInv": 0b,
+        "NpcInteractLines": {
+            "Lines": [
+            ]
+        },
+        "HurtByTimestamp": 4943,
+        "pSpin": 0b,
+        "NpcHurtSound": "grimoireofgaia:minotaur_hurt",
+        "pTrail": 0,
+        "CreatureType": 0,
+        "Attributes": [
+            {
+                "Base": 1.0d,
+                "Name": "am2.burnoutReduction"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.manaRegenModifier"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxBurnoutBonus"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxManaBonus"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.xpMultiplier"
+            },
+            {
+                "Base": 100.0d,
+                "Name": "cyberware.tolerance"
+            },
+            {
+                "Base": 10.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -4557935957806527035L,
+                        "UUIDLeast": -4950522221421205810L,
+                        "Amount": 0.42177581787109375d,
+                        "Operation": 1,
+                        "Name": "ScalingHealth.HealthModifier"
+                    }
+                ],
+                "Name": "generic.maxHealth"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.knockbackResistance"
+            },
+            {
+                "Base": 0.4000000059604645d,
+                "Name": "generic.movementSpeed"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.armor"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.armorToughness"
+            },
+            {
+                "Base": 32.0d,
+                "Name": "generic.followRange"
+            },
+            {
+                "Base": 6.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -3218372695593237220L,
+                        "UUIDLeast": -8743736172551149415L,
+                        "Amount": 0.3234315514564514d,
+                        "Operation": 0,
+                        "Name": "ScalingHealth.DamageModifier"
+                    }
+                ],
+                "Name": "generic.attackDamage"
+            }
+        ],
+        "Invulnerable": 0b,
+        "TransformHasDisplay": 0b,
+        "NoFallDamage": 0b,
+        "AbsorptionAmount": 0.0f,
+        "TransformHasRole": 0b,
+        "Name": "Frankling",
+        "FallDistance": 0.0f,
+        "SkinColor": 16777215,
+        "NpcIdleSound": "",
+        "Weapons": [
+        ],
+        "NPCDialogOptions": [
+        ],
+        "AggroRange": 16,
+        "DirectLOS": 1b,
+        "HealthRegen": 0,
+        "ForgeCaps": {
+            "llibrary:ExtendedEntityDataCapability": {
+            },
+            "dsurround:emojiData": {
+                "as": 0,
+                "es": 0,
+                "et": 0
+            },
+            "arsmagica2:ExtendedProp": {
+                "AM2": {
+                    "CurrentBurnout": 0.0f,
+                    "MarkX": 0.0d,
+                    "HealCooldown": 0,
+                    "TK_Distance": 8.0f,
+                    "Shrunk": 0b,
+                    "MarkY": 0.0d,
+                    "MarkZ": 0.0d,
+                    "FallProtection": 0.0f,
+                    "AffinityHealCooldown": 0,
+                    "CurrentLevel": 0,
+                    "Contingency": {
+                        "Type": "null"
+                    },
+                    "CurrentSummons": 0,
+                    "MarkDimensionId": -512,
+                    "CurrentXP": 0.0f,
+                    "Inverted": 0b,
+                    "ManaShielding": 0.0f,
+                    "CurrentMana": 500.0f
+                }
+            }
+        },
+        "HandDropChances": [
+            0.085f,
+            0.085f
+        ],
+        "NpcModelData": {
+            "LegsConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.012000002f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "BodyConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "Eyes": {
+                "Pattern": 0b,
+                "Glint": 1b,
+                "Type": 0b,
+                "PositionY": 1,
+                "SkinColor": 11830381,
+                "PlayerTexture": 0b,
+                "Color": 8339378,
+                "BrowColor": 5982516,
+                "BrowThickness": 4
+            },
+            "EntityClass": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
+            "LegParts": {
+                "Pattern": 0b,
+                "Type": 0b,
+                "PlayerTexture": 0b,
+                "Color": 16777215
+            },
+            "Parts": [
+            ],
+            "ArmsConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": -0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "ExtraData": {
+            },
+            "HeadConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            }
+        },
+        "minDelay": 20,
+        "DoorInteract": 2,
+        "MoveSpeed": 8,
+        "TransformEditingModus": 0b,
+        "UsingSkinUrl": 0b,
+        "Leashed": 0b,
+        "SkinUrl": "",
+        "CanSwim": 1b,
+        "GroundSound": "minecraft:block.stone.break",
+        "MaxHealth": 10,
+        "HideBodyWhenKilled": 0b,
+        "AttackSpeed": 20,
+        "PotionDuration": 5,
+        "maxDelay": 40,
+        "ScriptEnabled": 0b,
+        "Role": 0,
+        "DropChance": [
+            {
+                "Integer": 100,
+                "Slot": 0
+            },
+            {
+                "Integer": 100,
+                "Slot": 1
+            },
+            {
+                "Integer": 100,
+                "Slot": 2
+            },
+            {
+                "Integer": 100,
+                "Slot": 3
+            },
+            {
+                "Integer": 100,
+                "Slot": 4
+            },
+            {
+                "Integer": 100,
+                "Slot": 5
+            },
+            {
+                "Integer": 100,
+                "Slot": 6
+            },
+            {
+                "Integer": 100,
+                "Slot": 7
+            },
+            {
+                "Integer": 100,
+                "Slot": 8
+            }
+        ],
+        "FactionPoints": {
+            "DecreaseFaction1Points": 0b,
+            "OptionFaction2Points": 100,
+            "OptionFactions1": -1,
+            "OptionFactions2": -1,
+            "OptionFaction1Points": 100,
+            "DecreaseFaction2Points": 0b
+        },
+        "pDamage": 4,
+        "KilledTime": 0L,
+        "AimWhileShooting": 0b,
+        "CanPickUpLoot": 0b,
+        "AttackOtherFactions": 0b,
+        "CanDrown": 1b,
+        "pSize": 5,
+        "CanSprint": 0b,
+        "CanLeap": 1b,
+        "TransformIsActive": 0b,
+        "ForgeData": {
+            "PlayerPersisted": {
+            }
+        },
+        "MovingState": 0,
+        "MovingPos": 0,
+        "PotionAmp": 0,
+        "OnAttack": 0,
+        "TacticalRadius": 8,
+        "FallFlying": 0b,
+        "MaxExp": 0,
+        "OrderedLines": 0b,
+        "PortalCooldown": 0,
+        "pGlows": 0b,
+        "TransformHasAdvanced": 0b,
+        "TransformHasStats": 0b,
+        "MovementType": 0,
+        "FiringSound": "minecraft:entity.arrow.shoot",
+        "ModRev": 18,
+        "Accuracy": 60,
+        "MinExp": 0,
+        "Armor": [
+        ],
+        "CloakTexture": "",
+        "GlowTexture": "",
+        "MaxFiringRange": 15,
+        "pXlr8": 0b,
+        "Scripts": [
+        ],
+        "Health": 14.217758f,
+        "pStick": 0b,
+        "MovingPause": 1b,
+        "NpcDeathSound": "grimoireofgaia:minotaur_hurt",
+        "FactionID": 1,
+        "Title": "",
+        "TotalTicksAlive": 4993L,
+        "Rotation": [
+            -322.95105f,
+            0.0f
+        ],
+        "ShowName": 1,
+        "npcInteracting": 1b,
+        "AvoidsWater": 1b,
+        "NoLivingAnimation": 0b,
+        "SpawnCycle": 3
+    },
+    "FiringSound": "minecraft:entity.tnt.primed",
+    "SpawnerNBT4": {
+        "ReturnToStart": 1b,
+        "NpcInv": [
+        ],
+        "BossColor": 0,
+        "PotionEffect": 0,
+        "Size": 4,
+        "stopAndInteract": 1b,
+        "Resistances": {
+            "Arrow": 0.0f,
+            "Explosion": 1.0f,
+            "Knockback": 1.0f,
+            "Melee": 1.3098592f
+        },
+        "BossBar": 0b,
+        "RespawnTime": 0,
+        "NpcAngrySound": "",
+        "ReactsToFire": 0b,
+        "IgnoreCobweb": 0b,
+        "PositionOffsetZ": 5.0f,
+        "PositionOffsetY": 5.0f,
+        "PositionOffsetX": 5.0f,
+        "LootMode": 0,
+        "TransformHasAI": 0b,
+        "AttackStrenght": 6,
+        "PersistenceRequired": 0b,
+        "id": "customnpcs.CustomNpc",
+        "MovingPatern": 0,
+        "NpcLines": {
+            "Lines": [
+            ]
+        },
+        "DefendFaction": 0b,
+        "FireIndirect": 0,
+        "NpcVisible": 0,
+        "LinkedNpcName": "",
+        "NpcScenes": {
+            "Scenes": [
+            ]
+        },
+        "HitSound": "minecraft:entity.arrow.hit",
+        "FindShelter": 2,
+        "Air": 300s,
+        "TacticalVariant": 0,
+        "Orientation": 0,
+        "ScriptLanguage": "ECMAScript",
+        "HandItems": [
+            {
+            },
+            {
+            }
+        ],
+        "KnockBack": 1,
+        "TransformHasJob": 0b,
+        "ArmorDropChances": [
+            0.085f,
+            0.085f,
+            0.085f,
+            0.085f
+        ],
+        "Pos": [
+            -1549.2516287370063d,
+            64.0d,
+            2321.2407834529877d
+        ],
+        "BurnInSun": 0b,
+        "StandingState": 0,
+        "AttackInvisible": 0b,
+        "HurtTime": 0s,
+        "WalkingRange": 10,
+        "ShotCount": 1,
+        "pDur": 5,
+        "AttackRange": 2,
+        "NpcKillLines": {
+            "Lines": [
+            ]
+        },
+        "PotionImmune": 0b,
+        "AvoidsSun": 0b,
+        "Texture": "cyberware:textures/models/cyberzombie.png",
+        "NpcJob": 0,
+        "BurstCount": 1,
+        "NpcAttackLines": {
+            "Lines": [
+            ]
+        },
+        "pSpeed": 10,
+        "pArea": 0,
+        "DeathTime": 0s,
+        "pImpact": 0,
+        "MoveState": 0,
+        "TargetType": 0,
+        "pRender3D": 1b,
+        "Motion": [
+            0.0d,
+            -0.0784000015258789d,
+            0.0d
+        ],
+        "CombatRegen": 0,
+        "NpcsTimers": [
+        ],
+        "pEffect": 0,
+        "DistanceToMelee": 0,
+        "NpcStepSound": "",
+        "FireRate": 5,
+        "LeftHanded": 0b,
+        "pEffAmp": 0,
+        "OnGround": 1b,
+        "Dimension": 0,
+        "ImmuneToFire": 0b,
+        "NpcKilledLines": {
+            "Lines": [
+            ]
+        },
+        "SpecialAggroRange": 14,
+        "Fire": -1s,
+        "ArmorItems": [
+            {
+            },
+            {
+            },
+            {
+            },
+            {
+            }
+        ],
+        "DisablePitch": 0b,
+        "pPhysics": 1b,
+        "TransformHasInv": 0b,
+        "NpcInteractLines": {
+            "Lines": [
+            ]
+        },
+        "HurtByTimestamp": 4943,
+        "pSpin": 0b,
+        "NpcHurtSound": "grimoireofgaia:minotaur_hurt",
+        "pTrail": 0,
+        "CreatureType": 0,
+        "Attributes": [
+            {
+                "Base": 1.0d,
+                "Name": "am2.burnoutReduction"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.manaRegenModifier"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxBurnoutBonus"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxManaBonus"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.xpMultiplier"
+            },
+            {
+                "Base": 100.0d,
+                "Name": "cyberware.tolerance"
+            },
+            {
+                "Base": 10.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -4557935957806527035L,
+                        "UUIDLeast": -4950522221421205810L,
+                        "Amount": 0.42177581787109375d,
+                        "Operation": 1,
+                        "Name": "ScalingHealth.HealthModifier"
+                    }
+                ],
+                "Name": "generic.maxHealth"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.knockbackResistance"
+            },
+            {
+                "Base": 0.4000000059604645d,
+                "Name": "generic.movementSpeed"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.armor"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "generic.armorToughness"
+            },
+            {
+                "Base": 32.0d,
+                "Name": "generic.followRange"
+            },
+            {
+                "Base": 6.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -3218372695593237220L,
+                        "UUIDLeast": -8743736172551149415L,
+                        "Amount": 0.3234315514564514d,
+                        "Operation": 0,
+                        "Name": "ScalingHealth.DamageModifier"
+                    }
+                ],
+                "Name": "generic.attackDamage"
+            }
+        ],
+        "Invulnerable": 0b,
+        "TransformHasDisplay": 0b,
+        "NoFallDamage": 0b,
+        "AbsorptionAmount": 0.0f,
+        "TransformHasRole": 0b,
+        "Name": "Frankling",
+        "FallDistance": 0.0f,
+        "SkinColor": 16777215,
+        "NpcIdleSound": "",
+        "Weapons": [
+        ],
+        "NPCDialogOptions": [
+        ],
+        "AggroRange": 16,
+        "DirectLOS": 1b,
+        "HealthRegen": 0,
+        "ForgeCaps": {
+            "llibrary:ExtendedEntityDataCapability": {
+            },
+            "dsurround:emojiData": {
+                "as": 0,
+                "es": 0,
+                "et": 0
+            },
+            "arsmagica2:ExtendedProp": {
+                "AM2": {
+                    "CurrentBurnout": 0.0f,
+                    "MarkX": 0.0d,
+                    "HealCooldown": 0,
+                    "TK_Distance": 8.0f,
+                    "Shrunk": 0b,
+                    "MarkY": 0.0d,
+                    "MarkZ": 0.0d,
+                    "FallProtection": 0.0f,
+                    "AffinityHealCooldown": 0,
+                    "CurrentLevel": 0,
+                    "Contingency": {
+                        "Type": "null"
+                    },
+                    "CurrentSummons": 0,
+                    "MarkDimensionId": -512,
+                    "CurrentXP": 0.0f,
+                    "Inverted": 0b,
+                    "ManaShielding": 0.0f,
+                    "CurrentMana": 500.0f
+                }
+            }
+        },
+        "HandDropChances": [
+            0.085f,
+            0.085f
+        ],
+        "NpcModelData": {
+            "LegsConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.012000002f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "BodyConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "Eyes": {
+                "Pattern": 0b,
+                "Glint": 1b,
+                "Type": 0b,
+                "PositionY": 1,
+                "SkinColor": 11830381,
+                "PlayerTexture": 0b,
+                "Color": 8339378,
+                "BrowColor": 5982516,
+                "BrowThickness": 4
+            },
+            "EntityClass": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
+            "LegParts": {
+                "Pattern": 0b,
+                "Type": 0b,
+                "PlayerTexture": 0b,
+                "Color": 16777215
+            },
+            "Parts": [
+            ],
+            "ArmsConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": -0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "ExtraData": {
+            },
+            "HeadConfig": {
+                "NotShared": 0b,
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            }
+        },
+        "minDelay": 20,
+        "DoorInteract": 2,
+        "MoveSpeed": 8,
+        "TransformEditingModus": 0b,
+        "UsingSkinUrl": 0b,
+        "Leashed": 0b,
+        "SkinUrl": "",
+        "CanSwim": 1b,
+        "GroundSound": "minecraft:block.stone.break",
+        "MaxHealth": 10,
+        "HideBodyWhenKilled": 0b,
+        "AttackSpeed": 20,
+        "PotionDuration": 5,
+        "maxDelay": 40,
+        "ScriptEnabled": 0b,
+        "Role": 0,
+        "DropChance": [
+            {
+                "Integer": 100,
+                "Slot": 0
+            },
+            {
+                "Integer": 100,
+                "Slot": 1
+            },
+            {
+                "Integer": 100,
+                "Slot": 2
+            },
+            {
+                "Integer": 100,
+                "Slot": 3
+            },
+            {
+                "Integer": 100,
+                "Slot": 4
+            },
+            {
+                "Integer": 100,
+                "Slot": 5
+            },
+            {
+                "Integer": 100,
+                "Slot": 6
+            },
+            {
+                "Integer": 100,
+                "Slot": 7
+            },
+            {
+                "Integer": 100,
+                "Slot": 8
+            }
+        ],
+        "FactionPoints": {
+            "DecreaseFaction1Points": 0b,
+            "OptionFaction2Points": 100,
+            "OptionFactions1": -1,
+            "OptionFactions2": -1,
+            "OptionFaction1Points": 100,
+            "DecreaseFaction2Points": 0b
+        },
+        "pDamage": 4,
+        "KilledTime": 0L,
+        "AimWhileShooting": 0b,
+        "CanPickUpLoot": 0b,
+        "AttackOtherFactions": 0b,
+        "CanDrown": 1b,
+        "pSize": 5,
+        "CanSprint": 0b,
+        "CanLeap": 1b,
+        "TransformIsActive": 0b,
+        "ForgeData": {
+            "NpcSpawnerId": "9esSQccf",
+            "NpcSpawnerNr": 4,
+            "PlayerPersisted": {
+            }
+        },
+        "MovingState": 0,
+        "MovingPos": 0,
+        "PotionAmp": 0,
+        "OnAttack": 0,
+        "TacticalRadius": 8,
+        "FallFlying": 0b,
+        "MaxExp": 0,
+        "OrderedLines": 0b,
+        "PortalCooldown": 0,
+        "pGlows": 0b,
+        "TransformHasAdvanced": 0b,
+        "TransformHasStats": 0b,
+        "MovementType": 0,
+        "FiringSound": "minecraft:entity.arrow.shoot",
+        "ModRev": 18,
+        "Accuracy": 60,
+        "MinExp": 0,
+        "Armor": [
+        ],
+        "CloakTexture": "",
+        "GlowTexture": "",
+        "MaxFiringRange": 15,
+        "pXlr8": 0b,
+        "Scripts": [
+        ],
+        "Health": 14.217758f,
+        "pStick": 0b,
+        "MovingPause": 1b,
+        "NpcDeathSound": "grimoireofgaia:minotaur_hurt",
+        "FactionID": 1,
+        "Title": "",
+        "TotalTicksAlive": 4993L,
+        "Rotation": [
+            -322.95105f,
+            0.0f
+        ],
+        "ShowName": 1,
+        "npcInteracting": 1b,
+        "AvoidsWater": 1b,
+        "NoLivingAnimation": 0b,
+        "SpawnCycle": 3
+    },
+    "ModRev": 18,
+    "Accuracy": 100,
+    "MinExp": 100,
+    "Armor": [
+        {
+            "Slot": 1b,
+            "id": "cyberware:trenchcoat",
+            "Count": 1b,
+            "tag": {
+                "display": {
+                    "color": 15395562
+                },
+                "ENABLED": 1b,
+                "RARITY": 4
+            },
+            "Damage": 0s
+        }
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 0b,
+    "Scripts": [
+    ],
+    "Health": 124.04911f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "mowziesmobs:barako.die",
+    "FactionID": 6,
+    "Title": "",
+    "TotalTicksAlive": 64524L,
+    "Rotation": [
+        228.98196f,
+        14.465679f
+    ],
+    "ShowName": 1,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 3
+}

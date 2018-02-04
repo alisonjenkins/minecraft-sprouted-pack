@@ -1,0 +1,54 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "actuallyadditions:itemHelmEmerald",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "actuallyadditions:itemChestEmerald",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "actuallyadditions:itemPantsEmerald",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "actuallyadditions:itemBootsEmerald",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "customnpcs:npcFullEmeraldHead",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "customnpcs:npcFullEmeraldChest",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "customnpcs:npcFullEmeraldLeggings",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "customnpcs:npcFullEmeraldBoots",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "customnpcs:npcEmeraldSkirt",
+                    "weight": 20
+                }
+            ]
+        }
+    ]
+}

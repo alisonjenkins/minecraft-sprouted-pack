@@ -1,0 +1,8 @@
+{
+  "loot-table": "jsonlootbags:oreOtherworldly",
+  "name": "packageOreOtherworldly",
+  "human-name": "Otherworldly Ore Package",
+  "texture": "dungeontactics:bag_ore",
+  "rarity": "Rare",
+  "effect": false
+}

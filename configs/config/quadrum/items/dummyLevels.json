@@ -1,0 +1,9 @@
+{
+  "name": "dummyLevels",
+  "creative_tab": "misc",
+  "traits":{
+      "visual":{
+		"enchanted": false
+      }
+  }
+}

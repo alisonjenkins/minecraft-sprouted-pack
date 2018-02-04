@@ -1,0 +1,114 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": 15,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogCommand": "/noppes quest start @dp 17",
+                "Dialog": -1,
+                "Title": "Flesh Lich and Bone Knights",
+                "DialogColor": 7409628,
+                "OptionType": 4
+            }
+        },
+        {
+            "OptionSlot": 1,
+            "Option": {
+                "DialogCommand": "/noppes quest start @dp 18",
+                "Dialog": -1,
+                "Title": "Banshee",
+                "DialogColor": 7409628,
+                "OptionType": 4
+            }
+        },
+        {
+            "OptionSlot": 2,
+            "Option": {
+                "DialogCommand": "/noppes quest start @dp 19",
+                "Dialog": -1,
+                "Title": "Dhampir",
+                "DialogColor": 7409628,
+                "OptionType": 4
+            }
+        },
+        {
+            "OptionSlot": 3,
+            "Option": {
+                "DialogCommand": "/noppes quest start @dp 20",
+                "Dialog": 53,
+                "Title": "Master Contract",
+                "DialogColor": 7409628,
+                "OptionType": 1
+            }
+        },
+        {
+            "OptionSlot": 4,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": -1,
+                "Title": "Goodbye",
+                "DialogColor": 13905169,
+                "OptionType": 0
+            }
+        },
+        {
+            "OptionSlot": 5,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": -1,
+                "Title": "Goodbye",
+                "DialogColor": 13905169,
+                "OptionType": 1
+            }
+        }
+    ],
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 1,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 1,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 18,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "UndeathContracts2",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "Got a few options here. Apparently the depths breed stronger zombies and skeletons, which we'd like to have investigated. We've also had reports of a spirit in the mountains with a deadly scream, and lesser vampires stalking the frozen forests. And when you're ready for it, I've got one more contract for you too, but I can't offer it to anyone bar the staunchest members of the guild - it's tough.",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": 16,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 30,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1498352652685L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}

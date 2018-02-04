@@ -1,0 +1,21 @@
+{
+	"name" : "loot_abilities",
+	"loot_rules" : [
+		{	
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {
+					"name" : "everlastingabilities:abilityTotem"
+					
+					}, 
+					"weight" : 50
+				}
+			],
+			"level" : 0,
+			"each" : true,
+			"quantity" : 1
+		}
+	],
+	"criteria" : {
+	}
+}

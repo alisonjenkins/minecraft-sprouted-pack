@@ -1,0 +1,87 @@
+{
+    "CompleterNpc": "Undeath Slayer",
+    "NextQuestId": -1,
+    "RandomReward": 1b,
+    "QuestRepeat": 3,
+    "QuestCompletion": 0,
+    "Title": "Sounds Painful",
+    "Text": "The Slayer's Guild has contracted you to purge a very angry spirit in the mountains. This so called Banshee has brought an end to the life of many travellers, as well as overeager guild members. Look for it under the cover of darkness.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 50,
+    "QuestCommand": "",
+    "QuestDialogs": [
+        {
+            "Value": 1,
+            "Slot": "grimoireofgaia.Banshee"
+        }
+    ],
+    "ModRev": 18,
+    "Type": 2,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1496203933185L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "grimoireofgaia:spawnguard",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "scalinghealth:CrystalShard",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "jsonlootbags:grabbagArmourFrameRegular",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "grimoireofgaia:item.BagBook",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "grimoireofgaia:item.BoxIron",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "id": "grimoireofgaia:item.MiscBook",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "CompleteText": "With the Banshee's reighn of screams brought to a close, you return to the guild for your reward.",
+    "NextQuestTitle": ""
+}

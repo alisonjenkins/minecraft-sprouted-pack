@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourObsidian",
+  "name": "grabbagArmourObsidian",
+  "human-name": "Obsidian Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Uncommon",
+  "effect": false,
+  "colors": [
+    "#3B2C4A",
+    "#4C385E"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourFaraday",
+  "name": "grabbagArmourFaraday",
+  "human-name": "Faraday Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Uncommon",
+  "effect": false,
+  "colors": [
+    "#5B502B",
+    "#B2AEA2"
+  ]
+}

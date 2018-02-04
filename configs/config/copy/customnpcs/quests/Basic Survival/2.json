@@ -1,0 +1,97 @@
+{
+    "CompleterNpc": "Traveller",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Finding Nests",
+    "Text": "The kind traveller has taken it upon himself to teach you some basics of survival in this world.To start with, he wants you to break the leaves off trees until you find a birdsnest.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 5,
+    "QuestCommand": "",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1493349839711L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "silentgems:Sickle",
+                "Count": 1b,
+                "tag": {
+                    "SGProperties": {
+                        "ToolTier": 0,
+                        "MeleeDamage": 1.5f,
+                        "MagicDamage": 0.0f,
+                        "Enchantability": 8,
+                        "ChargeSpeed": 0.5f,
+                        "HarvestSpeed": 5.0f,
+                        "Durability": 128,
+                        "MeleeSpeed": 1.1f,
+                        "HarvestLevel": 1,
+                        "BlockingPower": 0.4f
+                    },
+                    "SGStatistics": {
+                        "OriginalOwner": "a cheater!"
+                    },
+                    "SGConstruction": {
+                        "PartRod": "silentgems:rodwood#NONE",
+                        "Part0": "silentgems:flint#NONE",
+                        "Part2": "silentgems:flint#NONE",
+                        "Part1": "silentgems:flint#NONE"
+                    },
+                    "display": {
+                        "Name": "Flint Sickle"
+                    },
+                    "SGModel": {
+                        "Layer0": 1399,
+                        "Layer1Color": 16777215,
+                        "Layer2Color": 16777215,
+                        "Layer3Color": 16777215,
+                        "Layer6": -1,
+                        "Layer5": -1,
+                        "Layer4": -1,
+                        "Layer3": 1013,
+                        "Layer2": 960,
+                        "Layer0Color": 16777215,
+                        "Layer1": 913
+                    }
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "birdsnests:birdsnest",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "LeaveItems": 1b,
+    "CompleteText": "You've found out how to get birdsnests for some basic resources. Right-click with them to find out what they hold.Birdsnests provide a number of different resources, some of which are quite rare, but for the moment you just need a little flint and some sticks.",
+    "NextQuestTitle": ""
+}

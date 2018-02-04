@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourTactical",
+  "name": "grabbagArmourTactical",
+  "human-name": "Tactical Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Common",
+  "effect": false,
+  "colors": [
+    "#376685",
+    "#ADCDE1"
+  ]
+}

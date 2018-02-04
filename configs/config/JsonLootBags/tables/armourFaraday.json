@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "immersiveengineering:faradaySuit_head",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "immersiveengineering:faradaySuit_chest",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "immersiveengineering:faradaySuit_legs",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "immersiveengineering:faradaySuit_feet",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+	"name": "brokenFarmer",
+	"creative_tab": "misc",
+	"traits": {
+		"physical": {
+			"default": {
+				"material": "ROCK",
+				"hardness": 8,
+				"resistance": 4,
+				"light": 2,
+				"harvest_level": {
+					"tool": "pickaxe",
+					"level": 3
+				}
+			}
+		},
+		"visual": {
+			"transparent": true,
+			"full_cube": false
+		}
+	}
+		
+}

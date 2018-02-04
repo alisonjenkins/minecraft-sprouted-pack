@@ -1,0 +1,120 @@
+{
+  "Technical": {
+    "0": {
+      "title": "Numerical Light Level Overlay",
+      "icon": {
+        "name": "minecraft:redstone_torch",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "cfg.keybind.LightLevel",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "X Light Level Overlay",
+      "icon": {
+        "name": "minecraft:torch",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.moreoverlays.lightoverlay.desc",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Toggle Block Bounding Boxes",
+      "icon": {
+        "name": "minecraft:stone",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "cfg.keybind.SelectionBox",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Chunk Boundary Overlay",
+      "icon": {
+        "name": "extrautils2:decorativeglass",
+        "damage": 1
+      },
+      "action": {
+        "key": {
+          "key": "cfg.keybind.ChunkBorders",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "main": {
+    "2": {
+      "title": "Technical Controls",
+      "icon": {
+        "name": "rftools:smartwrench",
+        "damage": 0
+      },
+      "action": {
+        "category": "Technical"
+      }
+    },
+    "4": {
+      "title": "Equipment Levels (Hold Item)",
+      "icon": {
+        "name": "quadrum:dummyLevels",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.gui.weapon_interface",
+          "toggle": false
+        }
+      }
+    },
+    "7": {
+      "title": "Equip/Unequip Backpack",
+      "icon": {
+        "name": "ironbackpacks:basicBackpack",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Equip/Unequip Backpack",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "Open Equipped Backpack",
+      "icon": {
+        "name": "ironbackpacks:diamondBackpackStorageEmphasis",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Open Backpack",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Portable Crafting",
+      "icon": {
+        "name": "craftingcraft:portableCraftingTable",
+        "damage": 0
+      },
+      "action": {
+        "item": {
+          "name": "craftingcraft:portableCraftingTable",
+          "damage": 0
+        }
+      }
+    }
+  }
+}

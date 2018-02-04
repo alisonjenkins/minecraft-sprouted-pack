@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourFrameMundane",
+  "name": "grabbagArmourFrameMundane",
+  "human-name": "Mundane Armour Frame Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Common",
+  "effect": false,
+  "colors": [
+    "#F49F14",
+    "#FBF7F1"
+  ]
+}

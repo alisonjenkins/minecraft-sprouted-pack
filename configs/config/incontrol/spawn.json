@@ -1,0 +1,12 @@
+[
+	{
+		"mob": ["grimoireofgaia.Siren", "grimoireofgaia.Ant", "grimoireofgaia.Selkie", "camping.bearGrizzly", "grimoireofgaia.Mandragora", "grimoireofgaia.Matango"],
+		"maxspawndist": 1500,
+		"result": "deny"
+	},
+	{
+		"mob": ["grimoireofgaia.Siren", "grimoireofgaia.Ant", "camping.bearGrizzly", "grimoireofgaia.Mandragora"],
+		"minspawndist": 1500,
+		"result": "allow"
+	}
+]

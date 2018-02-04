@@ -1,0 +1,119 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:fish",
+          "weight": 60,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:fish"
+        },
+        {
+          "entryName": "minecraft:fish#0",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:fish"
+        },
+        {
+          "entryName": "minecraft:fish#1",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:fish"
+        },
+        {
+          "entryName": "minecraft:fish#2",
+          "weight": 13,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:fish"
+        },
+        {
+          "entryName": "DT:SwiftFish",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:fish_swift"
+        },
+        {
+          "entryName": "DT:FlyingFish",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:fish_flying"
+        },
+        {
+          "entryName": "DT:LavaFish",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:fish_lava"
+        },
+        {
+          "entryName": "DT:MuscleFish",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:fish_muscle"
+        },
+        {
+          "entryName": "DT:LungFish",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:fish_lung"
+        },
+        {
+          "entryName": "DT:ObsidianFish",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:fish_obsidian"
+        },
+        {
+          "entryName": "DT:TunnelShark",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:fish_tunnel"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

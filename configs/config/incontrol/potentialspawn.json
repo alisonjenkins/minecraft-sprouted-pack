@@ -1,0 +1,15 @@
+[
+	{
+		"dimension": 0,
+		"block": "minecraft:grass",
+		"biome": ["Forest", "Birch Forest", "Birch Forest Hills"],
+		"mobs": [
+		{
+			"mob": "roots.deer",
+			"weight": 400,
+			"groupcountmin": 1,
+			"groupcountmax": 2
+		}
+    ]
+  }
+]
