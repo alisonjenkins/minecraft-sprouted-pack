@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "iceandfire:armor_green_helmet",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "iceandfire:armor_green_chestplate",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "iceandfire:armor_green_leggings",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "iceandfire:armor_green_boots",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

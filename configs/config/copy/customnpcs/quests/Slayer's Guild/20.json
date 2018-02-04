@@ -1,0 +1,49 @@
+{
+    "CompleterNpc": "Guildmaster Kingle",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "Title": "Joining the Slayer's Guild",
+    "Text": "Guildmaster Kingle of the Slayer's Guild has offered you a place in the guild, provided you can prove yourself. To do so, you need to kill a Selkie, and an Ant Worker. Both are only found 1500m or further from the origin of the world, in the cold regions, and in deserts respectively. Once you've carried out the kill, return to Kingle to complete your initiation into the guild.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": 3,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 50,
+    "QuestCommand": "",
+    "QuestDialogs": [
+        {
+            "Value": 1,
+            "Slot": "grimoireofgaia.Selkie"
+        },
+        {
+            "Value": 1,
+            "Slot": "grimoireofgaia.Ant"
+        }
+    ],
+    "ModRev": 18,
+    "Type": 2,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1506843048762L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+        ]
+    },
+    "CompleteText": "Welcome, Comrade, to the Slayer's Guild!",
+    "NextQuestTitle": ""
+}

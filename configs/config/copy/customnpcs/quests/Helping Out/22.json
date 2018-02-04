@@ -1,0 +1,51 @@
+{
+    "CompleterNpc": "Mad Scientist",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "Title": "Basement Boy",
+    "Text": "Now this Mad Scientist wants you to check out his \"ceiling\"????",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 10,
+    "QuestCommand": "",
+    "QuestDialogs": [
+        {
+            "Value": 1,
+            "Slot": "Frank"
+        }
+    ],
+    "ModRev": 18,
+    "Type": 2,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1505461149133L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "enderio:itemBasicCapacitor",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "CompleteText": "Ohoho, that's quite the interesting find you've got there. Where'd you get that? My basement? But I don't have a basement, what are you talking about??At any rate, I think I might be able to not only fix this, but also reproduce it. I'm sure I can find a few other bits of junk to sell you too. Gotta make me some money off of suckers like you somehow.",
+    "NextQuestTitle": ""
+}

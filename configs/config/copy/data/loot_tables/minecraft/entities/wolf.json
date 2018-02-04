@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 3.0,
+        "max": 6.0
+      }
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

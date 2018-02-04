@@ -1,0 +1,84 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogCommand": "/give @dp bibliocraft:BigBook 1 {pagesCurrent: 0, pages: {pageScale0: [7, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] as int[], page2: [\"Warping to Waystones:\", \"\", \"The main method of warping to\", \"waystones is with the 5Warp Stone.\", \"Holding right click with this item\", \"lets you choose which of the\", \"waystones you've discovered to\", \"travel to.\", \"\", \"Before you can warp to a waystone,\", \"You must 2activate2 0it by right clicking\", \"on it.\", \"\", \"You can also warp using 5Recall\", \"5Scrolls0. These must be linked to\", \"specific waystones, and will warp\", \"the user directly to that waystone,\", \"whether they have prior knowledge\", \"of it or not.\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], page1: [\"Where to find them:\", \"\", \"\", \"Waystones can be found in 3 places\", \"normally;\", \"- At world spawn\", \"- In villages\", \"- Randomly in the wilderness\", \"\", \"\", \"\", \"They can also be crafted and\", \"placed wherever they are needed.\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], page0: [\"On Waystones;\", \"\", \"Waystones can be found in many\", \"places around the world. See the\", \"tabs to the right for more info.\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], pageScale2: [6, 0, 3, 3, 3, 3, 3, 3, 0, 3, 3, 3, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] as int[], pageScale1: [6, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] as int[]}, chapters: {chapline7: \"\", chapline6: \"\", chapline10: \"\", chapline5: \"Warping\", chapline4: \"\", chapline3: \"Where?\", chapline2: \"\", chapline1: \"Home\", chapline0: \"\", chapline15: \"\", chapline13: \"\", chapline14: \"\", chapline11: \"\", chapline12: \"\", chapPages: [0, 1, 2, 0, 0, 0, 0, 0] as int[], chapBools: [1, 1, 1, 0, 0, 0, 0, 0] as int[], chapline9: \"\", chapline8: \"\"}, author: \"a traveller\", display: {Name: \"fOn Waystones\"}, signed: 1 as byte, pagesTotal: 3}",
+                "Dialog": -1,
+                "Title": "Can you write that down for me?",
+                "DialogColor": 7409628,
+                "OptionType": 3
+            }
+        },
+        {
+            "OptionSlot": 1,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 6,
+                "Title": "Can you help me with something else?",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            }
+        },
+        {
+            "OptionSlot": 2,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": -1,
+                "Title": "Goodbye",
+                "DialogColor": 13905169,
+                "OptionType": 0
+            }
+        }
+    ],
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 18,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "Waystones",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "Waystones dot the landscape, both in the wilderness and at places of importance. With a warp stone, one can freely teleport between ones they have found.For a waystone to be a valid destination however, you must activate your connection with it by placing your hand on it (right-click).They aren't just found in the wild though, if you have the right materials, it is possible to craft waystones yourself. So if there's someplace you consider important, you can add it as a potential destination yourself!If you so wish, you can also make scrolls which teleport the user to a singular waystone they are linked to, so if you wish to lead others to certain waystones they are yet to encounter, you can provide them with one of these scrolls.",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1488612863732L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}

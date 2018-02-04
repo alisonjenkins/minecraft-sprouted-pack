@@ -1,0 +1,54 @@
+{
+  "BLOCK_LOOKING_AT": [
+    {
+      "tipID": "dirt",
+      "tipName": "Dirt Tip",
+      "block": "minecraft:dirt",
+      "desc": "Use Dirt to Grow plants"
+    },
+    {
+      "tipID": "grass",
+      "tipName": "Grass Tip",
+      "block": "minecraft:grass",
+      "desc": "Use Grass to feed sheep"
+    },
+    {
+      "tipID": "wood",
+      "tipName": "Wood Tip",
+      "block": "minecraft:log",
+      "desc": "Use Wood to make stuff",
+      "useOreDictonary": true
+    }
+  ],
+  "TOOLTIP": [
+    {
+      "tipID": "redstone",
+      "tipName": "Redstone ToolTip",
+      "item": "minecraft:redstone",
+      "desc": "Use redstone to power \nyour devices"
+    }
+  ],
+  "INFO": [
+    {
+      "tipID": "info1",
+      "tipName": "Dont Dig Down",
+      "desc": "Never dig down as you could fall into lava or a deep cavern!"
+    }
+  ],
+  "DIMENSION": [
+    {
+      "tipID": "levelup",
+      "tipName": "Level Up!",
+      "dimid": 0,
+      "desc": "Press L to access the "Level Up!" class selection and skill points window!"
+    }
+  ],
+  "ON_ENTITY_KILL": [
+    {      
+      "tipID": "sheepkiller",
+      "entityID": "sheep",
+      "tipName": "Sheep Killer",
+      "desc": "You have killed a sheep. I hope your really proud of your self...."
+    }
+  ]
+}

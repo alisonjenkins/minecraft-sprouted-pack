@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourFrameRegular",
+  "name": "grabbagArmourFrameRegular",
+  "human-name": "Regular Armour Frame Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Uncommon",
+  "effect": false,
+  "colors": [
+    "#DDD7CE",
+    "#FBF7F1"
+  ]
+}

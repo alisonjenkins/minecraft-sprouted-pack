@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "enderio:darkSteel_helmet",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "enderio:darkSteel_chestplate",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "enderio:darkSteel_leggings",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "enderio:darkSteel_boots",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

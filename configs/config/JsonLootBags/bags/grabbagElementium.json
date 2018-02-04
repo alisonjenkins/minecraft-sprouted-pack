@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourElementium",
+  "name": "grabbagArmourElementium",
+  "human-name": "Elementium Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Rare",
+  "effect": false,
+  "colors": [
+    "#F43A97",
+    "#BB1C6B"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "dungeontactics:gilded_helmet",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:gilded_chestplate",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:gilded_leggings",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:gilded_boots",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

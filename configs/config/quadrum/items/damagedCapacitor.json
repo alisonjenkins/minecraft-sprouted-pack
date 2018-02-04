@@ -1,0 +1,9 @@
+{
+  "name": "damagedCapacitor",
+  "creative_tab": "misc",
+  "traits":{
+      "visual":{
+		"enchanted": false
+      }
+  }
+}

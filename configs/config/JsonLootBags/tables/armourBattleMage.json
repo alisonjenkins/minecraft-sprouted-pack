@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "arsmagica2:helmet_battlemage",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "arsmagica2:chest_battlemage",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "arsmagica2:legs_battlemage",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "arsmagica2:boots_battlemage",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

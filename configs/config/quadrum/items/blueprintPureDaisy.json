@@ -1,0 +1,9 @@
+{
+  "name": "blueprintPureDaisy",
+  "creative_tab": "misc",
+  "traits":{
+      "visual":{
+		"enchanted": false
+      }
+  }
+}

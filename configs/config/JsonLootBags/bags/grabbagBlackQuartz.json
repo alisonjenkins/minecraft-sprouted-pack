@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourBlackQuartz",
+  "name": "grabbagArmourBlackQuartz",
+  "human-name": "Black Quartz Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Uncommon",
+  "effect": false,
+  "colors": [
+    "#342D2D",
+    "#494040"
+  ]
+}

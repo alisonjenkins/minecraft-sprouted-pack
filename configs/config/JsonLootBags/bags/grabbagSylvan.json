@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourSylvan",
+  "name": "grabbagArmourSylvan",
+  "human-name": "Sylvan Robes Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Rare",
+  "effect": false,
+  "colors": [
+    "#A9AA7A",
+    "#7AB85B"
+  ]
+}

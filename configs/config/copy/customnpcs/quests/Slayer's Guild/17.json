@@ -1,0 +1,91 @@
+{
+    "CompleterNpc": "Undeath Slayer",
+    "NextQuestId": -1,
+    "RandomReward": 1b,
+    "QuestRepeat": 3,
+    "QuestCompletion": 0,
+    "Title": "Deader Dead?",
+    "Text": "The depths of the underground are rumoured to contain more powerful variants of common Zombies and Skeletons. Dubbing them Flesh Lich and Bone Knights, the Slayer's Guild has contracted you to investigate.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": 3,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 50,
+    "QuestCommand": "",
+    "QuestDialogs": [
+        {
+            "Value": 1,
+            "Slot": "grimoireofgaia.BoneKnight"
+        },
+        {
+            "Value": 1,
+            "Slot": "grimoireofgaia.FleshLich"
+        }
+    ],
+    "ModRev": 18,
+    "Type": 2,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1496203947837L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "grimoireofgaia:spawnguard",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "jsonlootbags:grabbagArmourFrameRegular",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "scalinghealth:CrystalShard",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "grimoireofgaia:item.BoxIron",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "grimoireofgaia:item.BagBook",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "id": "grimoireofgaia:item.MiscBook",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "CompleteText": "Having confirmed the existence of Flesh Lich and Bone Knights, you return to the guild to collect your reward.",
+    "NextQuestTitle": ""
+}

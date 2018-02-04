@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourGilded",
+  "name": "grabbagArmourGilded",
+  "human-name": "Gilded Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Uncommon",
+  "effect": false,
+  "colors": [
+    "#D5D8BF",
+    "#EBF130"
+  ]
+}

@@ -1,0 +1,495 @@
+§61.0.0§r [§cIn Development§r]
+
+0.10.0
++ Added:
+	- Guidebook 1.7.3
+	- MineMenu 1.4.5
+	- Sprout Patcher 2.0
+	- Toroquest 3.2.3
+	- MoreOverlays 1.11 (Replacing the main functionality which was being used from JWIN)
+- Removed:
+	- MobProperties (wasn't being used)
+	- MinecraftComesAlive + RadixCore (a few too many big issues, and seemingly unsupported for months) 
+		- left included but disabled by default for ease of use with existinng worlds for now, to be fully removed in next major update
+	- JWIN
++ Updated:
+	- Forge 12.18.3.2477
+	- Ambient Sounds 2.0.8
+	- Animania 1.3.3
+	- Bibliocraft 2.2.5
+	- Chest Transporter 2.5.18
+	- Chisel 0.0.14.33
+	- Chisels and Bits 12.16
+	- CTM 0.2.3.26
+	- CustomNPCs 1.10.2(21jul17)
+	- CyclopsCore 0.10.9
+	- Dungeon Tactics 0.12.5
+	- DynamicSurroundings 3.4.7.2
+	- D3Core 1.3.1
+	- EverlastingAbilities 1.2.5
+	- ExtraBitManipulation 2.5.1
+	- Extra Utilities 2 1.6.3
+	- Foamfix 0.7.2
+	- Forgelin 1.5.1
+	- Gemulations 4.0.2
+	- GrappleMod 1.10.2 v10
+	- IronBackpacks 2.2.31
+	- JourneyMap 5.5.0
+	- LevelUp! 0.12.10
+	- LLibrary 1.7.7
+	- LoginShield 1.10.2-25-g2a63586
+	- Minecolonies 0.8.4063
+	- Railcraft 10.2.0
+	- RandomRestockableCrates 1.2.8
+	- Recurrent Complex 1.4.5
+	- RFTools 6.13
+	- RFTools Dimensions 5.0.5
+	- RPG-HUD 3.6.6
+	- ScalingHealth 1.2.2-70
+	- ShetiPhianCore 3.3.11
+	- SilentLib 2.2.6-66
+	- Silent's Gems 2.4.7-217
+	- SG Extra Parts 1.3.3-29
+	- SuperMultiDrills 1.5.2-43
+	- Waystones 2.0.13
++ Structures
+	- Tweaked Rarity of Slayer's Guild again, it seems to have become TOO rare with the previous tweak, should be better now.
+	- Added oldGreenhouse. Contains the Broken Farming Device
+	- Added villageLibrary, houses the Librarian
+	- Added villagePost, houses the Post Worker
+	- Added MadScientistsTower
+	- Added trapExtra
+	- Increased Spawn rate for bigalBlacksmith (the building with the Armourer), pureDaisyCave, enchanterHouse
+	- Reduced Spawn rate for ManasmithForge
+	- MesoChest: Added to the loot pool, to make the many maze structures a bit more lucrative
++ NPCs
+	- Quest: Basic Tools: Added Minecolonies guidebook to the Akashic Tome included in the starter kit
+	- Quest: Fetching the Fixed/Saddle Up: The Monk's Saddle is now a separate item, instead of a renamed vanilla saddle
+	- Factions: Tweaked the citizens faction to longer get attacked by mobs, and to be hidden on the factions list in the inv
+	- NPC: Added Mad Scientist (and a couple other related  minor NPCs), with a couple new quests (Traptastic, Basement Boy)
+	- NPC: Tinkerer: Added Farming Component to the blueprint duplication store
+	- NPC: Tinkerer: Increased the cost of duplicating Display stands to 16 iron coins
+	- NPC: Weaver: Significantly expanded what the Weaver buys and sells
+	- NPC: Miller: Reduced chance of dropping a hay bale on death from 100% to 20%
+	- NPC: Added Librarian - Buys and sells books, and has a couple of quests too
+	- NPC: Added Post Worker - Allows sending mail to players. Also notifies if you have unread mail when you come near
+	- NPC: Dragon Slayer: Fixed the dialogue for getting contracts being available before you join the guild
+	- NPC: Stablemaster: Store now accepts items NBT independently
++ Configs
+	- InControl: Added Mandragora and Matango to the list of mobs that only spawn at least 1500 blocks from spawn
+	- JSONLootBags: Fixed typo in name of Restonia armour grabbag
+	- Quadrum: Added Damaged Capacitor, Farming Component, Farming Component Blueprint, Broken Farming Device, Cloth(reimplemented from MCA), Merino Cloth, Monk's Saddle (replacing the renamed vanilla saddle used previously)
+	- Bibliocraft: Added bestiary, dictionary, tablet to list of keywords to allow as books on bookcases
+	- Minecolonies: disable colony protection - seems to cause far more problems than is worth
+	- Minecolonies: allow multiple warehouses per colony
+	- Minecolonies: don't always display name tags on colonists
+	- Levels: Removed the Soulbound ability from Armour. Should've been done last patch, but I didn't realize it was listed separately for armour and weapons
+	- EnderIO: Added SAGMill recipe breaking down the Broken Farming Device
+	- EnderIO: Added Enchanter recipes for a bunch more enchants
+	- EnderIO: Added SagMill recipe for diamond dust from diamonds
+	- InControl: Added Damaged Capacitor drops to CyberZombies and CyberSkeletons
+	- DungeonTactics: Added Runic Dictionary to Book Bags, SG Tip Upgrades + some SMD drill parts to Tool Bags
+	- DungeonTactics: Removed Grappling Hooks from Tool Bags - those weren't meant to be in there
+	- DungeonTactics: Removed Ender Book from Book bag drops - it is now purchased from the Librarian
+	- DungeonTactics: Readded wooden tools to Tool bag drops (for Minecolonies purposes)
+	- DungeonTactics: Added Cheese Wedges, Chocolate Truffles, Plain Omelette, Fish and Chips to Food Bags
+	- loot_tables (using Copypaste): Removed Restonia Crystal and Palis crystal from loot tables
+	- Quark: Fixed the ids for the Building Bricks partial grass blocks (slabs etc) to properly be affected by Quark's greener grass setting
+	- JEI: Hid a bunch of unused/incomplete/bugged/technical items and blocks from showing in JEI
+	- Malisis' Doors: Disabled overriding vanilla doors. This means no more nice animation for vanilla doors, but resolves weirdness with Minecolonies NPCs using them
+	- Quark: Force enabled double doors opening together since Malisis isn't doing that due to the above config change
+	- Quark: Reduced vein sizes of Dirt, Gravel, from 33 to 22
+	- Quark: Reduced cluster sizes of Andesite, Diorite, Granite, Limestone, Marble from 200 to 100
+	- Quark: Increased spawn rates of Crystal Caves from 1 in 150 chunks to 1 in 100 chunks
+	- Quark: Increased Spawn chance for Vanilla/Quark Dungeons from 8 to 16
+	- Animania: Added Horse Meat (Improving MC mod) as drop from Draft Horses
+	- ScalingHealth: Nerf blight spawn chances to be 5x more rare than before
+	- ScalingHealth: Blacklisted Squid, Minecolonies colonists
+	- ScalingHealth: Blights can no longer spawn with extra armour pieces beyond the guarenteed helmet
+	- ScalingHealth: Further reduced the level of Speed given to blights from 3 to 1
+	- ArsMagicka2: Changed HUD display to show at all times once unlocked, rather than just when a spell is in the main hand
+	- Waystones: Prevent using Waystones across different dimensions. This is due to some issues that have been observed as a result of this, and to encourage getting other types of teleportation
+	- Cyberware: Reduced time for scanner operation, and increased its success chance
+	- Terraqueous: Disabled endimium ore. It doesn't have much use, so just craft it.
+	- Village Names: Disabled name generation for villagers. Hopefully this will maybe resolve the issue of dissapearing NPCS?
++ Scripts
+	- Fixed Pig Fat crafting only working with fully repaired carving knife
+	- Added Animania Prime meats + frog legs, and IMC Horse Meat to foodMeat ore dict, allowing their use in recipes such as dragon meal
+	- Changed bear trap recipe to use IE iron rods in normal mode (Scavenged only in scavenger mode), and removed the camping mod iron sticks from the pack
+	- Changed recipe for minecolonies building tool and scan tool to not clash with stone and iron builder's wand
+	- Both modes: Iron Casing from AA now requires garnet and restonia crystal - you'll need to find some to craft the reconstructor to craft more
+	- Both modes: Changed recipes for Garden Cloche, Farmer (AA), Farming station to include Farming Components.
+	- Both modes: Changed recipe for the RFTools Machine frame to now use Palis crystal and Golden Beryl instead of lapis and gold nuggets
+	- Both modes: Changed recipe for RFTools Machine Infuser
+	- Normal mode: Added recipe for Farming Components (these are scavenged in scavenger mode)
+	- Scavenger mode: Added recipe for Farming Component blueprints for use with the Tinkerer 
+	- Added RC plates to relevant oredicts
+	- Added all seeds to listAllseed oredict
+	- Both modes: Added AA Crusher and IE Crusher recipes to break down Broken Farming Devices
+	- Both modes: Added Atomic Reconstructer recipe to restore Damaged Capacitors to Basic Capacitors
+	- Both modes: Recipe for needle and thread now uses an IE Iron rod in place of the MCA needle
+	- Both modes: Added tooltips to SMD Drill Parts indicating how to make the drills
+	- Both modes: Added tooltip to Restonia crystal indicating to buy the first ones from the Mad Scientist
+	- Normal mode: Redid recipes for Rune Bag, Essence Bag, Flower Pouch, Dust Pouch, Mage Robes to use cloth or Merino Cloth instead of wool
+	- Both modes: Added cloth to recipe for Manaweave cloth
+	- Scavenger mode: Removed recipes for Bag of Holding, Rune Bag, Essence Bag, Flower Pouch, Dust Pouch, Spellbinding Cloth - These are now purchased from the weaver
+	- Scavenger mode: Removed recipe for Ender Book - now exclusively purchased from Librarian
+	- Both modes: Tweak/add recipes for various enchant tokens
+	- Both modes: Add uses for jellyfish and leeches
+	- Both modes: Tweak recipe for endimium dust to include ender essence
+	- Both modes: Added Quark and Astral Sorcery Marble variants to Chisel
+	
+0.9.3
+- Updated:
+	- Boatiful 0.11.0
+	- Chisel 0.0.13.29
+	- DynamicSurroundings 3.4.6.0
+	- InfinityLib 0.11.0
+- Downgraded:
+	- ExtraUtilities2 1.4.4
+- Structures:
+	- Added Fish pie, Mandrake pie, Boxed Lunch to the VillageKitchen loot tag
+- NPCs
+	- Traveller: The Starter Kit now comes with an eternity upgrade applied
+	- Traveller: The Traveller's final quest (Basic Tools) now also gives the Traveller's Journal, with a few hints as to what else might be found in the world
+- Configs:
+	- Levels: Disabled Soulbound ability - it doesn't work with TMG, use the enchant which does work
+	- Water Strainer: Added GoG Coalfish to the fisherman's strainer
+	- EnderIO: Disabled use of Silent's Gems hoes due to causing a crash
+- Scripts:
+	- Scavenger: fixed a typo that led to diamond leggings being craftable
+	- Tweaked recipes for fish pie, and AA Fish and Chips
+	- Removed C&B chisels from being options for crafting AM blank runes - they weren't working anyway
+
+
+0.9.2
+- Updated:
+	- Animania 1.2.1
+	- Astral Sorcery 1.4.5
+	- Chisel 0.0.13.28
+	- CTM 0.2.0.19
+	- Dynamic Surroundings 3.4.5.7
+	- Earthworks 1.3.4.1
+	- Extra Utilities 2 1.5
+	- Grimoire of Gaia 3 1.5.6
+	- InControl 3.6.0
+	- JourneyMap 5.4.9b1
+	- McjtyLib 2.4.3
+	- Minecolonies 2.0.8.3056
+	- Recurrent Complex 1.4.4
+	- StorageDrawers 3.7.10
+- Structures:
+	- Updated the Weaver's house to have a "Needle & Thread" instead of "Needle and String"
+	- Fixed the Traveller's structure at spawn so his cart no longer gets partially deleted as he spawns
+	- Made the Slayer's guild a bit rarer - should result in less cases of all 5 copies spawning close to each other
+	- Overhauled the substructures used to spawn NPCs. Now is completely vertical with a 1x3x1 footprint, so should be less likely to get stuck unactivated in partially genned structures
+- NPCs
+	- Removed random natural spawns of the Hunter. You'll need to find his hut now.
+		- For existing worlds: manually delete the "<world>/customNPCs/spawns.dat" file for this to take effect
+	- Updated the Tinkerer's store to now use the independent blueprint items added through quadrum.
+		- This won't retroactively update pre-existing Tinkerer's, so either spawn a replacement with the Mob Cloner, or explore to find a new one
+- Configs
+	- Quadrum: Added better working clone of MCA's Needle and String to resolve issues making cloth
+	- Quadrum: Added individual items for each of the Scavenger Blueprints
+	- JEI: Hid MCA Needle and String
+	- Ice and Fire: reduced spawn rates of surface dragon roosts
+	- Ice and Fire: Dragon block destruction changed to only destroy weak blocks.
+	- EnderIO: added Alloy Smelter recipes for DT ore clusters
+- Scripts
+	- Removed recipe for MCA Needle and String, used old recipe for Quadrum added Needle & Thread. (For the user this has no real effect other than working better)
+	- Redid the Cloth recipe to use the Quadrum added Needle & Thread. Also now accepts any colour wool
+	- Add recipe to smelt DT Ore Clusters to ingots. Still won't work in ExU2 furnace sadly. Also don't know why this recipe wasn't a thing to begin with.
+	- Add "Purchased from Weaver" tooltip to Silk (Both packmodes)
+	- Old blueprint recipes now apply to the new quardum based blueprint items. Functionally same as before, just less exploitable.
+
+0.9.1
+- Updated:
+	- Forge 12.18.3.2316
+	- AmbientSounds 1.0.4
+	- Animania 1.2
+	- Astral Sorcery 1.4.4
+	- Chisel 0.0.11.26
+	- Controlling 1.0.5
+	- InControl 3.5.6
+	- ItemPhysic 1.4.6
+	- Loottweaker 0.6.3
+	- Minecolonies 0.8.2890
+	- Modtweaker 2.0.13
+	- Recurrent Complex 1.4.3.1
+	- RFTools 6.10
+	- Terraqueous 1.2.25
+	- VillageNames 1.1a
+- Structures:
+	- Made the ManasmithForge quite a bit rarer
+	- villageTinkerersHouse is now correctly not rotatable or mirrorable - This'll mean the tinkerer will sit on his stool as intended
+	- Slightly tweaked the traveller's structure at spawn to more reliably get commandBlockOutput gamerule set to false
+	- All non-rotatable village structures now have entrance side set as all sides. This means the door won't always be adjacent to a path, but resolves a bunch of issues
+- NPCs
+	- Tweaked the unlock requirements for all things Slayer's Guild. Them attacking you will now stop once you meet the requirements to get the join quest.
+	- Fixed the Monk's dialogue for the Heart Crystal quest being blank
+- Configs
+	- Now that the config actually exists, disables igniting from ItemPhysic
+	- Scaling Health: Lowered speed effect level on Blights
+	- Fixed an erroring loot table
+- Scripts
+	- Universal: lowered recipe output of iron doors to 1
+	
+0.9.0 - Enter the Guild
+- !Initial release!
+- Added:
+	- Rustic 0.1.2.2
+- Updated:
+	- Animania 1.1.5
+	- Aquaculture 1.4.1.4
+	- Astral Sorcery 1.4.3
+	- Baubles 1.3.11
+	- BetterFPS 1.4.5
+	- Bibliocraft 2.2.4
+	- Biometweaker 2.3.239
+	- Blood Magic 2.1.11-80
+	- Chameleon 2.3.0
+	- Chisel 0.0.11.25 (And Added CTM 0.1.1.16)
+	- Chisel and Bits 12.14
+	- CompatLayer 0.2.9
+	- CraftTweaker 3.0.26
+	- CustomNPCs 1.10.2(25may17)
+	- CyclopsCore 0.10.6
+	- Dungeon Tactics 0.11.7
+	- DynamicSurroundings 3.4.5.6
+	- Earthworks 1.3.4
+	- EnderIO 3.1.193
+	- ExtraUtilities2 1.4.4
+	- Foamfix 0.7.0-beta1
+	- Forgelin 1.5.0
+	- Grimoire of Gaia 1.5.5
+	- HWYLA 1.8.17-B31
+	- ImmersiveEngineering 0.10-61
+	- InfinityLib 0.10.0
+	- IronBackpacks 2.2.27
+	- IronChests 7.0.15.804
+	- JEI 3.14.7.420
+	- JourneyMap 5.4.7
+	- Loottweaker 0.6.2
+	- Minecolonies 0.8.2817
+	- MPUtils 1.2.9
+	- MTLib 1.0.3
+	- Quadrum 0.7.2
+	- Railcraft 10.1.2
+	- ReAuth 3.5.0
+	- Reliquary 1.3.3.664
+	- RFTools 6.01
+	- ScalingHealth 1.0.8-52
+	- ShetiPhianCore 3.3.9
+	- SilentLib 2.1.5-63
+	- Silent's Gems 2.3.16-186
+	- Silent's Gems Extra Parts 1.2.6-21
+	- StorageDrawers 3.7.9
+	- Terraqueous 1.2.24
+	- VillageNames 1.1
+	- WAILA Harvestability 1.1.10
+	- Water Strainer 1.4.2
+	- WIRED: More Augs 1.7.0
+- Downgraded
+	- Ars Magica 2 1.5.0-17b
+	- Recurrent Complex 1.2.10
+- Changed the way the tinkerer works. 
+	- Now instead of directly taking the scavenged item to him, you craft it with paper to get a bluebrint without consuming the item. This can then be taken to him to purchase more of the item. This allows him to work with non-stackables, and makes the process easier for server cooperation.
+- Disabled Campers spawning from Camping Mod. Totally forgot about this before
+- Turned down the frequency of roguelikes a bit
+- Made the EnchanterHouse and villageStable structures rarer
+- Number of deaths now displays on the tab player list (number in yellow)
+- Exchanged CNPC candles for Rustic Candles in structures
+- Added Rustic Apiaries and gargoyles to the monastery
+- Removed the everstone from Flabort's Ars mine structure
+- Added a CNPC Mailbox to the starter kit
+- Added a new gaurenteed village structure with a couple of mailboxes
+- Added grabbags for Dragon Scale armours, and for Dragon armour
+- Added recipe to craft pig fat from raw bacon
+- Added white fur to the drops of ferrets
+- Command Block Output gamerule now automatically gets set to false
+- Added Selkies to the list of mobs that don't spawn within 1500 blocks of spawn
+- Protection Charms are now scavenger affected, as possible rewards for some repeatable quests
+- A group of new NPCs are now somewhere in the world, maybe they'll even let you join them?
+	- Their structure is rather large, and spawns only 5 times per world
+- Fixed a derp in the way the NPCs for the bank were spawning
+- Tweaked the bank NPCs slightly, for every wannabe bank robber
+- Finished implementing the Botanical armourer, only now he's called a Manasmith Golem
+- The Traveller can now change the packmode to scavenger.
+- The warpstone in the starter kit now comes with Soulbound
+- Changed Difficulty to scale off time played as well as distance from spawn
+	- With multiple players in an area, the time difficulty effect is a weighted average of all the players within range
+
+0.8.0
+- Added:
+	- Flint Instead of Wood 7.5
+	- InControl 3.5.5
+	- SleepingBag 1.4.0
+	- ItemPhysic 1.4.4
+- Updated:
+	- AmbientSounds 2.0.2
+	- Animania 1.0.4.7
+	- Astral Sorcery 1.4.0
+	- Baubles 1.3.10
+	- BetterFPS 1.4.4
+	- Blood Magic 2.1.10-79
+	- Chest Transporter 2.5.17
+	- Chisel 0.0.10.22
+	- CompatLayer 0.2.8
+	- CustomNPCs 1.10.2(08may17)
+	- Cyberware 0.2.10
+	- CyclopsCore 0.10.2
+	- Dungeon Tactics 0.11.5
+	- Dynamic Surroundings 3.4.5.2
+	- Earthworks 1.2.3
+	- EnderCore 0.4.1.66-beta
+	- EnderIO 3.1.186
+	- Extra Utilities 2 1.4.1
+	- InfinityLib 0.9.0
+	- Iron Backpacks 2.2.26
+	- Iron Chests 7.0.12.801
+	- ItemPhysicFull 1.4.5
+	- Forgelin 1.4.2
+	- FTBLib 3.6.1
+	- FTBTweaks 2.0.2
+	- FTBUtils 3.6.0
+	- Immersive Engineering 0.10-58
+	- IVToolkit 1.3.3
+	- JEI 3.14.7.419
+	- LiteralAscension 1.0.2.2
+	- LLibrary 1.7.6
+	- Loottweaker 0.0.6.1
+	- Minecolonies 0.7.780
+	- MmmMmmMmmMmm 1.13
+	- Modtweaker 2.0.12
+	- Mowzie's Mobs 1.3.2
+	- MPUtils 1.2.6
+	- Railcraft 10.1.1
+	- Railcraft Cosmetic Addons 3.0.5
+	- Reliquary 1.3.3.659
+	- Recurrent Complex 1.3.0
+	- RFTools 6.0.0
+	- RFTools Control 1.6.8
+	- RFTools Dim 5.0.2
+	- RPGHUD 3.6.2
+	- SilentLib 2.1.3-58
+	- Silent's Gems 2.3.12-178
+	- StorageDrawers 3.7.4
+	- SuperMultiDrills 1.5.1-37
+	- Terraqueous 1.2.22
+	- WIRED 1.6.4
+- Removed:
+	- JustEnoughResources. Since it doesn't update to reflect loot-tables changed using the vanilla system, it was displaying inaccurate info
+	- ArchitectureCraft - was causing quite a few different crashes, with no fixes on the horizon
+	- AppliedEnergistics2 - I got sick of the texture issue with I&F, and it hasn't been updated since December
+	- AE2Stuff - Cos it requires AE2
+	- BDLib - Was only being used by AE2Stuff
+- Disabled a lot of things from Camping Mod, and hid them in JEI
+- Rewrote a lot of recipes that were looking for specifically the vanilla versions of meats so as to allow usage of animania meats
+- Rewrote the recipes for the trough and nest from animania to be more oredict accepting
+- Reenable heart crystal ore, gets more common the further from spawn you go
+- Conversely, disabled containers dropping from blights
+- Added Sag Mill recipe for doubling Vinteum Ore and Chaos Ore, since they were already able to be doubled by most other methods
+- Removed the recipe for heart crystal shards -> heart container, will now be done using one of the new NPCs
+- Added 18 heart crystal shards to the starter kit (enough to buy 2 heart containers), along with a waystone. Also swapped out the CampingMod Sleeping bag for the SleepingBag mod's one
+- Changed the reward for "Finding Nests" from an ExU wooden sickle to a SG flint sickle, to keep consistency of first tools being flint based
+- Fixed DT ore bags looking for incorrect ids for SG ores
+- Alter the way NPCs were spawning in a bunch of structures so they will be able to spawn if the structure gens near worldspawn
+	- All future NPCs will be spawned using this method
+- Rearrange the AM2 HUD settings to fit with the new HUD
+- Increase the coins recieved for loose hay from the Miller
+- New NPCs with related structures: Monk, Stablemaster, Weaver, Hunter, Tinkerer
+	- Tinkerer duplicates scavenger looted items for making scavenger mode more viable on servers
+- Disabled Chisel raw marble and Astral Sorcery marble from worldgen. Quark marble still generates and can be chiseled into the others. AS marble is also still found in its structures
+- Disabled Chisel Limestone from genning too, likewise, the remaining quark limestone is chiselable
+- Mobs that spawn with Silent's Gems equipment will no longer have a chance to drop it on death
+- If in scavenger mode, affected items now indicate as much on their tooltip
+- Ice&Fire armours are now scavenger affected
+- Grapple hooks, BM snares, and AA display stands now affected by Scavenger mode
+- Added AM2 Soulbound to the list of things TMG won't collect in the grave (letting it actually function and follow you)
+- Disabled EIO soulbound, and made the Enchanter recipe for EIO soulbound produce AM2 soulbound instead (EIO soulbound was being buggy with its interaction with TMG)
+- Removed eggs from birdsnests. Omelets are really good food, if you want them, work for them by farming chickens
+- Prevent Sirens, Ant workers and Bears from spawning within 1500 blocks of spawn
+- Change the smelting output of Aquaculture tin cans to give tin rather than iron (except in the ExU2 furnace, cos that's an untweakable special snowflake)
+- Added recipe to convert a Snow Villager Soul Vial into a vanilla Villager Soul Vial to make the Enticing Crystal craftable
+- Tweak the recipe for the AA crate to be a bit more expensive - rather than being an all around upgrade you're giving up storage space for the benefit of it taking up less physical space
+- Removed ArchitectureCraft blocks from all structures
+- Removed CampingMod blocks from structures
+- Disabled JWIN Oredict pickup conversion due to a dupe bug interaction
+- Tweak AM2 blank rune recipe slightly
+- Moved the crafting of Supercharged Gems, and enriched chaos to the AA empowerer, BM Hellfire Forge, and Botania Runic Altar
+	- Will probably get added to the AS altar at somepoint too, once I can understand what progression there would match the other options
+- Removed the non-gem-based recipes for the LIT furnace upgrades
+- Made Ender Eye Mobs a bit more common
+- Flint instead of Wood mod is now controlling the requirement for an axe to cut logs, hopefully does it better than IMC did
+- Easy methods of flight are currently disabled in scavenger mode. They will be available again eventually, but method as yet undecided. 
+	- The purpose of this is to encourage using dragons as a means of transport
+- NOTE: Neat may be removed in the future. RPGHUD now has an entity health bar feature which fits better with the rest of the UI
+
+
+0.7.1
+- Added Village Names and Scaling Health
+- Fixed BigAl's Mill structure and the Dark Xanmeer - They had issues due to including blocks from EnvTech
+- Move MCA's crystal ball to the starter kit rather than spawning with it
+- Scaling Health configured so you start with 10 health (equivalent to 5 hearts), and mobs get stronger the farther from spawn you go
+    - Rate of scaling not yet finalized, may be tweaked as needed
+    - Left a small chance for heart canisters to drop from regular mobs, and more readily from Blight variants, as a stop-gap until I can implement proper ways to get more health
+- Altered the versioning to better accomodate small fixes like this
+Known Issues:
+- Ice&Fire bug from 0.7 still in play
+- Starting with Silent's Gems Guide is unintententional as it is part of the starter kit, but am currently waiting on addition of config to not spawn with it
+
+0.7
+- Updated forge to 2254
+- Added Animania, Minecolonies, Minecraft Comes Alive, RPG HUD, Ice&Fire
+- Removed Environmental Tech (+ValkyrieLib)(yes this is going to leave big holes in existing worlds), Embers, Psi, Psionic upgrades
+- Updated a bunch of mods. I swear I'll keep better track of this once I actually do a public release
+- Added the ability bottle to scavenger mode
+- Added the Archaeologist NPC, gives tutorial about ability totems
+- Added the Banker and Teller NPCs. Banker gives access to item bank, teller converts coins between types
+- Added worms from waterstrainer and actually additions, and glass shards from terraqueous to the levelup digging loot tables
+- Added recipe to swap between waterstrainer and AA worms
+- Edited default ReC loot pools
+- Edited waterstrainer pools to incorporate items from aquaculture, and the fish from dungeontactics
+Known Issue: A bug caused by a conflict with AE2 means most of the items and blocks in Ice&Fire show up as missing textures. This should be fixed soonish
+
+0.6
+- Added MobProperties, Grimoire of Gaia, Controlling, Default Options, Mowzie's Mobs, RandomRestockableCrates, ItemZoom, Loottweaker, Big doors, Aquaculture, Plants
+- Swapped RTG out in favour of ATG as main worldgen mod
+- Removed Calculator and SonarCore, Not Enough Wands, Morph o Tool
+- Updated a bunch of mods
+- Lowered the volume of sounds from Ambient Sounds
+- disabled moving spawners with chest transporters
+- First NPC content - traveller at spawn for a brief getting started tutorial, armourers and millers in villages
+- removed a bunch of armour, totems and AA drill cores from various loot pools
+- added a few things to some loot pools, more still to be done on this
+- If in scavenger mode, some (read: quite a few) armour types are still as yet unobtainable, pending inclusion of more NPC structures, quests and minibosses
+
+0.5
+- Armour scavenging!
+	- All Armour is now affected by scavenger mode - buy armour grab bags at new merchants in villages
+	- NOT FULLY IMPLEMENTED AS OF PRE5 DUE TO PRE5 BEING FOR GROUP BUILDING PURPOSES
+- Removed Builders Guides
+- Swapped The One Probe + TOP addons for HWYLA and WAILA Harvestability
+- Added Ambient Sounds, Astral Sorcery
+
+0.4
+- Added Embers, Holographic Victory Monument, Literal Ascension, Terraqueous, Earthworks, Ars Magicka 2 Reloaded, Bibliocraft and Custom NPCs
+- Removed Forestry, Gendustry, JEI Bees, Deep Resonance (and ElecCore)
+- Added Custom structures to Recurrent Complex for specific items
+	- Many such structures will be used for obtaining items needed for various mods.
+		- In the newly added Scavenger mode (same system as used by FTB Infinity and PO2 etc) these structures will be the only way to get these items
+			- At this stage only Botania's Pure Daisy is affected by Scavenger mode, but this will be expanded soon enough
+- When you start a world you now spawn with a warp stone and a waystone structure at spawn
+	- This serves as an ingame grounded alternative to the FTBUtils /spawn command (which along with /home and /back is disabled)
+- Tweaks to how everlasting abilities are earned:
+	- You no longer spawn with an ability bottle - you will need to craft one
+	- Totems no longer drop from mobs with glowing particles - thay are now specifically obtained from various structures, with different abilities being in different structures.
+	- Can only have a maximum of 6 different abilities active at any one time
+
+0.3
+- Updated a few mods
+- Swapped Expandable Backpacks out for Iron Backpacks
+- Added LIT and Gemulation
+- Fixed oregen (lead, silver, copper and tin were previously only available through RC mine style gen) 
+	- forestry now provides copper and tin, while IE provides lead, silver, bauxite and nickel
+- reduced chance of getting Levels' void ability on armour

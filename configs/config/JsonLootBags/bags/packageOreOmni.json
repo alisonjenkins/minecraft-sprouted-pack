@@ -1,0 +1,8 @@
+{
+  "loot-table": "jsonlootbags:oreOmni",
+  "name": "packageOreOmni",
+  "human-name": "Omni Ore Package",
+  "texture": "dungeontactics:bag_ore",
+  "rarity": "Epic",
+  "effect": true
+}

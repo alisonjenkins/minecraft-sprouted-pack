@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "imc:item_adamantium_helmet",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "imc:item_adamantium_chestplate",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "imc:item_adamantium_leggings",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "imc:item_adamantium_boots",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

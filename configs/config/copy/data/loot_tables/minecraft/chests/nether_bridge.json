@@ -1,0 +1,374 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:golden_chestplate",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_chestplate"
+        },
+        {
+          "entryName": "minecraft:flint_and_steel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:flint_and_steel"
+        },
+        {
+          "entryName": "minecraft:nether_wart",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:iron_horse_armor",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "entryName": "minecraft:diamond_horse_armor",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "entryName": "minecraft:obsidian",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:obsidian"
+        },
+        {
+          "entryName": "quark:rune",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "quark:rune"
+        },
+        {
+          "entryName": "everlastingabilities:abilityTotem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:abilityTotem"
+        },
+        {
+          "entryName": "actuallyadditions:crystalItems",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "actuallyadditions:itemCrystal"
+        },
+        {
+          "entryName": "actuallyadditions:crystalBlocks",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "actuallyadditions:blockCrystal"
+        },
+        {
+          "entryName": "actuallyadditions:drillCore",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 16.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "actuallyadditions:itemMisc"
+        },
+        {
+          "entryName": "actuallyadditions:batWings",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 15.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "actuallyadditions:itemMisc"
+        },
+        {
+          "entryName": "actuallyadditions:booklet",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "actuallyadditions:itemBooklet"
+        },
+        {
+          "entryName": "cyberware:surgeryApparatus",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "cyberware:surgery"
+        },
+        {
+          "entryName": "DT:GoldenHammer",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_hammer"
+        },
+        {
+          "entryName": "DT:GoldenSword",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_cutlass"
+        },
+        {
+          "entryName": "DT:GoldenKnife",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:golden_knife"
+        },
+        {
+          "entryName": "DT:HeartJar",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dungeontactics:heart_golden"
+        },
+        {
+          "entryName": "rftoolsdim:parcel",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "rftoolsdim:dimlet_parcel"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "xreliquary_inject_pool",
+      "entries": [
+        {
+          "entryName": "xreliquary_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "xreliquary:inject/chests/nether_bridge"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "terraqueous",
+      "entries": [
+        {
+          "entryName": "terraqueous:scroll_strange",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 477.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "terraqueous:item_main"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "name": "Ender IO",
+      "entries": [
+        {
+          "entryName": "enderio:itemBasicCapacitor180",
+          "weight": 1,
+          "quality": 1,
+          "conditions": [
+            {
+              "chance": 0.15,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "function": "enderio:set_capacitor"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "enderio:itemBasicCapacitor"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

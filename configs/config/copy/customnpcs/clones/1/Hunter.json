@@ -1,0 +1,1043 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+    ],
+    "BossColor": 0,
+    "PotionEffect": 2,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 20,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 1,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 10,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs.CustomNpc",
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 1b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.arrow.hit",
+    "FindShelter": 2,
+    "GuardTargets": [
+        {
+            "Line": "entity.animania.buck_alpine.name"
+        },
+        {
+            "Line": "entity.animania.buck_angora.name"
+        },
+        {
+            "Line": "entity.animania.buck_chinchilla.name"
+        },
+        {
+            "Line": "entity.animania.buck_cottontail.name"
+        },
+        {
+            "Line": "entity.animania.buck_dutch.name"
+        },
+        {
+            "Line": "entity.animania.buck_fainting.name"
+        },
+        {
+            "Line": "entity.animania.buck_havana.name"
+        },
+        {
+            "Line": "entity.animania.buck_jack.name"
+        },
+        {
+            "Line": "entity.animania.buck_kiko.name"
+        },
+        {
+            "Line": "entity.animania.buck_kinder.name"
+        },
+        {
+            "Line": "entity.animania.buck_lop.name"
+        },
+        {
+            "Line": "entity.animania.buck_new_zealand.name"
+        },
+        {
+            "Line": "entity.animania.buck_nigerian_dwarf.name"
+        },
+        {
+            "Line": "entity.animania.buck_pygmy.name"
+        },
+        {
+            "Line": "entity.animania.buck_rex.name"
+        },
+        {
+            "Line": "entity.animania.BullAngus.name"
+        },
+        {
+            "Line": "entity.animania.BullFriesian.name"
+        },
+        {
+            "Line": "entity.animania.BullHereford.name"
+        },
+        {
+            "Line": "entity.animania.BullHolstein.name"
+        },
+        {
+            "Line": "entity.animania.BullLonghorn.name"
+        },
+        {
+            "Line": "entity.animania.CalfAngus.name"
+        },
+        {
+            "Line": "entity.animania.CalfFriesian.name"
+        },
+        {
+            "Line": "entity.animania.CalfHereford.name"
+        },
+        {
+            "Line": "entity.animania.CalfHolstein.name"
+        },
+        {
+            "Line": "entity.animania.CalfLonghorn.name"
+        },
+        {
+            "Line": "entity.animania.ChickLeghorn.name"
+        },
+        {
+            "Line": "entity.animania.ChickOrpington.name"
+        },
+        {
+            "Line": "entity.animania.ChickPlymouthRock.name"
+        },
+        {
+            "Line": "entity.animania.ChickRhodeIslandRed.name"
+        },
+        {
+            "Line": "entity.animania.ChickWyandotte.name"
+        },
+        {
+            "Line": "entity.animania.CowAngus.name"
+        },
+        {
+            "Line": "entity.animania.CowFriesian.name"
+        },
+        {
+            "Line": "entity.animania.CowHereford.name"
+        },
+        {
+            "Line": "entity.animania.CowHolstein.name"
+        },
+        {
+            "Line": "entity.animania.CowLonghorn.name"
+        },
+        {
+            "Line": "entity.animania.Dart Frog.name"
+        },
+        {
+            "Line": "entity.animania.doe_alpine.name"
+        },
+        {
+            "Line": "entity.animania.doe_angora.name"
+        },
+        {
+            "Line": "entity.animania.doe_chinchilla.name"
+        },
+        {
+            "Line": "entity.animania.doe_cottontail.name"
+        },
+        {
+            "Line": "entity.animania.doe_dutch.name"
+        },
+        {
+            "Line": "entity.animania.doe_fainting.name"
+        },
+        {
+            "Line": "entity.animania.doe_havana.name"
+        },
+        {
+            "Line": "entity.animania.doe_jack.name"
+        },
+        {
+            "Line": "entity.animania.doe_kiko.name"
+        },
+        {
+            "Line": "entity.animania.doe_kinder.name"
+        },
+        {
+            "Line": "entity.animania.doe_lop.name"
+        },
+        {
+            "Line": "entity.animania.doe_new_zealand.name"
+        },
+        {
+            "Line": "entity.animania.doe_nigerian_dwarf.name"
+        },
+        {
+            "Line": "entity.animania.doe_pygmy.name"
+        },
+        {
+            "Line": "entity.animania.doe_rex.name"
+        },
+        {
+            "Line": "entity.animania.ewe_dorper.name"
+        },
+        {
+            "Line": "entity.animania.ewe_dorset.name"
+        },
+        {
+            "Line": "entity.animania.ewe_friesian.name"
+        },
+        {
+            "Line": "entity.animania.ewe_jacob.name"
+        },
+        {
+            "Line": "entity.animania.ewe_merino.name"
+        },
+        {
+            "Line": "entity.animania.ewe_suffolk.name"
+        },
+        {
+            "Line": "entity.animania.FerretGrey.name"
+        },
+        {
+            "Line": "entity.animania.FerretWhite.name"
+        },
+        {
+            "Line": "entity.animania.FoalDraftHorse.name"
+        },
+        {
+            "Line": "entity.animania.Frog.name"
+        },
+        {
+            "Line": "entity.animania.Hamster.name"
+        },
+        {
+            "Line": "entity.animania.Hedgehog.name"
+        },
+        {
+            "Line": "entity.animania.HedgehogAlbino.name"
+        },
+        {
+            "Line": "entity.animania.HenLeghorn.name"
+        },
+        {
+            "Line": "entity.animania.HenOrpington.name"
+        },
+        {
+            "Line": "entity.animania.HenPlymouthRock.name"
+        },
+        {
+            "Line": "entity.animania.HenRhodeIslandRed.name"
+        },
+        {
+            "Line": "entity.animania.HenWyandotte.name"
+        },
+        {
+            "Line": "entity.animania.HogDuroc.name"
+        },
+        {
+            "Line": "entity.animania.HogHampshire.name"
+        },
+        {
+            "Line": "entity.animania.HogLargeBlack.name"
+        },
+        {
+            "Line": "entity.animania.HogLargeWhite.name"
+        },
+        {
+            "Line": "entity.animania.HogOldSpot.name"
+        },
+        {
+            "Line": "entity.animania.HogYorkshire.name"
+        },
+        {
+            "Line": "entity.animania.kid_alpine.name"
+        },
+        {
+            "Line": "entity.animania.kid_angora.name"
+        },
+        {
+            "Line": "entity.animania.kid_fainting.name"
+        },
+        {
+            "Line": "entity.animania.kid_kiko.name"
+        },
+        {
+            "Line": "entity.animania.kid_kinder.name"
+        },
+        {
+            "Line": "entity.animania.kid_nigerian_dwarf.name"
+        },
+        {
+            "Line": "entity.animania.kid_pygmy.name"
+        },
+        {
+            "Line": "entity.animania.kit_chinchilla.name"
+        },
+        {
+            "Line": "entity.animania.kit_cottontail.name"
+        },
+        {
+            "Line": "entity.animania.kit_dutch.name"
+        },
+        {
+            "Line": "entity.animania.kit_havana.name"
+        },
+        {
+            "Line": "entity.animania.kit_jack.name"
+        },
+        {
+            "Line": "entity.animania.kit_lop.name"
+        },
+        {
+            "Line": "entity.animania.kit_new_zealand.name"
+        },
+        {
+            "Line": "entity.animania.kit_rex.name"
+        },
+        {
+            "Line": "entity.animania.lamb_dorper.name"
+        },
+        {
+            "Line": "entity.animania.lamb_dorset.name"
+        },
+        {
+            "Line": "entity.animania.lamb_friesian.name"
+        },
+        {
+            "Line": "entity.animania.lamb_jacob.name"
+        },
+        {
+            "Line": "entity.animania.lamb_merino.name"
+        },
+        {
+            "Line": "entity.animania.lamb_suffolk.name"
+        },
+        {
+            "Line": "entity.animania.MareDraftHorse.name"
+        },
+        {
+            "Line": "entity.animania.PeachickBlue.name"
+        },
+        {
+            "Line": "entity.animania.PeachickCharcoal.name"
+        },
+        {
+            "Line": "entity.animania.PeachickOpal.name"
+        },
+        {
+            "Line": "entity.animania.PeachickPeach.name"
+        },
+        {
+            "Line": "entity.animania.PeachickPurple.name"
+        },
+        {
+            "Line": "entity.animania.PeachickTaupe.name"
+        },
+        {
+            "Line": "entity.animania.PeachickWhite.name"
+        },
+        {
+            "Line": "entity.animania.PeacockBlue.name"
+        },
+        {
+            "Line": "entity.animania.PeacockCharcoal.name"
+        },
+        {
+            "Line": "entity.animania.PeacockOpal.name"
+        },
+        {
+            "Line": "entity.animania.PeacockPeach.name"
+        },
+        {
+            "Line": "entity.animania.PeacockPurple.name"
+        },
+        {
+            "Line": "entity.animania.PeacockTaupe.name"
+        },
+        {
+            "Line": "entity.animania.PeacockWhite.name"
+        },
+        {
+            "Line": "entity.animania.PeafowlBlue.name"
+        },
+        {
+            "Line": "entity.animania.PeafowlCharcoal.name"
+        },
+        {
+            "Line": "entity.animania.PeafowlOpal.name"
+        },
+        {
+            "Line": "entity.animania.PeafowlPeach.name"
+        },
+        {
+            "Line": "entity.animania.PeafowlPurple.name"
+        },
+        {
+            "Line": "entity.animania.PeafowlTaupe.name"
+        },
+        {
+            "Line": "entity.animania.PeafowlWhite.name"
+        },
+        {
+            "Line": "entity.animania.PigletDuroc.name"
+        },
+        {
+            "Line": "entity.animania.PigletHampshire.name"
+        },
+        {
+            "Line": "entity.animania.PigletLargeBlack.name"
+        },
+        {
+            "Line": "entity.animania.PigletLargeWhite.name"
+        },
+        {
+            "Line": "entity.animania.PigletOldSpot.name"
+        },
+        {
+            "Line": "entity.animania.PigletYorkshire.name"
+        },
+        {
+            "Line": "entity.animania.ram_dorper.name"
+        },
+        {
+            "Line": "entity.animania.ram_dorset.name"
+        },
+        {
+            "Line": "entity.animania.ram_friesian.name"
+        },
+        {
+            "Line": "entity.animania.ram_jacob.name"
+        },
+        {
+            "Line": "entity.animania.ram_merino.name"
+        },
+        {
+            "Line": "entity.animania.ram_suffolk.name"
+        },
+        {
+            "Line": "entity.animania.RoosterLeghorn.name"
+        },
+        {
+            "Line": "entity.animania.RoosterOrpington.name"
+        },
+        {
+            "Line": "entity.animania.RoosterPlymouthRock.name"
+        },
+        {
+            "Line": "entity.animania.RoosterRhodeIslandRed.name"
+        },
+        {
+            "Line": "entity.animania.RoosterWyandotte.name"
+        },
+        {
+            "Line": "entity.animania.SowDuroc.name"
+        },
+        {
+            "Line": "entity.animania.SowHampshire.name"
+        },
+        {
+            "Line": "entity.animania.SowLargeBlack.name"
+        },
+        {
+            "Line": "entity.animania.SowLargeWhite.name"
+        },
+        {
+            "Line": "entity.animania.SowOldSpot.name"
+        },
+        {
+            "Line": "entity.animania.SowYorkshire.name"
+        },
+        {
+            "Line": "entity.animania.StallionDraftHorse.name"
+        },
+        {
+            "Line": "entity.animania.Toad.name"
+        },
+        {
+            "Line": "entity.camping.bearGrizzly.name"
+        },
+        {
+            "Line": "entity.camping.foxArctic.name"
+        },
+        {
+            "Line": "entity.Chicken.name"
+        },
+        {
+            "Line": "entity.Cow.name"
+        },
+        {
+            "Line": "entity.dungeontactics.dungeontactics:huckling.name"
+        },
+        {
+            "Line": "entity.imc.HellHound.name"
+        },
+        {
+            "Line": "entity.imc.WildChicken.name"
+        },
+        {
+            "Line": "entity.imc.WildCow.name"
+        },
+        {
+            "Line": "entity.imc.WildPig.name"
+        },
+        {
+            "Line": "entity.imc.WildSheep.name"
+        },
+        {
+            "Line": "entity.MushroomCow.name"
+        },
+        {
+            "Line": "entity.Ozelot.name"
+        },
+        {
+            "Line": "entity.Pig.name"
+        },
+        {
+            "Line": "entity.PolarBear.name"
+        },
+        {
+            "Line": "entity.Rabbit.name"
+        },
+        {
+            "Line": "entity.roots.deer.name"
+        },
+        {
+            "Line": "entity.roots.direwolf.name"
+        },
+        {
+            "Line": "entity.Sheep.name"
+        },
+        {
+            "Line": "entity.toroquest.toro.name"
+        },
+        {
+            "Line": "entity.Wolf.name"
+        }
+    ],
+    "Air": 300s,
+    "TacticalVariant": 4,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 2,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "bloodmagic:ItemSoulSnare",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "literalascension:climbing_rope",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "customnpcs:npcCoinBronze",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "camping:trap",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "id": "customnpcs:npcCoinBronze",
+                "Count": 12b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "id": "customnpcs:npcCoinBronze",
+                "Count": 32b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "HurtTime": 0s,
+    "WalkingRange": 75,
+    "ShotCount": 1,
+    "pDur": 5,
+    "TraderIgnoreDamage": 0b,
+    "AttackRange": 3,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/humanmale/TribeMan.png",
+    "NpcJob": 3,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 4,
+    "TargetType": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "pEffect": 0,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "SpecialAggroRange": 14,
+    "TraderMarket": "",
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 43897,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "customnpcs:npcCoinBronze",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "grimoireofgaia:item.MiscFur",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "customnpcs:npcCoinBronze",
+                "Count": 6b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "minecraft:rabbit_hide",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "customnpcs:npcCoinBronze",
+                "Count": 24b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "id": "camping:partsAnimal",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "id": "camping:partsAnimal",
+                "Count": 1b,
+                "Damage": 1s
+            }
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 0,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "am2.burnoutReduction"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.manaRegenModifier"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxBurnoutBonus"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxManaBonus"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.xpMultiplier"
+        },
+        {
+            "Base": 100.0d,
+            "Name": "cyberware.tolerance"
+        },
+        {
+            "Base": 40.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -4557935957806527035L,
+                    "UUIDLeast": -4950522221421205810L,
+                    "Amount": 0.18752670288085938d,
+                    "Operation": 1,
+                    "Name": "ScalingHealth.HealthModifier"
+                }
+            ],
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.20000000298023224d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 10.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3218372695593237220L,
+                    "UUIDLeast": -8743736172551149415L,
+                    "Amount": 0.01902882568538189d,
+                    "Operation": 0,
+                    "Name": "ScalingHealth.DamageModifier"
+                }
+            ],
+            "Name": "generic.attackDamage"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Hunter",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "id": "mowziesmobs:spear",
+            "Count": 1b,
+            "tag": {
+                "ENABLED": 1b,
+                "RARITY": 1
+            },
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 40,
+                "Title": "Intro",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 0
+        }
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 1b,
+    "HealthRegen": 4,
+    "ForgeCaps": {
+        "llibrary:ExtendedEntityDataCapability": {
+        },
+        "dsurround:emojiData": {
+            "as": 0,
+            "es": 0,
+            "et": 0
+        },
+        "arsmagica2:ExtendedProp": {
+            "AM2": {
+                "CurrentBurnout": 0.0f,
+                "MarkX": 0.0d,
+                "HealCooldown": 0,
+                "TK_Distance": 8.0f,
+                "Shrunk": 0b,
+                "MarkY": 0.0d,
+                "MarkZ": 0.0d,
+                "FallProtection": 0.0f,
+                "AffinityHealCooldown": 0,
+                "CurrentLevel": 1,
+                "Contingency": {
+                    "Type": "null"
+                },
+                "CurrentSummons": 0,
+                "MarkDimensionId": -512,
+                "CurrentXP": 0.0f,
+                "Inverted": 0b,
+                "ManaShielding": 0.0f,
+                "CurrentMana": 500.85f
+            }
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": -1b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 10987431,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 1,
+    "MoveSpeed": 4,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "TraderIgnoreNBT": 0b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MaxHealth": 40,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 15,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 1b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 1b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "MP|Init": 1b,
+        "mp|drops": {
+        },
+        "PlayerPersisted": {
+        }
+    },
+    "MovingState": 1,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "ModRev": 18,
+    "Accuracy": 60,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 0b,
+    "Scripts": [
+    ],
+    "Health": 47.50107f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 7,
+    "Title": "",
+    "TotalTicksAlive": 4897468L,
+    "Rotation": [
+        49.144806f,
+        0.0f
+    ],
+    "ShowName": 1,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

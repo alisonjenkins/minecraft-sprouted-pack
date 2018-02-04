@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourRedstonia",
+  "name": "grabbagArmourRedstonia",
+  "human-name": "Restonia Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Uncommon",
+  "effect": false,
+  "colors": [
+    "#DD1D11",
+    "#F72214"
+  ]
+}

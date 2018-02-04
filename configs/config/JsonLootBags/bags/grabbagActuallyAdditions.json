@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourActuallyAdditions",
+  "name": "grabbagArmourActuallyAdditions",
+  "human-name": "Random AA Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Uncommon",
+  "effect": false,
+  "colors": [
+    "#6C3DD1",
+    "#E2D9F5"
+  ]
+}

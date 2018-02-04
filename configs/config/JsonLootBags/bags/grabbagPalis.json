@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourPalis",
+  "name": "grabbagArmourPalis",
+  "human-name": "Palis Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Uncommon",
+  "effect": false,
+  "colors": [
+    "#122BC4",
+    "#1633EA"
+  ]
+}

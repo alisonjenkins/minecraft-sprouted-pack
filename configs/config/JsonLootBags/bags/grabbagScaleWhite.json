@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourScaleWhite",
+  "name": "grabbagArmourScaleWhite",
+  "human-name": "White Dragon Scale Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Rare",
+  "effect": false,
+  "colors": [
+    "#f7fbff",
+    "#e8ecef"
+  ]
+}

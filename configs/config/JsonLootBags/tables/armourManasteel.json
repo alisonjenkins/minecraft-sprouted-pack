@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "botania:manasteelHelm",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "botania:manasteelChest",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "botania:manasteelLegs",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "botania:manasteelBoots",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

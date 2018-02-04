@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourTerrasteel",
+  "name": "grabbagArmourTerrasteel",
+  "human-name": "Terrasteel Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Epic",
+  "effect": false,
+  "colors": [
+    "#17CB22",
+    "#17A51F"
+  ]
+}

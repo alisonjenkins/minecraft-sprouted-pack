@@ -1,0 +1,8 @@
+{
+  "loot-table": "jsonlootbags:oreVanilla",
+  "name": "packageOreVanilla",
+  "human-name": "Vanilla Ore Package",
+  "texture": "dungeontactics:bag_ore",
+  "rarity": "Uncommon",
+  "effect": false
+}

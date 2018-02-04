@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "actuallyadditions:itemHelmCrystalGreen",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "actuallyadditions:itemChestCrystalGreen",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "actuallyadditions:itemPantsCrystalGreen",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "actuallyadditions:itemBootsCrystalGreen",
+                    "weight": 20
+                }				
+            ]
+        }
+    ]
+}

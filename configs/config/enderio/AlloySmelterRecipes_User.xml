@@ -1,0 +1,96 @@
+<!--
+  Custom recipes that will not be over written by Ender IO are added here. Examples of recipes can be found in the
+  AlloySmelterRecipes_Core.xml and general format documentation in the SAGMillRecipes_Core/User.
+
+  As well as adding custom recipes to the operation of the Alloy Smelter, a vanilla furnace recipe can be controlled.
+  It can be disabled completely by simply adding this line:
+
+  <vanillaFurnaceRecipes enabled="false" />
+
+  It is also possible to selectively disable vanilla furnace recipes. The following example disables the smelting of iron
+  ingots, ender pearls, and any form of iron ore registered in the ore dictionary.
+
+  <vanillaFurnaceRecipes>
+
+	<exclude>
+      <itemStack modID="minecraft" itemName="iron_ingot" />
+      <itemStack modID="minecraft" itemName="ender_pearl" />
+      <itemStack oreDictionary="oreIron" />
+    </exclude>
+
+  </vanillaFurnaceRecipes>
+
+  Add this line to disable the creation of TE alloys using the Alloy Smelter.
+
+  <recipeGroup name="Thermal Expansion" enabled="false" />
+
+-->
+
+<AlloySmelterRecipes>
+	<vanillaFurnaceRecipes>
+
+		<exclude>
+			<itemStack modID="aquaculture" itemName="loot" itemMeta="2" />
+		</exclude>
+
+	</vanillaFurnaceRecipes>
+	
+	<recipeGroup name="Sprout" >
+		<recipe name = "Tin can" energyCost="2000" >
+			<input>
+				<itemStack modID="aquaculture" itemName="loot" itemMeta="2" />
+			</input>
+			<output>
+				<itemStack modID="railcraft" itemName="ingot" itemMeta="2" number="1" exp="0.7" />
+			</output>
+		</recipe>
+		<recipe name = "Iron cluster" energyCost="2000" >
+			<input>
+				<itemStack modID="dungeontactics" itemName="cluster_iron" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="iron_ingot" number="1" exp="0.5" />
+			</output>
+		</recipe>
+		<recipe name = "Gold cluster" energyCost="2000" >
+			<input>
+				<itemStack modID="dungeontactics" itemName="cluster_gold" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="gold_ingot" number="1" exp="0.5" />
+			</output>
+		</recipe>
+		<recipe name = "Tin cluster" energyCost="2000" >
+			<input>
+				<itemStack modID="dungeontactics" itemName="cluster_tin" />
+			</input>
+			<output>
+				<itemStack modID="railcraft" itemName="ingot" itemMeta="2" number="1" exp="0.5" />
+			</output>
+		</recipe>
+		<recipe name = "Copper cluster" energyCost="2000" >
+			<input>
+				<itemStack modID="dungeontactics" itemName="cluster_copper" />
+			</input>
+			<output>
+				<itemStack modID="immersiveengineering" itemName="metal" itemMeta="0" number="1" exp="0.5" />
+			</output>
+		</recipe>
+		<recipe name = "Lead cluster" energyCost="2000" >
+			<input>
+				<itemStack modID="dungeontactics" itemName="cluster_lead" />
+			</input>
+			<output>
+				<itemStack modID="immersiveengineering" itemName="metal" itemMeta="2" number="1" exp="0.5" />
+			</output>
+		</recipe>
+		<recipe name = "Silver cluster" energyCost="2000" >
+			<input>
+				<itemStack modID="dungeontactics" itemName="cluster_silver" />
+			</input>
+			<output>
+				<itemStack modID="immersiveengineering" itemName="metal" itemMeta="3" number="1" exp="0.5" />
+			</output>
+		</recipe>
+	</recipeGroup>
+</AlloySmelterRecipes>

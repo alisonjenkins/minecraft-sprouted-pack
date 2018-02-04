@@ -1,0 +1,123 @@
+{
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 18b,
+                "id": "quadrum:blueprintDisplayStand",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "customnpcs:npcCoinGold",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 19b,
+                "id": "quadrum:blueprintPureDaisy",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 20b,
+                "id": "quadrum:blueprintGrapplingHook",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 21b,
+                "id": "quadrum:blueprintDrillCore",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "customnpcs:npcCoinGold",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 24b,
+                "id": "quadrum:blueprintEnchanter",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 27b,
+                "id": "quadrum:blueprintFarmingComponent",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "TraderIgnoreDamage": 0b,
+    "TraderIgnoreNBT": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "actuallyadditions:blockDisplayStand",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "botania:specialFlower",
+                "Count": 1b,
+                "tag": {
+                    "type": "puredaisy"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "grapplemod:grapplinghook",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "actuallyadditions:itemMisc",
+                "Count": 1b,
+                "Damage": 16s
+            },
+            {
+                "Slot": 6b,
+                "id": "enderio:blockEnchanter",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "id": "quadrum:farmingComponent",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    }
+}

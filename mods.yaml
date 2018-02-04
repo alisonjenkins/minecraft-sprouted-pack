@@ -1,0 +1,2114 @@
+---
+Actually Additions:
+  depends:
+  side: "BOTH"
+  mod-type: "Regular"
+  credits: "Author: Ellpeck; Textures and Models: BootyToast, GlenthorLP, canitzp"
+  description: "Do you want Automation? Wireless Transport? Better Machines? A cup o&apos; Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more!"
+  url: "http://github.com/Ellpeck/ActuallyAdditions"
+  authors: "Ellpeck"
+  versions:
+    1.10.2-r105:
+      url: https://minecraft.curseforge.com/projects/actually-additions/files/2392124
+
+akashictome:
+  name: "Akashic Tome"
+  depends:
+  side: "BOTH"
+  mod-type: "Regular"
+  credits:
+  description: The book of books.
+  versions:
+    1.0-5:
+      url: https://minecraft.curseforge.com/projects/akashic-tome/files/2345167
+  url: http://www.vazkii.us
+  authors: Vazkii
+
+atg:
+  name: Alternate Terrain Generation
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Provides an alternative to vanilla terrain generation.
+  versions:
+    2.0.1:
+      url: https://minecraft.curseforge.com/projects/alternate-terrain-generation/files/2390773
+  url: https://minecraft.curseforge.com/projects/alternate-terrain-generation/files/2390773
+  authors: TTFTCUTS
+
+ambientsounds:
+  name: AmbientSounds
+  depends:
+  side: CLIENT
+  mod-type: Regular
+  credits:
+  description:
+  versions:
+    v2.2.1:
+      url: https://minecraft.curseforge.com/projects/ambientsounds/files/2509562
+  url: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2526167
+  authors: CreativeMD
+
+animania:
+  name: Animania
+  depends: craftstudioapi
+  side: BOTH
+  mod-type: Regular
+  credits: Game concept, creative direction, models, textures, animation, sound design, and development by RazzleberryFox, Purplicious_Cow, cy4n, MrTschipp, ZeAmateis, Timmypote, vroulas, and TheJurassicAlien
+  description: Immersive and realistic animals in Minecraft, with improved models, textures, animation, behaviors, and drops.
+  url: https://minecraft.curseforge.com/projects/animania
+  authors: RazzleberryFox, Purplicious_Cow, cy4n, MrTschipp, ZeAmateis, Timmypote, vroulas, and TheJurassicAlien
+  versions:
+    1.10.2-1.4.3:
+      url: https://minecraft.curseforge.com/projects/animania/files/2508863
+    1.10.2-1.3.3:
+      url: https://minecraft.curseforge.com/projects/animania/files/2482978
+
+aquaculture:
+  name: Aquaculture
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Shadowclaimer, Glassmaker, lclc98, Freyja, and Rebelkeithy
+  description: Welcome to Aquaculture! An expansion of Minecraft&apos;s fishing system.
+  url: http://minecraft.curseforge.com/mc-mods/60028-aquaculture
+  authors: Team Metallurgy
+  versions:
+    1.4.1.4:
+      url: https://minecraft.curseforge.com/projects/aquaculture/files/2436138
+
+arsmagica2:
+  name: Ars Magica 2
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Ars Magica is a trademark of Atlas Games, used with permission. Any spell names and other material adapted from the Ars Magica fantasy roleplaying game are used with permission. For more information, visit www.atlas-games.com.  Some textures created using brushes from www.obsidiandawn.com.  Icons used include Painterly Spell Packs 1 through 4, courtesy of J. W. Bjerk (eleazzaar) at opengameart.com.  Random Spell names courtesy of Steven Savage from seventhsanctum.com.
+  description: A look into what Minecraft could become if you add a splash of magic...
+  url: https://minecraft.curseforge.com/projects/ars-magica-2
+  authors: Mithion, Zerodaimaru, EdwinMindcraft, Growlith1223
+  versions:
+    1.5.0-17:
+      url: https://minecraft.curseforge.com/projects/ars-magica-2/files/2378450
+
+astralsorcery:
+  name: Astral Sorcery
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: HellFirePvP (code), wiiv (models & textures)
+  description: Magic mod that draws power from stars and their constellations
+  url: https://minecraft.curseforge.com/projects/astral-sorcery
+  authors: HellFirePvP, wiiv
+  versions:
+    1.4.5:
+      url: https://minecraft.curseforge.com/projects/astral-sorcery/files/2445788
+
+AutoRegLib:
+  name: AutoRegLib
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Automatically item, block, and model registration for mods.
+  versions:
+    1.0-2:
+      url: https://minecraft.curseforge.com/projects/autoreglib/files/2327403
+  url: http://www.vazkii.us
+  authors: Vazkii
+
+Baubles:
+  name: Baubles
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Special thanks to chicken_bones
+  description: Adding a touch of bling to Minecraft
+  versions:
+    1.10.2-1.3.11:
+      url: https://minecraft.curseforge.com/projects/baubles/files/2424565
+  url: http://www.minecraftforum.net/topic/2535073-baubles
+  authors: Azanor
+
+bedbugs:
+  name: Bed Bugs
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: The usual
+  description: Adds a button and command to leave the bed/server when stuck!
+  versions:
+    1.10.2-1.1.6:
+      url: https://minecraft.curseforge.com/projects/bed-bugs/files/2399523
+  url:
+  authors: gr8pefish
+
+betterbuilderswands:
+  name: Better Builder&apos;s Wands
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Wands that allow placing of multiple blocks at a time
+  versions:
+    0.11.1:
+      url: https://minecraft.curseforge.com/projects/better-builders-wands/files/2394395
+  url:
+  authors: Portablejim
+
+BetterFps:
+  name: BetterFps
+  depends:
+  side: CLIENT
+  mod-type: Regular
+  versions:
+    1.4.5-1.10:
+      url: https://minecraft.curseforge.com/projects/betterfps/files/2429881
+
+BiblioCraft:
+  Modulename: BiblioCraft
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: BiblioCraft adds fancy storage containers including bookcases, armor stands, potion shelves, regular shelves, tool racks, glass weapon cases, wooden desks and wooden chest labels and now add machines, redstone interactions, and eyeware, fancy lamps and golden lanterns. Also Tables, enchanted plates, map frames, and seats!
+  versions:
+    2.2.5:
+      url: https://minecraft.curseforge.com/projects/bibliocraft/files/2456045
+  url: http://www.bibliocraftmod.com
+  authors: Joseph &apos;Nuchaz&apos; Sinclair
+
+bigdoors:
+  name: Big Doors
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: By jaquadro
+  description: Larger 3x3 block double doors in the 6 vanilla wood styles.
+  versions:
+    1.10.2-1.3.0:
+      url: https://minecraft.curseforge.com/projects/big-doors/files/2349986
+  url: http://www.jaquadro.com/
+  authors: jaquadro
+
+BiomeTweaker:
+  name: BiomeTweaker
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Used to tweak various characteristics of biomes.
+  versions:
+    1.10.2-2.1.230:
+      url: https://minecraft.curseforge.com/projects/biometweaker/files/2345262
+    1.10.2-2.3.239:
+      url: https://minecraft.curseforge.com/projects/biometweaker/files/2402226
+  url: http://minecraft.curseforge.com/mc-mods/228895-biometweaker
+  authors: superckl
+
+birdsnests:
+  name: Bird&apos;s Nests
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: adds a pseudo-random reward event from chopping trees.
+  versions:
+    1.5.1:
+      url: https://minecraft.curseforge.com/projects/birds-nests/files/2383917
+  url: https://minecraft.curseforge.com/projects/birds-nests
+  authors: Cleverpanda714
+
+BloodMagic:
+  name: "Blood Magic: Alchemical Wizardry"
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Rituals, spells, and more!
+  versions:
+    1.10.2-2.1.11-80:
+      url: https://minecraft.curseforge.com/projects/blood-magic/files/2439437
+  url: http://www.minecraftforum.net/topic/1899223-bloodmagic
+  authors: WayofTime
+
+boatifull:
+  name: Boatifull
+  depends: infinitylib
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: It&apos;s a boatifull life!
+  versions:
+    0.2:
+      url: https://minecraft.curseforge.com/projects/boatifull/files/2451342
+  url: https://www.github.com/InfinityRaider
+  authors: InfinityRaider
+
+Botania:
+  name: Botania
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Azanor, Flaxbeard, Futureazoo, Rorax, Lorc, Adubbz, WTFG33ks, Auric245524, MegaManki, Kain Vinosec, Kihira, mDiyo, Mikeemoo, ChickenBones, PowerCrystals, cpw
+  description: Botania is a mod that adds nature magic to Minecraft. This time with a fancy number in front.
+  versions:
+    r1.9-341:
+      url: https://minecraft.curseforge.com/projects/botania/files/2391169
+  url: http://www.botaniamod.net
+  authors: Vazkii, williewillus, wiiv, dylan4ever
+
+buildingbricks:
+  name: Building Bricks
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: A mod about building blocks and building tools.
+  versions:
+    1.10.2-2.0.13:
+      url: https://minecraft.curseforge.com/projects/building-bricks/files/2335355
+  url: https://github.com/hea3ven/BuildingBricks
+  authors: Hea3veN
+
+Chameleon:
+  name: Chameleon
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: By jaquadro
+  description: Shared code and render support for mods.  Used by jaquadro&apos;s mods.
+  versions:
+    1.10.2-2.3.0:
+      url: https://minecraft.curseforge.com/projects/chameleon/files/2419174
+  url: http://www.jaquadro.com/
+  authors: jaquadro
+
+ChestTransporter:
+  name: Chest Transporter
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Adds an item that allows you to transport chests.
+  versions:
+    1.10.2-2.5.18:
+      url: https://minecraft.curseforge.com/projects/chest-transporter/files/2460959
+  url: http://www.minecraftforum.net/topic/506109-
+  authors: CubeX2
+
+chisel:
+  name: Chisel
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: "AUTOMATIC_MAIDEN for the original mod, asie for porting to 1.7.2, and Pokenfenn/Cricket for continuing it in 1.7.  This mod uses textures from the Painterly Pack: http://painterlypack.net/."
+  description: Adds in tons of fancy blocks for decoration, crafted using the Chisel.
+  versions:
+    MC1.10.2-0.0.14.33:
+      url: https://minecraft.curseforge.com/projects/chisel/files/2479325
+  url: https://minecraft.curseforge.com/projects/chisel
+  authors: tterrag, Drullkus, minecreatr
+
+chiselsandbits:
+  name: Chisels & Bits
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: AlgorithmX2
+  description: a mod about Sculpting, Decorating and Aesthetics
+  versions:
+    12.16:
+      url: https://minecraft.curseforge.com/projects/chisels-bits/files/2483468
+  url: http://minecraft.curseforge.com/projects/chisels-bits
+  authors: AlgorithmX2
+
+ChunkAnimator:
+  name: Chunk Animator
+  depends:
+  side: CLIENT
+  mod-type: Regular
+  credits:
+  description: A small client side mod that animates the appeareance of chunks so that they don&apos;t just instantly appear
+  versions:
+    1.2:
+      url: https://minecraft.curseforge.com/projects/chunk-animator/files/2305872
+  url:
+  authors: lumien
+
+compatlayer:
+  name: compatlayer
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Compatibility layer to make migrating between different vanilla/forge versions easier
+  versions:
+    1.10-0.2.9:
+      url: https://minecraft.curseforge.com/projects/compatlayer/files/2511879
+  url:
+  authors: McJty
+
+controlling:
+  name: Controlling
+  depends:
+  side: CLIENT
+  mod-type: Regular
+  credits:
+  description: Gives people more Control of the key binding screen.
+  versions:
+    1.0.5:
+      url: https://minecraft.curseforge.com/projects/controlling/files/2442755
+  url:
+  authors: Jaredlll08
+
+copypaste:
+  name: Copy Paste
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Copies contents from config/copy to new or existing worlds.
+  versions:
+    1.1:
+      url: https://minecraft.curseforge.com/projects/copy-paste/files/2494164
+    1.0:
+      url: https://minecraft.curseforge.com/projects/copy-paste/files/2389091
+  url:
+  authors: joshiejack
+
+cosmeticarmorreworked:
+  name: CosmeticArmorReworked
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: dmillerw - original author; azanor - some code learned from baubles; izuminya - button icon; Deph0 and sblectric for their support when i&apos;m absent
+  description: This mod allows you to wear two sets of armor, one for display, one for function. You can also hide armor for your skin. For PVP, you can stop the mod from functioning on your client side.
+  versions:
+    1.10.2-v2a:
+      url: https://minecraft.curseforge.com/projects/cosmetic-armor-reworked/files/2336500
+  url: https://github.com/zlainsama/CosmeticArmorReworked
+  authors: zlainsama
+
+craftingtweaks:
+  name: Crafting Tweaks
+  depends: mtlib
+  side: BOTH
+  mod-type: Regular
+  credits: BlayTheNinth
+  description: Allows you to rotate or clear the crafting matrix by the press of a button, in any (supported) crafting window.
+  versions:
+    6.1.16:
+      url: https://minecraft.curseforge.com/projects/crafting-tweaks/files/2332562
+  url: http://balyware.com
+  authors: BlayTheNinth
+
+craftingcraft:
+  name: CraftingCraft
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: BlayTheNinth
+  description: Adds a bunch of Crafting Tables, including two portable ones. Companion mod to Crafting Tweaks.
+  versions:
+    4.1.9:
+      url: https://minecraft.curseforge.com/projects/craftingcraft/files/2341463
+  url:
+  authors: BlayTheNinth
+
+craftstudioapi:
+  name: CraftStudio API
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Adds support for the Craftstudio 3D modelling format.
+  versions:
+    0.3.0.87-mc1.10.2-beta:
+      url: https://minecraft.curseforge.com/projects/craftstudio-api/files/2437617
+  url: https://minecraft.curseforge.com/projects/craftstudio-api
+creativecore:
+  name: CreativeCore
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: A core mod required by the most mods of CreativeMD. Contains a packets system, gui-api and other utils.
+  versions:
+    1.7:
+      url: https://minecraft.curseforge.com/projects/creativecore/files/2411470
+  url: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2408667-creativecore-v1-3-24-required-by-randomadditions
+  authors: CreativeMD, N247S
+
+ctm:
+  name: CTM
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Allows resource packs to add connected textures, emissive rendering, and much more.
+  versions:
+    MC1.10.2-0.2.3.26:
+      url: https://minecraft.curseforge.com/projects/ctm/files/2484990
+  url: https://minecraft.curseforge.com/projects/ctm
+  authors: tterrag, Drullkus, minecreatr
+
+custommainmenu:
+  name: Custom Main Menu
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Allows you to edit the mainmenu using json
+  versions:
+    2.0.5:
+      url: https://minecraft.curseforge.com/projects/custom-main-menu/files/2405622
+  url:
+  authors: lumien
+
+customnpcs:
+  name: CustomNPCs
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: A lot of people, see the list at the forum
+  description: The Custom Npcs mod lets you create your own npcs and lets you customize them how you want
+  versions:
+    1.10.2_beta:
+      url: https://minecraft.curseforge.com/projects/custom-npcs/files/2453935
+  url: http://tinyurl.com/customnpcs
+  authors: Noppes
+
+cyberware:
+  name: Cyberware
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Thanks to Vazkii, DivineAspect, Yulife, and everyone else who helped out.
+  description: Augmentation in Minecraft
+  versions:
+    beta-0.2.10:
+      url: https://minecraft.curseforge.com/projects/cyberware/files/2417998
+  url: https://github.com/Flaxbeard/Cyberware
+  authors: Flaxbeard
+
+cyclopscore:
+  name: Cyclops Core
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: kroeserr, _EeB_
+  description: Coremod for EvilCraft, Integrated Dynamics and others.
+  versions:
+    1.9.4-0.10.9:
+      url: https://minecraft.curseforge.com/projects/cyclops-core/files/2477456
+  url: http://minecraft.curseforge.com/mc-mods/232758-cyclops-core
+  authors: rubensworks (aka kroeserr), immortaleeb (aka _EeB_)
+
+defaultoptions:
+  name: Default Options
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: BlayTheNinth
+  description: A way for modpacks to ship a default (key) configuration without having to include an options.txt file. Also allows local options from any mod .cfg file.
+  versions:
+    6.1.5:
+      url: https://minecraft.curseforge.com/projects/default-options/files/2313983
+  url: http://blay09.net
+  authors: BlayTheNinth
+
+bitdrawers:
+  name: Drawers & Bits
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: AlgorithmX2 for Chisels & Bits, jaquadro for Storage Drawers, Vexatos for a much better name =)
+  description: Specialized storage drawers for Chisels & Bits.
+  versions:
+    1.10.2-0.36:
+      url: https://minecraft.curseforge.com/projects/drawers-bits/files/2391211
+  url: https://github.com/Belgabor/BitDrawers
+  authors: Belgabor
+
+dungeontactics:
+  name: DungeonTactics
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: I worked on this mostly alone, but I would like to thank the people that unstuck me once or twice and thanks to i_Jedi and YawningNeko for helping me test.
+  description: Some handy tools for the avid adventurer
+  versions:
+    DT-0.12.5:
+      url: https://minecraft.curseforge.com/projects/dungeon-tactics/files/2454098
+  url: https://minecraft.curseforge.com/projects/dungeon-tactics
+  authors: PegBeard
+
+dsurround:
+  name: Dynamic Surroundings
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Wirsbo for BetterRain; MrRube for Aurora Rubealis; Hurricaaane for Presence Footsteps and MAtmos; Mr_okushama for Battle Music; Ezer&apos;Arch for Galacticraft configurations
+  description: Adds a variety of sound and visual effects to improve your Minecraft experience
+  versions:
+    1.10.2-3.4.7.2:
+      url: https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2482518
+  url: https://github.com/OreCruncher/DynamicSurroundings/wiki
+  authors: OreCruncher, Abastro
+
+D3Core:
+  name: DÂ³Core
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: DoubleDoorDevelopment Core
+  versions:
+    1.3.1:
+      url: https://minecraft.curseforge.com/projects/d3core/files/2462096
+  url: https://github.com/DoubleDoorDevelopment/D3Core
+  authors: Dries007, DoubleDoor team
+
+Earthworks:
+  name: Earthworks
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Adds a small variety of earthen based building blocks.
+  versions:
+    1.3.4.1:
+      url: https://minecraft.curseforge.com/projects/earthworks/files/2447193
+  url:
+  authors: Alsender
+
+EnderIO:
+  name: Ender IO
+  depends: endercore
+  side: BOTH
+  mod-type: Regular
+  credits: By CrazyPants, with the help of many
+  description: Compact conduits, painted things and all sorts of stuff and bling.
+  versions:
+    1.10.2-3.1.193:
+      url: https://minecraft.curseforge.com/projects/ender-io/files/2435810
+  url: http://enderio.com
+  authors: CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX
+
+endercore:
+  name: EnderCore
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Library mod used by EnderIO, EnderZoo, and others
+  versions:
+    1.10.2-0.4.1.66-beta:
+      url: https://minecraft.curseforge.com/projects/endercore/files/2415996
+  url: http://enderio.com
+  authors: tterrag, CrazyPants
+
+everlastingabilities:
+  name: EverlastingAbilities
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: rubensworks (aka kroeserr)
+  description: Discover, share and conquer abilities that stick.
+  versions:
+    1.9.4-1.2.5:
+      url: https://minecraft.curseforge.com/projects/everlastingabilities/files/2456249
+  url: https://github.com/CyclopsMC/EverlastingAbilities
+  authors: rubensworks (aka kroeserr)
+
+ExtraBitManipulation:
+  name: Extra Bit Manipulation
+  depends: chiselsandbits
+  side: BOTH
+  mod-type: Regular
+  credits: To Algorithm for an excellent implementation of a great idea.
+  description: This mod is an addon to the Chisels & Bits mod. It adds a wrench that rotates/mirrors/translates/inverts chiseled blocks, sculpting wires/spades that remove/add cuboidal/ellipsoidal/cylindrical/conic/pyramidal areas of bits from chiseled/chiselable blocks, a modeling tool that makes chiseled block models of 16^3 areas of blocks in the world, and armor pieces that render chiseled blocks (and any items) as their moving parts. It also allows chisel designs to be edited and bits to be thrown like snowballs.
+  versions:
+    1.10.2-2.5.1:
+      url: https://minecraft.curseforge.com/projects/extra-bit-manipulation/files/2475981
+  url: http://minecraft.curseforge.com/projects/extra-bit-manipulation
+  authors: Phylogeny
+
+extrautils2:
+  name: Extra Utilities 2
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: A bunch of useful things.
+  versions:
+    1.10.2-1.7.2:
+      url: https://minecraft.curseforge.com/projects/extra-utilities/files/2512408
+    1.10.2-1.6.3:
+      url: https://minecraft.curseforge.com/projects/extra-utilities/files/2481037
+  url: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k
+  authors: RWTema
+
+fastleafdecay:
+  name: Fast Leaf Decay
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Increases leaf decay rates.
+  versions:
+    v11:
+      url: https://minecraft.curseforge.com/projects/fast-leaf-decay/files/2318159
+  url: http://minecraft.curseforge.com/projects/fastleafdecay
+  authors: Olafski
+
+fenceoverhaul:
+  name: Fence Overhaul
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Adds improved fences to Minecraft
+  versions:
+    1.2.1:
+      url: https://minecraft.curseforge.com/projects/fence-overhaul/files/2320259
+  url:
+  authors: The_WeatherPony
+
+flatcoloredblocks:
+  name: Flat Colored Blocks
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: AlgorithmX2
+  description: A Minecraft mod about building with vast quantities of colored blocks.
+  versions:
+    mc1.10-v4.4:
+      url: https://minecraft.curseforge.com/projects/flat-colored-blocks/files/2343282
+  url:
+  authors: sky01
+
+flintmod:
+  name: Flint Instead of Wood
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Wooden tools are hardly ever used in real life. During the Stone Age, caveman preferred hard rocks like Flint. It makes more sense!
+  versions:
+    7.5:
+      url: https://minecraft.curseforge.com/projects/flint-instead-of-wood/files/2316562
+  url: https://minecraft.curseforge.com/projects/flint-instead-of-wood
+  authors: sky01
+
+foamfix:
+  name: FoamFix
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: "Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons."
+  url: http://asie.pl/Projects/Minecraft/Mods/FoamFix
+  versions:
+    1.10.2-0.7.3-Anarchy:
+      url: https://unascribed.com/foamfix/FoamFix-1.11.2-0.7.3-Anarchy.jar
+      type: direct
+  authors: asiekierka
+
+FTBT:
+  name: FTB Tweaks
+  depends: ftbl
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Allows you to have multiple Recipe Modes.
+  versions:
+    2.0.0:
+      url: https://minecraft.curseforge.com/projects/ftb-tweaks/files/2357120
+  url:
+  authors: Jaredlll08
+
+ftbl:
+  name: FTBLib
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: FTBLib
+  versions:
+    1.1x-3.5.4:
+      url: https://minecraft.curseforge.com/projects/ftblib/files/2406088
+    1.1x-3.6.5:
+      url: https://minecraft.curseforge.com/projects/ftblib/files/2422883
+  url: http://minecraft.curseforge.com/projects/ftblib
+  authors: LatvianModder, Jared
+
+ftbu:
+  name: FTBUtilities
+  depends: ftbl
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: FTBUtilities
+  versions:
+    1.1x-3.5.4:
+      url: https://minecraft.curseforge.com/projects/ftb-utilities/files/2406089
+    1.1x-3.6.5:
+      url: https://minecraft.curseforge.com/projects/ftb-utilities/files/2422884
+  url: http://minecraft.curseforge.com/projects/ftb-utilities
+  authors: LatvianModder
+
+gemulation:
+  name: Gemulation
+  depends: silentgems
+  side: BOTH
+  mod-type: Regular
+  credits: The Forge and FML guys, for making this example
+  description: Extra uses for gems!
+  versions:
+    1.10.2-4.0.2:
+      url: https://minecraft.curseforge.com/projects/gemulation/files/2481759
+  url:
+  authors: ExampleDude
+
+grapplemod:
+  name: Grappling hook mod
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: The Forge and FML guys, for making this example
+  description: A mod which adds grappling hooks
+  versions:
+    1.10.2-v10:
+      url: https://minecraft.curseforge.com/projects/grappling-hook-mod/files/2452845
+  url:
+  authors: yyon
+
+grimoireofgaia:
+  name: Grimoire of Gaia 3
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Made possible by §lDoctor_Wiggles §rporting this mod to 1.10.2
+  description: Adds mobs, monsters and monster girls.
+  versions:
+    1.5.6:
+      url: https://minecraft.curseforge.com/projects/grimoire-of-gaia/files/2446033
+  url: http://www.minecraftforum.net/topic/1355291-
+  authors: Silentine
+
+guideapi:
+  name: Guide-API
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Simple mod guide creation.
+  versions:
+    1.10.2-2.0.3-46:
+      url: https://minecraft.curseforge.com/projects/guide-api/files/2380911
+  url:
+  authors: Tombenpotter, TehNut
+
+gbook:
+  name: Guidebook
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Books that guide
+  versions:
+    1.7.3:
+      url: https://minecraft.curseforge.com/projects/guidebook/files/2443833
+  url: https://github.com/gigaherz/Guidebook
+  authors: gigaherz
+
+# <Module name="h3nt-asmtweaks-1.1.1" id="hnt-asmtweaks" depends="hmt-commonutils" side="BOTH">
+#   <URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/h3ntlibs/h3nt-asmtweaks-1.1.1.jar</URL>
+#   <Size>29941</Size>
+#   <Required>true</Required>
+#   <mod-type>Regular</mod-type>
+#   <MD5>0d7b8cd7b37a487c6d337567eb808f1d</MD5>
+# </Module>
+# <Module name="h3nt-commonutils-1.9.4-2.2.2" id="hnt-commonutils" depends="" side="BOTH">
+#   <URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/h3ntlibs/h3nt-commonutils-1.9.4-2.2.2.jar</URL>
+#   <Size>108405</Size>
+#   <Required>true</Required>
+#   <mod-type>Regular</mod-type>
+#   <MD5>28e4da5ea628bc07394154f5629ab430</MD5>
+# </Module>
+# <Module name="h3nt-mappings-1.1.1" id="hnt-mappings" depends="hmt-commonutils" side="BOTH">
+#   <URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/h3ntlibs/h3nt-mappings-1.1.1.jar</URL>
+#   <Size>27437</Size>
+#   <Required>true</Required>
+#   <mod-type>Regular</mod-type>
+#   <MD5>1f9158be081c69a05e78dbea84382bcb</MD5>
+# </Module>
+
+holovm:
+  name: HolographicVictoryMonument
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Display your achievments proudly.
+  versions:
+    1.1:
+      url: https://minecraft.curseforge.com/projects/holographic-victory-monument/files/2317886
+  url:
+  authors: abecderic
+
+iceandfire:
+  name: Ice and Fire
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: gegy1000, Paul Fulham, 4f6f3b, and iLexiconn - Thanks for all the help!
+  description: Ice and Fire shines a whole new light on dragons.
+  versions:
+    1.0.1:
+      url: https://minecraft.curseforge.com/projects/ice-and-fire-dragons-in-a-whole-new-light/files/2404513
+  url:
+  authors: Alexthe666, Raptorfarian
+
+immersiveengineering:
+  name: Immersive Engineering
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: All the great other Git Contributors, and the nerds on IRC!
+  description:
+  versions:
+    0.10-61:
+      url: https://minecraft.curseforge.com/projects/immersive-engineering/files/2435559
+  url: https://github.com/BluSunrize/ImmersiveEngineering
+  authors: BluSunrize, Damien A.W. Hazard
+
+imc:
+  name: Improving Minecraft
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: A mod adding little things and fixing inconsistencies in Minecraft
+  versions:
+    1.10.2:
+      url: https://minecraft.curseforge.com/projects/improving-minecraft/files/2328312
+  url: http://www.minecraftforum.net/topic/2538250-172forge-improving-minecraft-v11/
+  authors: pifou92000
+
+incontrol:
+  name: InControl
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: McJty
+  description: Be In Control
+  versions:
+    3.6.0:
+      url: https://minecraft.curseforge.com/projects/in-control/files/2447033
+  url:
+  authors: McJty
+
+infinitylib:
+  name: InfinityLib
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Library mod for InfinityRaider&apos;s mods
+  versions:
+    0.11.0:
+      url: https://minecraft.curseforge.com/projects/infinitylib/files/2451336
+  url: https://www.github.com/InfinityRaider
+  authors: InfinityRaider
+
+ironbackpacks:
+  name: Iron Backpacks
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: "cpw, sapient, #minecraftforge (especially diesieben07), TehNut, tterrag"
+  description: Adds tiered backpacks and a system of modular upgrades to go with them!
+  versions:
+    1.10.2-2.2.31:
+      url: https://minecraft.curseforge.com/projects/iron-backpacks/files/2461785
+  url:
+  authors: gr8pefish
+
+ironchest:
+  name: Iron Chest
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: By cpw, based on an original idea by Lishid
+  description: New chests with larger sizes, with in-place upgrade items.  The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest
+  versions:
+    1.10.2-7.0.15.804:
+      url: https://minecraft.curseforge.com/projects/iron-chests/files/2425847
+  url: http://www.minecraftforum.net/topic/981855-
+  authors: cpw
+
+itemzoom:
+  name: Item Zoom
+  depends:
+  side: CLIENT
+  mod-type: Regular
+  credits:
+  description: Shows a big version of the item you hover over.
+  versions:
+    1.4:
+      url: https://minecraft.curseforge.com/projects/itemzoom/files/2387547
+  url: https://github.com/mezz/ItemZoom
+  authors: mezz
+
+itemphysic:
+  name: ItemPhysic
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description:
+  versions:
+    1.3:
+      url: https://minecraft.curseforge.com/projects/itemphysic/files/2518695
+  url: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076336
+  authors: CreativeMD
+
+IvToolkit:
+  name: IvToolkit
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: This is a framework that I mostly use in my own mods, for shared functionality.
+  versions:
+    1.3.3-1.10:
+      url: https://minecraft.curseforge.com/projects/ivtoolkit/files/2415975
+  url: http://minecraft.curseforge.com/projects/ivtoolkit
+  authors: Ivorius
+
+journeymap:
+  name: JourneyMap
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: "JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.10.2-1.4. Built: 2017-09-20-17:59:00."
+  versions:
+    1.10.2-5.5.2:
+      url: https://minecraft.curseforge.com/projects/journeymap/files/2498297
+    1.10.2-5.5.0:
+      url: https://minecraft.curseforge.com/projects/journeymap/files/2482284
+  url: http://journeymap.info
+  authors: techbrew, mysticdrew
+
+JsonLootBags:
+  name: JsonLootBags
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Json Loot bags
+  versions:
+    1.0.0.12:
+      url: https://minecraft.curseforge.com/projects/json-loot-bags/files/2386660
+  url: https://github.com/DoubleDoorDevelopment/JsonLootBags
+  authors: Dries007, DoubleDoor team
+
+JEI:
+  name: Just Enough Items
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Simple recipe and item helper.
+  versions:
+    3.14.7.420:
+      url: https://minecraft.curseforge.com/projects/jei/files/2428966
+  url: https://github.com/mezz/JustEnoughItems
+  authors: mezz
+
+levelup:
+  name: Level Up!
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description:
+  versions:
+    0.12.10-1.10.2:
+      url: https://minecraft.curseforge.com/projects/level-up/files/2453846
+  url: http://www.minecraftforum.net/topic/666507-
+  authors: BeetoGuy, PowerUp217, GotoLink
+
+levels:
+  name: Levels
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: MrIbby and Hlaaftana
+  description: A simple, unique leveling system.
+  versions:
+    1.10.2-r1.2.8:
+      url: https://minecraft.curseforge.com/projects/levels/files/2393488
+  url: https://github.com/TheXFactor117/Levels
+  authors: TheXFactor117
+
+librarianlib:
+  name: LibrarianLib
+  depends: forgelin
+  side: BOTH
+  mod-type: Regular
+  credits: Team Wizardry
+  description: A library for the Team Wizardry mods
+  versions:
+    1.10.1:
+      url: https://minecraft.curseforge.com/projects/librarianlib/files/2382603
+  url:
+  authors: thecodewarrior, wiresegal, LordSaad44, Elucent, Eladkay, murapix, werty1124, Leviathan143
+
+literalascension:
+  name: Literal Ascension
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: LLibrary, Trentv4, Shadowfacts, Emberwalker, MMD
+  description: Adds intuitive solutions for vertical mobility.
+  versions:
+    1.10.2-1.0.2.2:
+      url: https://minecraft.curseforge.com/projects/literal-ascension/files/2417828
+  url: https://minecraft.curseforge.com/projects/literal-ascension
+  authors: JamiesWhiteShirt
+
+lit:
+  name: Little Insignificant Things
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Little things can go a long way...
+  versions:
+    1.10.2-3.0.4:
+      url: https://minecraft.curseforge.com/projects/lit-little-insignificant-things/files/2397966
+  url:
+  authors: M4thG33k
+
+llibrary:
+  name: LLibrary
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: gegy1000, pau101, BobMowzie, FiskFille, TheCyberBrick, WorldSEnder
+  description: The lightweight Minecraft modding library
+  versions:
+    1.7.7-1.10.2:
+      url: https://minecraft.curseforge.com/projects/llibrary/files/2461099
+  url: https://github.com/iLexiconn/LLibrary
+  authors: iLexiconn
+
+login_shield:
+  name: Login Shield
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Fireball for putting up with my questions
+  description: protects users from taking damage between when they login and they can start interacting with the world
+  versions:
+    1.10.2-25-g2a63586:
+      url: https://minecraft.curseforge.com/projects/login-shield/files/2477438
+  url:
+  authors: Glasspelican
+
+loottweaker:
+  name: LootTweaker
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: An addon for CraftTweaker that allows modification of loot tables
+  versions:
+    1.10.2-0.0.6.3:
+      url: https://minecraft.curseforge.com/projects/loottweaker/files/2441121
+  url:
+  authors: Leviathan143
+
+malisisblocks:
+  name: Malisis Blocks
+  depends: malisiscore
+  side: BOTH
+  mod-type: Regular
+  description: This mod adds mixed blocks that takes two different blocks and mixes them together so that one side looks like one block and blends to the second block on the other side.
+  versions:
+    1.10.2-4.2.0:
+      url: https://minecraft.curseforge.com/projects/malisisblocks/files/2382000
+  url: https://github.com/Ordinastie/MalisisBlocks
+  authors: Ordinastie, PaleoCrafter
+
+malisiscore:
+  name: MalisisCore
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: MalisisCore is a framework dedicated to simplify many processes required during a mod development.
+  versions:
+    1.10.2-4.4.0:
+      url: https://minecraft.curseforge.com/projects/malisiscore/files/2393772
+  url: http://github.com/Ordinastie/MalisisCore
+  authors: Ordinastie, PaleoCrafter
+
+malisisdoors:
+  name: MalisisDoors
+  depends: malisiscore
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Better doors!
+  versions:
+    1.10.2-5.1.5:
+      url: https://minecraft.curseforge.com/projects/malisisdoors/files/2381996
+  url: http://github.com/Ordinastie/MalisisDoors
+  authors: Ordinastie
+
+mcjtylib_ng:
+  name: McJtyLib
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: diesieben07, for being of constant assistance with my questions on modding and Forge in specific
+  description: McJtyLib library for RFTools, Deep Resonance, ...
+  versions:
+    1.1x-2.4.3-SNAPSHOT:
+      url: https://minecraft.curseforge.com/projects/mcjtylib/files/2511876
+  url:
+  authors: McJty
+
+# <Module name="MCMultiPart-1.4.0-universal" id="MCMultiPart-..-universal" depends="" side="BOTH">
+#   <URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/1.10.2/MCMultiPart-1.4.0-universal.jar</URL>
+#   <ModPath>mods/1.10.2/MCMultiPart-1.4.0-universal.jar</ModPath>
+#   <Size>182713</Size>
+#   <Required>true</Required>
+#   <mod-type>Regular</mod-type>
+#   <MD5>34b2ece9450a7762b48ad956f15bc171</MD5>
+# </Module>
+
+mcmultipart:
+  name: MCMultipart
+  depends:
+  side: BOTH
+  mod-type: Regular
+  description: "A universal multipart API for modern Minecraft."
+  versions:
+    1.4.0:
+      url: https://minecraft.curseforge.com/projects/mcmultipart/files/2381408
+  url: https://minecraft.curseforge.com/projects/mcmultipart
+  authors: MCMultiPart Mod Team
+
+minecolonies:
+  name: MineColonies
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Lunatrius
+  description: "MineColonies is a Colony/Town Simulator that adds many structures and NPC workers and guards that you control and put to work for you! Based around a townhall and village mechanic, there are numerous workers that can be added to your colony, building a busy and vibrant village/town/city within Minecraft. There is no coded limit to the number of NPCï¿½s at your disposal, so you can create a small efficient Village dedicated to a particular type of worker, or a sprawling metropolis with many workers.  Itï¿½s entirely up to you!"
+  versions:
+    1.10.2-0.8.4908:
+      url: https://minecraft.curseforge.com/projects/minecolonies/files/2501525
+    1.10.2-0.8.4063:
+      url: https://minecraft.curseforge.com/projects/minecolonies/files/2484022
+  url: http://minecolonies.com
+  authors: MineColonies Mod Team
+  # <Module name="Minecraft Forge" id="forge-12.18.3.2511" depends="" side="BOTH">
+  #   <Size>100000</Size>
+  #   <Required>true</Required>
+  #   <mod-type>Override</mod-type>
+  # </Module>
+
+minemenu:
+  name: MineMenu
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: MineMenu supports key bindings, commands, and creative functions to make your life easier.
+  versions:
+    1.10.2-1.4.5:
+      url: https://minecraft.curseforge.com/projects/minemenu/files/2362998
+  url: http://minecraft.curseforge.com/projects/minemenu
+  authors: dmillerw, Girafi
+
+CraftTweaker:
+  name: CraftTweaker
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Created By Stan Hebben
+  description: CraftTweaker is a continuation of Minetweaker3 by StanH. CraftTweaker is updated for the latest Minecraft versions and is is currently being updated unlike the original Minetweaker3 mod by StanH.
+  versions:
+    1.10.2-3.0.26:
+      url: https://minecraft.curseforge.com/projects/crafttweaker/files/2433444
+  url: https://minecraft.curseforge.com/projects/crafttweaker?gameCategorySlug=mc-mods&projectID=239197
+  authors: jaredlll08
+
+testdummy:
+  name: MmmMmmMmmMmm
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: pillbox and XCompwiz for the idea. Also TTFTCUTS.
+  description: Provides a test dummy that can be placed in the world. Punch it, kick it, slice it, push it, pop it, twist it,....
+  versions:
+    1.10.2-1.13:
+      url: https://minecraft.curseforge.com/projects/mmmmmmmmmmmm/files/2416602
+  url:
+  authors: boni
+
+modtweaker:
+  name: Mod Tweaker
+  depends: mtlib
+  side: BOTH
+  mod-type: Regular
+  credits: Joshie and SpitefulFox for writing ModTweaker, Yulife for documentation.
+  description: ModTweaker is an addon for CraftTweaker, a recipe manipulator utility for Minecraft. It allows you to modify the recipes of other mods that add their own crafting mechanics
+  versions:
+    2.0.13:
+      url: https://minecraft.curseforge.com/projects/modtweaker/files/2442427
+  url: https://minecraft.curseforge.com/projects/ModTweaker
+  authors: Jaredlll08, SnowShock35
+
+mpbasic:
+  name: ModPack Basic Tools
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Funwayguy for moding help, and Darkosto for initial idea.
+  description: Adds Change logs, info, and bug reporting tab.
+  versions:
+    1.1.5:
+      url: https://minecraft.curseforge.com/projects/mputils-basic-tools/files/2356023
+  url:
+  authors: GenDeathrow
+
+mputils:
+  name: ModPack Utilities
+  depends: mpbasic
+  side: BOTH
+  mod-type: Regular
+  credits: Darkosto for original idea to this mod! And all my Patreon supporters!
+  description: will add various tools for modpack developers
+  versions:
+    1.2.9:
+      url: https://minecraft.curseforge.com/projects/mputils/files/2430827
+  url: http://minecraft.curseforge.com/members/GenDeathrow/projects
+  authors: GenDeathrow, Darkosto
+
+morematerials:
+  name: More Materials
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Localtoast9001
+  description: More building materials and options.
+  versions:
+    1.10.2-1.9.20160723.0:
+      url: https://minecraft.curseforge.com/projects/more-materials/files/2318515
+  url:
+  authors: Localtoast9001
+
+moreoverlays:
+  name: MoreOverlays
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search)
+  versions:
+    1.11:
+      url: https://minecraft.curseforge.com/projects/more-overlays/files/2406438
+  url:
+  authors: feldim2425
+
+Morpheus:
+  name: Morpheus
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Morpheus is a mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate.
+  versions:
+    1.10.2-3.1.13:
+      url: https://minecraft.curseforge.com/projects/morpheus/files/2358274
+  url: http://www.curse.com/mc-mods/Minecraft/morpheus
+  authors: Quetzi
+
+mousetweaks:
+  name: Mouse Tweaks
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Various open-source mods from where I learned.
+  description: A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.
+  versions:
+    2.8:
+      url: https://minecraft.curseforge.com/projects/mouse-tweaks/files/2388574
+  url: http://www.minecraftforum.net/topic/1518185-
+  authors: YaLTeR
+
+mowziesmobs:
+  name: Mowzie&apos;s Mobs
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: RafaMv
+  description: Mowzie&apos;s Mobs adds a variety of high-quality fantasy creatures to your Minecraft world.
+  versions:
+    1.3.2:
+      url: https://minecraft.curseforge.com/projects/mowzies-mobs/files/2417162
+  url:
+  authors: BobMowzie, pau101, iLexiconn
+
+mtlib:
+  name: MTLib
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description:
+  versions:
+    1.0.3:
+      url: https://minecraft.curseforge.com/projects/mtlib/files/2425740
+  url:
+  authors: Jaredlll08
+
+botanicaladdons:
+  name: Natural Pledge
+  depends: Botania
+  side: BOTH
+  mod-type: Regular
+  credits: Vazkii for Botania, williewillus for Botania 1.8 and 1.9, Tristaric for textures, game-icons.net for spell icons
+  description: The successor to Botanical Addons from 1.7.
+  versions:
+    1.11:
+      url: https://minecraft.curseforge.com/projects/natural-pledge/files/2396303
+  url:
+  authors: WireSegal
+
+Neat:
+  name: Neat
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Minimalistic Functional Unit Plates for the modern Minecrafter
+  versions:
+    1.3-12:
+      url: https://minecraft.curseforge.com/projects/neat/files/2327663
+  url: http://www.vazkii.us
+  authors: Vazkii
+
+optifine:
+  name: Optifine
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Improves FPS and allows use of Shader mods.
+  versions:
+    1.10.2_HD_U_E7:
+      url: http://minecraft.redwood-guild.com/OptiFine_1.10.2_HD_U_E7.jar
+      type: direct
+  url: https://optifine.net/home
+  authors: Optifine Team
+
+recipehandler:
+  name: NoMoreRecipeConflict
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Switch between conflicting recipes
+  versions:
+    0.6:
+      url: https://minecraft.curseforge.com/projects/stimmedcow-nomorerecipeconflict/files/2337494
+  url: http://www.minecraftforum.net/topic/1098727-
+  authors: stimmedcow, GotoLink
+
+plants:
+  name: Plants
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Kat
+  description: Every plant known to man.  Well, almost.
+  versions:
+    1.10.2-beta-0.8.5:
+      url: https://minecraft.curseforge.com/projects/plants/files/2397274
+  url:
+  authors: Shadows_of_Fire
+
+platforms:
+  name: Platforms
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: "Art: Fruzstrated"
+  description:
+  versions:
+    1.10.0-1.2.10:
+      url: https://minecraft.curseforge.com/projects/platforms/files/2404432
+  url: http://tomkinsbros.blogspot.ca/p/platforms.html
+  authors: ShetiPhian
+
+# <Module name="Quadrum-0.7.2-MC1.10.2" id="Quadrum-..-MC" depends="ResourceLoader" side="BOTH">
+#   <URL priority="0">http://sprouted.alan-jenkins.com/pack.xml/mods/Quadrum-0.7.2-MC1.10.2.jar</URL>
+#   <Size>86379</Size>
+#   <Required>true</Required>
+#   <mod-type>Regular</mod-type>
+#   <MD5>5087c2510baeade2fc445a89db537d9a</MD5>
+# </Module>
+
+Quadrum:
+  name: Quardrum
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Add custom blocks and items using Json.
+  versions:
+    0.7.2-MC1.10.2:
+      url: https://minecraft.curseforge.com/projects/quadrum/files/2424695
+  url: http://www.vazkii.us
+  authors: Vazkii, wiiv
+
+Quark:
+  name: Quark
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Small things.
+  versions:
+    r1.1-70:
+      url: https://minecraft.curseforge.com/projects/quark/files/2363413
+  url: http://www.vazkii.us
+  authors: Vazkii, wiiv
+
+RadixCore:
+  name: RadixCore
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: ntzrmtthihu777
+  description: A base framework for quickly creating and maintaining fully featured mods.
+  versions:
+    1.10.2-2.1.3:
+      url: https://minecraft.curseforge.com/projects/radixcore/files/2323506
+  url: http://www.radix-shock.com/rc--download.html
+  authors: WildBamaBoy, SheWolfDeadly
+
+railcraft:
+  name: Railcraft
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Created by CovertJaguar
+  description: Redefine your rails
+  versions:
+    10.2.0:
+      url: https://minecraft.curseforge.com/projects/railcraft/files/2476804
+  url: http://railcraft.info/
+  authors: CovertJaguar
+
+rccosmetic:
+  name: Railcraft Cosmetic Additions
+  depends: railcraft
+  side: BOTH
+  mod-type: Regular
+  credits: Idea and previous versions by Cream Tea, CovertJaguar and his team for main Railcraft mod, code by Hanakocz, art by Kurogari
+  description: This mod adds cosmetic additions to the main mod Railcraft, by CovertJaguar.
+  versions:
+    3.0.5:
+      url: https://minecraft.curseforge.com/projects/railcraft-cosmetic-additions/files/2410019
+  url: https://minecraft.curseforge.com/projects/railcraft-cosmetic-additions
+  authors: Hanakocz, Kurogari
+
+randomrestockablecrates:
+  name: Random Restockable Crates
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Iskall85 and Team
+  description: It allows to place special crates in creative that will have random loot that will restock.
+  versions:
+    1.2.8:
+      url: https://minecraft.curseforge.com/projects/random-restockable-crates/files/2462833
+  url:
+  authors: Iskall85, Scalda, Jo-Mama75, Winter_Grave
+
+reauth:
+  name: ReAuth
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: A Mod to renew your Session
+  versions:
+    3.5.0:
+      url: https://minecraft.curseforge.com/projects/reauth/files/2491402
+  url: http://minecraft.curseforge.com/projects/reauth
+  authors: TechnicianLP
+
+reccomplex:
+  name: Recurrent Complex
+  depends: IvToolkit
+  side: BOTH
+  mod-type: Regular
+  credits: See structurecredits.txt for full default structure list credits.
+  description: Adds structures to worldgen, handles exporting and importing structures, and provides build tools.
+  versions:
+    1.4.5-1.10:
+      url: https://minecraft.curseforge.com/projects/recurrent-complex/files/2461396
+  url:
+  authors: Ivorius
+
+xreliquary:
+  name: Reliquary
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Originally made by x3n0ph0b3 and TheMike, now maintained by P3pp3rF1y.
+  description: "Two words: magical swag. Oh, and a gun."
+  versions:
+    1.10.2-1.3.3.664:
+      url: https://minecraft.curseforge.com/projects/reliquary-v1-3/files/2423166
+  url:
+  authors: x3n0ph0b3, TheMike, P3pp3rF1y
+
+ResourceLoader:
+  name: Resource Loader
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Allows mod pack creators / users to add their own custom textures to minecrafts resources without making a resource pack.
+  versions:
+    1.5.1:
+      url: https://minecraft.curseforge.com/projects/resource-loader/files/2307834
+  url:
+  authors: lumien
+
+rftools:
+  name: RFTools
+  depends: mcjtylib_ng
+  side: BOTH
+  mod-type: Regular
+  credits: diesieben07, for being of constant assistance with my questions on modding and Forge in specific
+  description: RedFlux tools
+  versions:
+    1.1x-6.13:
+      url: https://minecraft.curseforge.com/projects/rftools/files/2465107
+  url:
+  authors: McJty
+
+rftoolscontrol:
+  name: RFTools Control
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: RFTools Control Addon
+  versions:
+    1.1x-1.6.8:
+      url: https://minecraft.curseforge.com/projects/rftools-control/files/2414893
+  url:
+  authors: McJty
+
+rftoolsdim:
+  name: RFTools Dimensions
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: diesieben07, for being of constant assistance with my questions on modding and Forge in specific
+  description: RFTools Dimensions Addon
+  versions:
+    1.1x-5.05:
+      url: https://minecraft.curseforge.com/projects/rftools-dimensions/files/2478236
+  url:
+  authors: McJty
+
+corerm:
+  name: RikMuld&apos;s Core
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Core functions for mods by RikMuld
+  versions:
+    1.2e-1.8.9:
+      url: https://minecraft.curseforge.com/projects/rikmulds-core-mod/files/2520889
+  url: rikmuld.com
+  authors: RikMuld
+
+roguelike:
+  name: Roguelike Dungeons
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Adds randomized dungeons to the world
+  versions:
+    1.10.2-1.5.9:
+      url: https://minecraft.curseforge.com/projects/roguelike-dungeons/files/2394197
+  url: github.com/Greymerk/minecraft-roguelike
+  authors: Greymerk
+
+roots:
+  name: Roots
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Druidic Magic Mod
+  versions:
+    0.208:
+      url: https://minecraft.curseforge.com/projects/roots/files/2352210
+  url: http://minecraft.curseforge.com/projects/roots
+  authors: Elucent, werty1124, AlexisMachina, SirShadow
+
+rpghud:
+  name: RPG-Hud
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: KurodaAkira
+  description: This mod changes the way the HUD is rendered and adds several new functionalities and styles (mainly RPG-like styles)
+  versions:
+    3.6.6:
+      url: https://minecraft.curseforge.com/projects/rpg-hud/files/2475056
+  url: https://mods.curse.com/mc-mods/minecraft/235670-RPG-Hud
+  authors: KurodaAkira
+
+runesofwizardry:
+  name: Runes of Wizardry
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: billythegoat101 for the original concept.
+  description: Magic.  Runes.  And dust.  Lots of dusts.
+  versions:
+    1.10.2-0.7.2:
+      url: https://minecraft.curseforge.com/projects/runes-of-wizardry/files/2355789
+  url: https://github.com/Xilef11/Runes-of-Wizardry
+  authors: LightningPig333, Xilef11
+
+runesofwizardry_classics:
+  name: Runes of Wizardry - Classic Dusts Pack
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: billythegoat101 for the original concept
+  description: Adds the classic dusts and runes to Runes of Wizardry
+  versions:
+    1.10.2-0.4.3:
+      url: https://minecraft.curseforge.com/projects/runes-of-wizardry-classic-dusts-pack/files/2355795
+  url: https://github.com/Xilef11/runesofwizardry-classics
+  authors: Xilef11
+
+rustic:
+  name: Rustic
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: A simple decoration mod
+  versions:
+    0.1.2.2:
+      url: https://minecraft.curseforge.com/projects/rustic/files/2398012
+  url:
+  authors: mangoose
+
+scalinghealth:
+  name: Scaling Health
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Extra health for players and/or mobs!
+  versions:
+    1.2.2:
+      url: https://minecraft.curseforge.com/projects/scaling-health/files/2481753
+  url: TODO
+  authors: SilentChaos512
+
+forgelin:
+  name: Shadowfacts&apos; Forgelin
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Emberwalker, for the original Forgelin
+  description: Kotlin helper library for Forge.
+  versions:
+    1.0.5:
+      url: https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2331802
+    1.5.1:
+      url: https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2453708
+    1.6.0:
+      url: https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2505090
+  url: https://github.com/shadowfacts/Forgelin
+  authors: shadowfacts
+
+shadowmc:
+  name: ShadowMC
+  depends: forgelin
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: A library mod required for all my other mods.
+  versions:
+    1.10.2-3.6.1:
+      url: https://minecraft.curseforge.com/projects/shadowmc/files/2362016
+  url: http://github.com/shadowfacts/ShadowMC
+  authors: Shadowfacts
+
+shetiphiancore:
+  name: ShetiPhian-Core
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: "Art: Fruzstrated"
+  description: Core set of files needed by ShetiPhians mods
+  versions:
+    1.10.0-3.3.11:
+      url: https://minecraft.curseforge.com/projects/shetiphiancore/files/2477301
+  url: http://tomkinsbros.blogspot.ca/p/core.html
+  authors: ShetiPhian
+
+Signals:
+  name: Signals
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Adds Signals for Minecarts so you can route them to stations.
+  versions:
+    1.10.2-0.5.1-universal:
+      url: https://minecraft.curseforge.com/projects/signals/files/2375867
+  url:
+  authors: SilentChaos512
+
+SilentLib:
+  name: SilentLib
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Shared library for SilentChaos512&apos;s mods.
+  versions:
+    1.10.2-2.2.6-66:
+      url: https://minecraft.curseforge.com/projects/silent-lib/files/2447709
+  url:
+  authors: SilentChaos512
+
+silentgems:
+  name: Silent's Gems
+  depends: SilentLib
+  side: BOTH
+  mod-type: Regular
+  credits: "Creator: SilentChaos512 Fancy models: M4thG33k"
+  description: When diamonds won&apos;t cut it.
+  versions:
+    2.4.7:
+      url: https://minecraft.curseforge.com/projects/silents-gems/files/2480520
+  url: http://minecraft.curseforge.com/projects/silents-gems
+  authors: SilentChaos512
+
+sgextraparts:
+  name: "Silent&apos;s Gems: Extra Parts"
+  depends: silentgems
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Official tool part add-on pack for Silent&apos;s Gems
+  versions:
+    1.3.3:
+      url: https://minecraft.curseforge.com/projects/silents-gems-extra-parts/files/2467575
+  url:
+  authors: SilentChaos512
+
+SimilsaxTranstructors:
+  name: Similsax Transtructors
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Thanks to all my fans and sponsors.
+  description: Now you can place blocks *behind* the block you click on!
+  versions:
+    1.10.2.18:
+      url: https://minecraft.curseforge.com/projects/similsax-transtructors/files/2318830
+  url:
+  authors: Vorquel
+
+inventorysorter:
+  name: Simple Inventory sorting
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: cpw
+  description: Simple inventory sorting. Middle click to sort your inventory.  Scroll wheel on a stack to move in and out
+  versions:
+    0.11.0+47:
+      url: https://minecraft.curseforge.com/projects/inventory-sorter/files/2400085
+  url:
+  authors: cpw
+
+SleepingBag:
+  name: Sleeping Bag
+  depends: shadowmc
+  side: BOTH
+  mod-type: Regular
+  credits: OpenMods, from which I borrowed most of the implementation
+  description: A sleeping bag
+  versions:
+    1.10.2-1.4.0:
+      url: https://minecraft.curseforge.com/projects/sleeping-bag/files/2348641
+  url: https://github.com/shadowfacts/SleepingBag
+  authors: shadowfacts
+
+soundfilters:
+  name: Sound Filters
+  depends:
+  side: CLIENT
+  mod-type: Regular
+  credits: Made by Tmtravlr.
+  description: Adds reveb to caves, as well as muted sounds underwater/in lava, and behind walls.
+  versions:
+    0.9_for_1.9.4:
+      url: https://minecraft.curseforge.com/projects/sound-filters/files/2309385
+  url:
+  authors: Tmtravlr
+
+sproutpatcher:
+  name: Sprout Patcher
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Patcher to fix bugs in Sprout Mods.
+  versions:
+    2.0:
+      url: https://minecraft.curseforge.com/projects/sprout-patcher/files/2485275
+    3.0:
+      url: https://minecraft.curseforge.com/projects/sprout-patcher/files/2501871
+  url:
+  authors: Mordenkainen
+
+StacksOnStacks:
+  name: Stacks On Stacks
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Stacks on Stacks allows you to create stacks of your favorite ingots on the ground! Combine ingots of any type into a stack and show off your wealth!.
+  versions:
+    1.1.4:
+      url: https://minecraft.curseforge.com/projects/stacksonstacks/files/2319961
+  url: https://minecraft.curseforge.com/projects/stacksonstacks
+  authors: Madxmike856
+
+StorageDrawers:
+  name: Storage Drawers
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: By jaquadro
+  description: Multi-drawer storage blocks for quick storage and retrieval.
+  versions:
+    1.10.2-3.7.10:
+      url: https://minecraft.curseforge.com/projects/storage-drawers/files/2446106
+  url: http://www.jaquadro.com/
+  authors: jaquadro
+
+rscircuits:
+  name: Super Circuit Maker
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: amadornes
+  description: Making big circuits tiny!
+  versions:
+    1.0.4:
+      url: https://minecraft.curseforge.com/projects/super-circuit-maker/files/2343952
+  url: https://minecraft.curseforge.com/projects/super-circuit-maker
+  authors: amadornes
+
+SuperMultiDrills:
+  name: Super Multi-Drills
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Pickaxes are so last era.
+  versions:
+    1.5.2:
+      url: https://minecraft.curseforge.com/projects/super-multi-drills/files/2459928
+  url:
+  authors: SilentChaos512
+
+terraqueous:
+  name: Terraqueous
+  depends: shetiphiancore
+  side: BOTH
+  mod-type: Regular
+  credits: "Art: Fruzstrated, and ShetiPhian"
+  description:
+  versions:
+    1.10.0-1.2.25:
+      url: https://minecraft.curseforge.com/projects/terraqueous/files/2442994
+  url: http://tomkinsbros.blogspot.ca/p/terraqueous.html
+  authors: ShetiPhian
+
+camping:
+  name: The Camping Mod 2
+  depends: corerm
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: This mod adds a some camping elements to minecraft
+  versions:
+    2.3d-1.9.4:
+      url: https://minecraft.curseforge.com/projects/the-camping-mod/files/2312885
+  url: rikmuld.com
+  authors: RikMuld
+
+tombmanygraves:
+  name: Tomb Many Graves
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Stores your stuff when you bite the dust.
+  versions:
+    1.10.2-2.1.16:
+      url: https://minecraft.curseforge.com/projects/tomb-many-graves/files/2369338
+  url:
+  authors: M4thG33k
+
+toroquest:
+  name: ToroQuest
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: The Forge and FML guys, for making Forge and FML
+  description: ToroQuest
+  versions:
+    1.10.2-3.2.3:
+      url: https://minecraft.curseforge.com/projects/toroquest/files/2407810
+  url:
+  authors: torocraft
+
+trashslot:
+  name: TrashSlot
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: BlayTheNinth
+  description:
+  versions:
+    6.3.7:
+      url: https://minecraft.curseforge.com/projects/trashslot/files/2350629
+  url:
+  authors: BlayTheNinth
+
+valkyrielib:
+  name: Valkyrie Lib
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description:
+  versions:
+    1.10.2-0.10.6:
+      url: https://minecraft.curseforge.com/projects/valkyrielib/files/2386793
+  url: http://minecraft.curseforge.com/projects/valkyrielib
+  authors: ValkyrieofNight
+
+VillageNames:
+  name: Village Names
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Pahimar, whrrgarbl, maexono, GotoLink
+  description: Generates random names for villagers, villages, and other structures.
+  versions:
+    1.1a:
+      url: https://minecraft.curseforge.com/projects/village-names/files/2440071
+  url:
+  authors: AstroTibs
+
+Waila:
+  name: Waila
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.
+  versions:
+    1.8.17-B31_1.10.2:
+      url: https://minecraft.curseforge.com/projects/hwyla/files/2433252
+    1.7.0-B3_1.9.4:
+      url: https://minecraft.curseforge.com/projects/waila/files/2301859
+  url:
+  authors: ProfMobius, TehNut
+
+WailaHarvestability:
+  name: Waila Harvestability
+  depends: Waila
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: An add-on for Waila that adds information about the harvestability of what you are looking at
+  versions:
+    1.1.10:
+      url: https://minecraft.curseforge.com/projects/waila-harvestability/files/2437246
+  url:
+  authors: squeek
+
+waterstrainer:
+  name: Water Strainer
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Ruuubi
+  description: Adds water strainers to filter water for common resources.
+  versions:
+    1.9.4-1.4.2:
+      url: https://minecraft.curseforge.com/projects/water-strainer/files/2436045
+  url: http://minecraft.curseforge.com/projects/water-strainer
+  authors: Ruuubi
+
+waystones:
+  name: Waystones
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits: Developed by BlayTheNinth. Includes item icons by @JoeCreates released under CC-BY-SA 3.0
+  description: Teleport back to activated waystones. For Survival, Adventure or Servers.
+  versions:
+    2.0.13:
+      url: https://minecraft.curseforge.com/projects/waystones/files/2457029
+  url:
+  authors: BlayTheNinth
+
+wired:
+  name: "WIRED: More Augs"
+  depends: cyberware
+  side: BOTH
+  mod-type: Regular
+  credits: The Forge and FML guys, for making this example
+  description: Expanding upon Cyberware with Questionable Choices
+  versions:
+    1.7.0:
+      url: https://minecraft.curseforge.com/projects/wired-more-augs/files/2420383
+  url:
+  authors: mallrat208

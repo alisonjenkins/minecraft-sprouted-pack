@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourDragonGold",
+  "name": "grabbagArmourDragonGold",
+  "human-name": "Gold Dragon Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Rare",
+  "effect": false,
+  "colors": [
+    "#c6bb09",
+    "#c4c381"
+  ]
+}

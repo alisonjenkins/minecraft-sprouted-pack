@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "jsonlootbags:armourBlackQuartz",
+                    "weight": 20
+                },
+                {
+                    "type": "loot_table",
+                    "name": "jsonlootbags:armourRedstonia",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "jsonlootbags:armourPalis",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "jsonlootbags:armourDiamatine",
+                    "weight": 7
+                },
+                {
+                    "type": "loot_table",
+                    "name": "jsonlootbags:armourVoid",
+                    "weight": 30
+                },
+                {
+                    "type": "loot_table",
+                    "name": "jsonlootbags:armourEmeradic",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "jsonlootbags:armourEnori",
+                    "weight": 25
+                }
+            ]
+        }
+    ]
+}

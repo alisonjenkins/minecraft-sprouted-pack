@@ -1,0 +1,9 @@
+{
+  "name": "blueprintFarmingComponent",
+  "creative_tab": "misc",
+  "traits":{
+      "visual":{
+		"enchanted": false
+      }
+  }
+}

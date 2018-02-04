@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourManasteel",
+  "name": "grabbagArmourManasteel",
+  "human-name": "Manasteel Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Uncommon",
+  "effect": false,
+  "colors": [
+    "#329DF1",
+    "#2683CD"
+  ]
+}

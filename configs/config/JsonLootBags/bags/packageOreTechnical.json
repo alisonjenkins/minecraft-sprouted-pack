@@ -1,0 +1,8 @@
+{
+  "loot-table": "jsonlootbags:oreTechnical",
+  "name": "packageOreTechnical",
+  "human-name": "Technical Ore Package",
+  "texture": "dungeontactics:bag_ore",
+  "rarity": "Uncommon",
+  "effect": false
+}

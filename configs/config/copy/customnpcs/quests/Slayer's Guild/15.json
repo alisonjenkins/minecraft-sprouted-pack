@@ -1,0 +1,75 @@
+{
+    "CompleterNpc": "Undeath Slayer",
+    "NextQuestId": -1,
+    "RandomReward": 1b,
+    "QuestRepeat": 2,
+    "QuestCompletion": 0,
+    "Title": "De-Heading",
+    "Text": "The Slayer's Guild has contracted you to take on creatures known as Dullahan. These monsters resemble human warriors, with one key difference, they have to carry around their severed head. Sightings have been reported at night in mountainous biomes. The contract requires you to hunt down 3 of them.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": 3,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 30,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 30,
+    "QuestCommand": "",
+    "QuestDialogs": [
+        {
+            "Value": 3,
+            "Slot": "grimoireofgaia.Dullahan"
+        }
+    ],
+    "ModRev": 18,
+    "Type": 2,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1496203948430L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "grimoireofgaia:spawnguard",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "customnpcs:npcCoinIron",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "grimoireofgaia:item.BoxIron",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "jsonlootbags:grabbagArmourFrameRegular",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "scalinghealth:CrystalShard",
+                "Count": 2b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "CompleteText": "Having achieved what beheading did not in killing 3 Dullahan, you return to the Guild for your reward.",
+    "NextQuestTitle": ""
+}

@@ -1,0 +1,8 @@
+{
+  "loot-table": "jsonlootbags:oreSilent",
+  "name": "packageOreSilent",
+  "human-name": "Silent Ore Package",
+  "texture": "dungeontactics:bag_ore",
+  "rarity": "Rare",
+  "effect": false
+}

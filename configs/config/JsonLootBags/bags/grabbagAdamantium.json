@@ -1,0 +1,12 @@
+{
+  "loot-table": "jsonlootbags:armourAdamantium",
+  "name": "grabbagArmourAdamantium",
+  "human-name": "Adamantium Armour Grab-bag",
+  "texture": "jsonlootbags:bag",
+  "rarity": "Uncommon",
+  "effect": false,
+  "colors": [
+    "#37992F",
+    "#47B93D"
+  ]
+}
