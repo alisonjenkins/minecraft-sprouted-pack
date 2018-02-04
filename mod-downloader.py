@@ -16,15 +16,25 @@ import yaml
 
 import pdb
 
+
 class ModDownloader(object):
-    def __init__(self, threads=16):  # {{{
+    def __init__(self,  # {{{
+                 pack_name='sprouted-1.10.2',
+                 pack_pretty_name='Sprouted - 1.10.2',
+                 server_hostname='sprouted.minecraft.redwood-guild.com',
+                 threads=16
+                 ):
         self.s3_client = boto3.client('s3')
         self.dynamodb = boto3.resource('dynamodb',
                                        region_name='eu-west-1')
 
+        self.pack_name = pack_name
+        self.pack_pretty_name = pack_pretty_name
+        self.server_hostname = 'sprouted.minecraft.redwood-guild.com'
         self.dynamo_db_table = 'minecraft_mod_file_meta'
         self.mod_bucket = 'minecraft.redwood-guild.com'
-        self.bucket_path = 'packs/sprouted/mods/'
+        self.bucket_path = 'mods/'
+        self.xml_bucket_path = 'packs/{}/'.format(self.pack_name)
 
         self.mods_path = os.path.join(os.getcwd(), 'mods')
         self.mod_url_regex = re.compile(r"^https:\/\/minecraft\.curseforge\.com\/projects\/(?P<projectID>.+)\/files\/(?P<fileID>[0-9]+).*")
@@ -339,22 +349,23 @@ class ModDownloader(object):
 
         # Create Server Element
         serverelem = ET.Element('Server')
-        serverelem.set('id', xml_escape('sprouted-1.10.2'))
+        serverelem.set('id', xml_escape(self.pack_name))
         serverelem.set('abstract', xml_escape('false'))
-        serverelem.set('name', xml_escape('Sprouted - 1.10.2'))
-        serverelem.set('newsUrl', xml_escape('https://minecraft.redwood-guild.com/packs/sprouted-1.10.2/news.html'))
+        serverelem.set('name', xml_escape(self.pack_pretty_name))
+        serverelem.set('newsUrl', xml_escape('https://minecraft.redwood-guild.com/packs/{}/news.html'.format(self.pack_name)))
         serverelem.set('version', xml_escape('1.10.2'))
         serverelem.set('generateList', xml_escape('true'))
         serverelem.set('autoConnect', xml_escape('true'))
         serverelem.set('revision', xml_escape('1'))
         serverelem.set('mainClass', xml_escape('net.minecraft.launchwrapper.Launch'))
         serverelem.set('launcherType', xml_escape('Vanilla'))
-        serverelem.set('serverAddress', xml_escape('sprouted.minecraft.redwood-guild.com'))
+        serverelem.set('serverAddress', xml_escape(self.server_hostname))
         xml.append(serverelem)
 
         for version in self.versions:
             importelem = ET.Element('Import')
-            importelem.set('url', 'http://minecraft.redwood-guild.com/packs/sprouted-1.10.2/{}.xml'.format(
+            importelem.set('url', 'http://minecraft.redwood-guild.com/packs/{}/{}.xml'.format(
+                xml_escape(str(self.pack_name)),
                 xml_escape(str(version))
                 ))
             importelem.text = xml_escape(str(version))
@@ -397,9 +408,32 @@ class ModDownloader(object):
                 })
     # }}}
 
+    def upload_xmls(self):  # {{{
+        files = os.listdir()
+        for cur_file in files:
+            if cur_file.rfind('.xml') != -1:
+                upload_path = '{}{}'.format(
+                    self.xml_bucket_path,
+                    cur_file
+                )
+                print('Uploading {} XML to {}'.format(
+                    cur_file,
+                    upload_path
+                ))
+                with open(cur_file, 'rb') as xmlFile:
+                    self.s3_client.put_object(
+                        ACL='public-read',
+                        Bucket=self.mod_bucket,
+                        Key=upload_path,
+                        Body=xmlFile
+                    )
+    # }}}
+
+
 if __name__ == '__main__':
     md = ModDownloader()
     md.load_version_yamls()
     md.download_mods()
     md.generate_versions_xmls()
     md.generate_root_xml()
+    md.upload_xmls()
