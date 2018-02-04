@@ -1715,7 +1715,8 @@ shadowmc:
   credits:
   description: A library mod required for all my other mods.
   versions:
-    url: https://minecraft.curseforge.com/projects/shadowmc/files/2362016
+    1.10.2-3.6.1:
+      url: https://minecraft.curseforge.com/projects/shadowmc/files/2362016
   url: http://github.com/shadowfacts/ShadowMC
   authors: Shadowfacts
 
