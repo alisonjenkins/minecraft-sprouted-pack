@@ -16,7 +16,7 @@
     required: true
 
   animania:
-    version: 1.10.2-1.4.3
+    version: 1.10.2-1.3.3
     required: true
 
   aquaculture:
@@ -60,7 +60,7 @@
     required: true
 
   BiomeTweaker:
-    version: 2.1
+    version: 1.10.2-2.3.239
     required: true
 
   birdsnests:
@@ -196,7 +196,7 @@
     required: true
 
   extrautils2:
-    version: 1.6.3
+    version: 1.10.2-1.6.3
     required: true
 
   fastleafdecay:
@@ -516,7 +516,7 @@
     required: true
 
   forgelin:
-    version: 1.6.0
+    version: 1.5.1
     required: true
 
   shadowmc:
@@ -626,3 +626,7 @@
   wired:
     version: 1.7.0
     required: true
+
+  optifine:
+    version: 1.10.2_HD_U_E7
+    required: false
