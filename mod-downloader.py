@@ -9,6 +9,8 @@ import threading
 import hashlib
 import xml.etree.ElementTree as ET
 import sys
+import zipfile
+import pathlib
 from xml.sax.saxutils import escape as xml_escape
 
 import requests
@@ -337,8 +339,43 @@ class ModDownloader(object):
                  xml_declaration=True)
     # }}}
 
-    def generate_root_xml(self):  # {{{
+    def generate_configs_zip(self):  # {{{
+        configs_dir = 'configs'
+        zip_name = 'configs.zip'
+        self.configs = {}
+        self.configs['zip_name'] = 'configs.zip'
+        self.configs['path'] = '{}{}'.format(
+                self.xml_bucket_path,
+                self.configs['zip_name']
+        )
 
+        src_path = pathlib.Path(configs_dir).expanduser().resolve(strict=True)
+        with zipfile.ZipFile(zip_name, 'w', zipfile.ZIP_DEFLATED) as zf:
+            for file in src_path.rglob('*'):
+                zf.write(file, file.relative_to(src_path.parent))
+
+        with open(zip_name, 'rb') as zf:
+            m = hashlib.md5()
+            m.update(zf.read())
+            self.configs['md5'] = m.hexdigest()
+
+        print('Uploading {} to s3://{}{}{}'.format(
+            self.zip_name,
+            self.mod_bucket,
+            self.configs['path']
+            ))
+        with open('{}/{}'.format(self.configs['zip_name'], 'rb')) as zf:
+            self.s3_client.put_object(
+                ACL='public-read',
+                Bucket=self.mod_bucket,
+                Key='{}{}'.format(
+                    self.configs['path']
+                ),
+                Body=zf
+            )
+    # }}}
+
+    def generate_root_xml(self):  # {{{
         # Create root ServerPack element
         xml = ET.Element('ServerPack')
         xml.set('version', xml_escape('3.4'))
@@ -370,6 +407,32 @@ class ModDownloader(object):
                 ))
             importelem.text = xml_escape(str(version))
             serverelem.append(importelem)
+
+        configselem = ET.Element('Module')
+        configselem.set('id', xml_escape('configs'))
+        configselem.set('name', xml_escape('config files'))
+        configsurlelem = ET.Element('URL')
+        configsurlelem.text = xml_escape(
+                'http://minecraft.redwood-guild.com/{}'.format(self.configs['path'])
+        )
+        configselem.append(configsurlelem)
+
+        configsrequired = ET.Element('Required')
+        configsrequired.text = 'true'
+        configselem.append(configsrequired)
+
+        configsmodtype = ET.Element('ModType')
+        configsmodtype.set('inRoot', 'true')
+        configsmodtype.text = 'Extract'
+
+        configselem.append(configsmodtype)
+
+        configsmd5elem = ET.Element('MD5')
+        configsmd5elem.text = xml_escape(self.configs['md5'])
+        configselem.append(configsmd5elem)
+
+        serverelem.append(configselem)
+
         et.write('pack.xml', encoding='utf-8', xml_declaration=True)
         # }}}
 
@@ -434,6 +497,7 @@ if __name__ == '__main__':
     md = ModDownloader()
     md.load_version_yamls()
     md.download_mods()
+    md.generate_configs_zip()
     md.generate_versions_xmls()
     md.generate_root_xml()
     md.upload_xmls()
