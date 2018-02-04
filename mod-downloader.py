@@ -402,7 +402,7 @@ class ModDownloader(object):
 
         forgeimportelem = ET.Element('Import')
         forgeimportelem.set('url',
-                            'http://files.mcupdater.com/example/forge.php?mc={}&amp;forge={}'.format(
+                            'http://files.mcupdater.com/example/forge.php?mc={}&forge={}'.format(
                                 self.minecraft_version,
                                 self.minecraft_forge_version
         ))
