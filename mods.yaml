@@ -1704,6 +1704,8 @@ forgelin:
   versions:
     1.0.5:
       url: https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2331802
+    1.6.0:
+      url: https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2505090
   url: https://github.com/shadowfacts/Forgelin
   authors: shadowfacts
 
