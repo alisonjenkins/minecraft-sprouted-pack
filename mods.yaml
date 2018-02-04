@@ -87,7 +87,7 @@ arsmagica2:
   authors: Mithion, Zerodaimaru, EdwinMindcraft, Growlith1223
   versions:
     1.5.0-17:
-      url: https://minecraft.curseforge.com/projects/ars-magica-2/files/2401068
+      url: https://minecraft.curseforge.com/projects/ars-magica-2/files/2378450
 
 astralsorcery:
   name: Astral Sorcery
@@ -124,7 +124,7 @@ Baubles:
   description: Adding a touch of bling to Minecraft
   versions:
     1.10.2-1.3.11:
-      url: https://minecraft.curseforge.com/projects/baubles/files/2518666
+      url: https://minecraft.curseforge.com/projects/baubles/files/2424565
   url: http://www.minecraftforum.net/topic/2535073-baubles
   authors: Azanor
 
@@ -302,7 +302,7 @@ chisel:
   description: Adds in tons of fancy blocks for decoration, crafted using the Chisel.
   versions:
     MC1.10.2-0.0.14.33:
-      url: https://minecraft.curseforge.com/projects/chisel/files/2511495
+      url: https://minecraft.curseforge.com/projects/chisel/files/2479325
   url: https://minecraft.curseforge.com/projects/chisel
   authors: tterrag, Drullkus, minecreatr
 
@@ -494,7 +494,7 @@ cyclopscore:
   description: Coremod for EvilCraft, Integrated Dynamics and others.
   versions:
     1.9.4-0.10.9:
-      url: https://minecraft.curseforge.com/projects/cyclops-core/files/2499698
+      url: https://minecraft.curseforge.com/projects/cyclops-core/files/2477456
   url: http://minecraft.curseforge.com/mc-mods/232758-cyclops-core
   authors: rubensworks (aka kroeserr), immortaleeb (aka _EeB_)
 
@@ -585,7 +585,7 @@ EnderIO:
   description: Compact conduits, painted things and all sorts of stuff and bling.
   versions:
     1.10.2-3.1.193:
-      url: https://minecraft.curseforge.com/projects/ender-io/files/2408751
+      url: https://minecraft.curseforge.com/projects/ender-io/files/2435810
   url: http://enderio.com
   authors: CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX
 
@@ -676,8 +676,21 @@ flatcoloredblocks:
   description: A Minecraft mod about building with vast quantities of colored blocks.
   versions:
     mc1.10-v4.4:
-      url: https://minecraft.curseforge.com/projects/flint-instead-of-wood/files/2316562
+      url: https://minecraft.curseforge.com/projects/flat-colored-blocks/files/2343282
   url:
+  authors: sky01
+
+flintmod:
+  name: Flint Instead of Wood
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: Wooden tools are hardly ever used in real life. During the Stone Age, caveman preferred hard rocks like Flint. It makes more sense!
+  versions:
+    7.5:
+      url: https://minecraft.curseforge.com/projects/flint-instead-of-wood/files/2316562
+  url: https://minecraft.curseforge.com/projects/flint-instead-of-wood
   authors: sky01
 
 # foamfix:
@@ -877,7 +890,7 @@ incontrol:
   description: Be In Control
   versions:
     3.6.0:
-      url: https://minecraft.curseforge.com/projects/in-control/files/2505988
+      url: https://minecraft.curseforge.com/projects/in-control/files/2447033
   url:
   authors: McJty
 
@@ -903,7 +916,7 @@ ironbackpacks:
   description: Adds tiered backpacks and a system of modular upgrades to go with them!
   versions:
     1.10.2-2.2.31:
-      url: https://minecraft.curseforge.com/projects/iron-backpacks/files/2520721
+      url: https://minecraft.curseforge.com/projects/iron-backpacks/files/2461785
   url:
   authors: gr8pefish
 
@@ -1098,7 +1111,7 @@ loottweaker:
   description: An addon for CraftTweaker that allows modification of loot tables
   versions:
     1.10.2-0.0.6.3:
-      url: https://minecraft.curseforge.com/projects/loottweaker/files/2509218
+      url: https://minecraft.curseforge.com/projects/loottweaker/files/2441121
   url:
   authors: Leviathan143
 
@@ -1469,7 +1482,7 @@ railcraft:
   description: Redefine your rails
   versions:
     10.2.0:
-      url: https://minecraft.curseforge.com/projects/railcraft/files/2513722
+      url: https://minecraft.curseforge.com/projects/railcraft/files/2476804
   url: http://railcraft.info/
   authors: CovertJaguar
 
@@ -1560,7 +1573,7 @@ rftools:
   description: RedFlux tools
   versions:
     1.1x-6.13:
-      url: https://minecraft.curseforge.com/projects/rftools/files/2511881
+      url: https://minecraft.curseforge.com/projects/rftools/files/2465107
   url:
   authors: McJty
 
@@ -1573,7 +1586,7 @@ rftoolscontrol:
   description: RFTools Control Addon
   versions:
     1.1x-1.6.8:
-      url: https://minecraft.curseforge.com/projects/rftools-control/files/2503243
+      url: https://minecraft.curseforge.com/projects/rftools-control/files/2414893
   url:
   authors: McJty
 
@@ -1664,7 +1677,7 @@ runesofwizardry_classics:
   description: Adds the classic dusts and runes to Runes of Wizardry
   versions:
     1.10.2-0.4.3:
-      url: https://minecraft.curseforge.com/projects/runes-of-wizardry-classic-dusts-pack/files/2468514
+      url: https://minecraft.curseforge.com/projects/runes-of-wizardry-classic-dusts-pack/files/2355795
   url: https://github.com/Xilef11/runesofwizardry-classics
   authors: Xilef11
 
@@ -1848,6 +1861,8 @@ sproutpatcher:
   description: Patcher to fix bugs in Sprout Mods.
   versions:
     2.0:
+      url: https://minecraft.curseforge.com/projects/sprout-patcher/files/2485275
+    3.0:
       url: https://minecraft.curseforge.com/projects/sprout-patcher/files/2501871
   url:
   authors: Mordenkainen
@@ -1991,7 +2006,7 @@ VillageNames:
   description: Generates random names for villagers, villages, and other structures.
   versions:
     1.1a:
-      url: https://minecraft.curseforge.com/projects/village-names/files/2496167
+      url: https://minecraft.curseforge.com/projects/village-names/files/2440071
   url:
   authors: AstroTibs
 

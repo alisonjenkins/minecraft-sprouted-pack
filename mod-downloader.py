@@ -355,7 +355,7 @@ class ModDownloader(object):
         src_path = pathlib.Path(configs_dir).expanduser().resolve(strict=True)
         with zipfile.ZipFile(zip_name, 'w', zipfile.ZIP_DEFLATED) as zf:
             for file in src_path.rglob('*'):
-                zf.write(file, file.relative_to(src_path.parent))
+                zf.write(file, file.relative_to(src_path))
 
         with open(zip_name, 'rb') as zf:
             m = hashlib.md5()

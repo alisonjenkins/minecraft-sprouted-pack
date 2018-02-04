@@ -211,6 +211,10 @@
     version: mc1.10-v4.4
     required: true
 
+  flintmod:
+    version: 7.5
+    required: true
+
   # foamfix:
   #   version: 
   #   required: true
