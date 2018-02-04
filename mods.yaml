@@ -1026,7 +1026,7 @@ levels:
 
 librarianlib:
   name: LibrarianLib
-  depends:
+  depends: forgelin
   side: BOTH
   mod-type: Regular
   credits: Team Wizardry
