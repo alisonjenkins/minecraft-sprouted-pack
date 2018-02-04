@@ -693,15 +693,19 @@ flintmod:
   url: https://minecraft.curseforge.com/projects/flint-instead-of-wood
   authors: sky01
 
-# foamfix:
-#   name: FoamFix
-#   depends:
-#   side: BOTH
-#   mod-type: Regular
-#   credits:
-#   description: "Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons."
-#   url: http://asie.pl/Projects/Minecraft/Mods/FoamFix
-#   authors: asiekierka
+foamfix:
+  name: FoamFix
+  depends:
+  side: BOTH
+  mod-type: Regular
+  credits:
+  description: "Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons."
+  url: http://asie.pl/Projects/Minecraft/Mods/FoamFix
+  versions:
+    1.10.2-0.7.3-Anarchy:
+      url: https://unascribed.com/foamfix/FoamFix-1.11.2-0.7.3-Anarchy.jar
+      type: direct
+  authors: asiekierka
 
 FTBT:
   name: FTB Tweaks
@@ -1312,10 +1316,10 @@ moreoverlays:
 Morpheus:
   name: Morpheus
   depends:
-  side: SERVER
+  side: BOTH
   mod-type: Regular
   credits:
-  description: Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate.
+  description: Morpheus is a mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate.
   versions:
     1.10.2-3.1.13:
       url: https://minecraft.curseforge.com/projects/morpheus/files/2358274

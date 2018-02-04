@@ -3,6 +3,7 @@ import os
 import pathlib
 import re
 import urllib
+import urllib.request
 import boto3
 import queue
 import threading
@@ -71,7 +72,7 @@ class ModDownloader(object):
         match = self.mod_url_regex.search(modUrl)
         if not match:
             print("{} did not match mod regex, skipping".format(modUrl))
-            return 1
+            return mod
 
         mod['projectID'] = match.group('projectID')
         mod['fileID'] = match.group('fileID')
@@ -80,14 +81,24 @@ class ModDownloader(object):
     # }}}
 
     def download_mod(self, mod):  # {{{
+
+
         sess = requests.session()
 
-        projectResponse = sess.get(
-            "https://minecraft.curseforge.com/projects/{}".format(
-                mod['projectID']),
-            stream=True,
-            allow_redirects=False
-        )
+        if 'type' in self.mods[mod['mod_name']]['versions'][mod['mod_version']] and self.mods[mod['mod_name']]['versions'][mod['mod_version']]['type'] == 'direct':
+            print('Starting Direct download of mod: {} version {}'.format(mod['mod_name'], mod['mod_version']))
+            projectResponse = sess.get(
+                mod['url'],
+                stream=True,
+                allow_redirects=False
+            )
+        else:
+            projectResponse = sess.get(
+                "https://minecraft.curseforge.com/projects/{}".format(
+                    mod['projectID']),
+                stream=True,
+                allow_redirects=False
+            )
 
         if not self.auth_cookie:
             for redirect in sess.resolve_redirects(
@@ -101,10 +112,15 @@ class ModDownloader(object):
                     auth_cookie = cookie_list[1]
                 projectResponse.url = redirect.url
 
-        fileResponse = sess.get("%s/files/%s/download" %
-                                (projectResponse.url, mod['fileID']),
-                                stream=True
-                                )
+        if 'type' in self.mods[mod['mod_name']]['versions'][mod['mod_version']] and self.mods[mod['mod_name']]['versions'][mod['mod_version']]['type'] == 'direct':
+            fileResponse = sess.get(mod['url'],
+                                    stream=True
+                                    )
+        else:
+            fileResponse = sess.get("%s/files/%s/download" %
+                                    (projectResponse.url, mod['fileID']),
+                                    stream=True
+                                    )
         while fileResponse.is_redirect:
             source = fileResponse
             fileResponse = sess.get(source, stream=True)
@@ -116,7 +132,10 @@ class ModDownloader(object):
             return None
 
         modDownloadPath = os.path.join(self.mods_path, fileName)
-        print("Downloading {} to {}".format(mod['projectID'], modDownloadPath))
+        if 'type' in self.mods[mod['mod_name']]['versions'][mod['mod_version']] and self.mods[mod['mod_name']]['versions'][mod['mod_version']]['type'] == 'direct':
+            print("Downloading {} to {}".format(mod['mod_name'], modDownloadPath))
+        else:
+            print("Downloading {} to {}".format(mod['projectID'], modDownloadPath))
 
         with open(modDownloadPath, "wb") as mod_file:
             mod_file.write(fileResponse.content)
@@ -157,6 +176,8 @@ class ModDownloader(object):
             for version in self.mods[mod]['versions']:
                 mod_meta = self.get_mod_metadata(
                         self.mods[mod]['versions'][version]['url'])
+                mod_meta['mod_name'] = mod
+                mod_meta['mod_version'] = version
                 mod_meta = self.download_mod(mod_meta)
 
                 if mod_meta:
@@ -391,7 +412,7 @@ class ModDownloader(object):
         serverelem.set('id', xml_escape(self.pack_name))
         serverelem.set('abstract', xml_escape('false'))
         serverelem.set('name', xml_escape(self.pack_pretty_name))
-        serverelem.set('newsUrl', xml_escape('http://minecraft.redwood-guild.com/packs/{}/news.html'.format(self.pack_name)))
+        #serverelem.set('newsUrl', xml_escape('http://minecraft.redwood-guild.com/packs/{}/pack.xml'.format(self.pack_name)))
         serverelem.set('version', xml_escape('1.10.2'))
         serverelem.set('generateList', xml_escape('true'))
         serverelem.set('autoConnect', xml_escape('true'))

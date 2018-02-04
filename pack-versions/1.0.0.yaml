@@ -215,9 +215,9 @@
     version: 7.5
     required: true
 
-  # foamfix:
-  #   version: 
-  #   required: true
+  foamfix:
+    version: 1.10.2-0.7.3-Anarchy
+    required: true
 
   FTBT:
     version: 2.0.0
