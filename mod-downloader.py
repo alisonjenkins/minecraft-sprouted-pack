@@ -24,6 +24,8 @@ class ModDownloader(object):
                  pack_name='sprouted-1.10.2',
                  pack_pretty_name='Sprouted - 1.10.2',
                  server_hostname='sprouted.minecraft.redwood-guild.com',
+                 minecraft_version = '1.10.2',
+                 minecraft_forge_version = '12.18.3.2185',
                  threads=16
                  ):
         self.s3_client = boto3.client('s3')
@@ -48,7 +50,8 @@ class ModDownloader(object):
 
         self.auth_cookie = None
 
-        self.minecraft_version = '1.10.2'
+        self.minecraft_version = minecraft_version
+        self.minecraft_forge_version = minecraft_forge_version
 
         self.mod_download_queue = queue.Queue()
         self.max_threads = threads
@@ -262,7 +265,7 @@ class ModDownloader(object):
 
             mod_url = ET.Element('URL')
             mod_url.set('priority', xml_escape('0'))
-            mod_url.text = xml_escape('https://minecraft.redwood-guild.com/mods/{}'.format(mod_meta_data['Filename']))
+            mod_url.text = xml_escape('http://minecraft.redwood-guild.com/mods/{}'.format(mod_meta_data['Filename']))
             mod_elem.append(mod_url)
 
             # Load mod version size from database
@@ -359,18 +362,16 @@ class ModDownloader(object):
             m.update(zf.read())
             self.configs['md5'] = m.hexdigest()
 
-        print('Uploading {} to s3://{}{}{}'.format(
-            self.zip_name,
+        print('Uploading {} to s3://{}{}'.format(
+            self.configs['zip_name'],
             self.mod_bucket,
             self.configs['path']
             ))
-        with open('{}/{}'.format(self.configs['zip_name'], 'rb')) as zf:
+        with open(self.configs['zip_name'], 'rb') as zf:
             self.s3_client.put_object(
                 ACL='public-read',
                 Bucket=self.mod_bucket,
-                Key='{}{}'.format(
-                    self.configs['path']
-                ),
+                Key=self.configs['path'],
                 Body=zf
             )
     # }}}
@@ -389,7 +390,7 @@ class ModDownloader(object):
         serverelem.set('id', xml_escape(self.pack_name))
         serverelem.set('abstract', xml_escape('false'))
         serverelem.set('name', xml_escape(self.pack_pretty_name))
-        serverelem.set('newsUrl', xml_escape('https://minecraft.redwood-guild.com/packs/{}/news.html'.format(self.pack_name)))
+        serverelem.set('newsUrl', xml_escape('http://minecraft.redwood-guild.com/packs/{}/news.html'.format(self.pack_name)))
         serverelem.set('version', xml_escape('1.10.2'))
         serverelem.set('generateList', xml_escape('true'))
         serverelem.set('autoConnect', xml_escape('true'))
@@ -398,6 +399,15 @@ class ModDownloader(object):
         serverelem.set('launcherType', xml_escape('Vanilla'))
         serverelem.set('serverAddress', xml_escape(self.server_hostname))
         xml.append(serverelem)
+
+        forgeimportelem = ET.Element('Import')
+        forgeimportelem.set('url',
+                            'http://files.mcupdater.com/example/forge.php?mc={}&amp;forge={}'.format(
+                                self.minecraft_version,
+                                self.minecraft_forge_version
+        ))
+        forgeimportelem.text = 'forge'
+        serverelem.append(forgeimportelem)
 
         for version in self.versions:
             importelem = ET.Element('Import')
