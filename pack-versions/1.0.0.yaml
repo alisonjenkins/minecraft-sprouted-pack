@@ -549,7 +549,7 @@
 
   inventorysorter:
     version: 0.11.0+47
-    required: false
+    required: true
 
   SleepingBag:
     version: 1.10.2-1.4.0
