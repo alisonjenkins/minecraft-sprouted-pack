@@ -12,8 +12,8 @@
     required: true
 
   ambientsounds:
-    version: v2.2.1
-    required: true
+    version: v2.2.2
+    required: false
 
   animania:
     version: 1.10.2-1.3.3
