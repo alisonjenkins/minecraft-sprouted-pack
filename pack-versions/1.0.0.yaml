@@ -169,7 +169,7 @@
 
   dsurround:
     version: 1.10.2-3.4.7.2
-    required: true
+    required: false
 
   D3Core:
     version: 1.3.1
