@@ -417,7 +417,7 @@
 
   Neat:
     version: 1.3-12
-    required: true
+    required: false
 
   recipehandler:
     version: 0.6
