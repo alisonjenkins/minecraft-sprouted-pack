@@ -557,7 +557,7 @@
 
   soundfilters:
     version: 0.9_for_1.9.4
-    required: true
+    required: false
 
   sproutpatcher:
     version: 2.0
